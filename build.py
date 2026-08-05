@@ -29,12 +29,11 @@ def main() -> None:
         for root, _dirs, files in os.walk(SRC):
             for fn in files:
                 full = os.path.join(root, fn)
-                rel = os.path.relpath(full, HERE).replace("\\", "/")
-                z.write(full, rel)   # keeps the Jarunk-MachinePartyPlus/ prefix
+                rel = os.path.relpath(full, SRC).replace("\\", "/")  # files at zip root
+                z.write(full, rel)
                 count += 1
     print("Built " + OUT + " (" + str(count) + " files)")
-    print("Extract it into your game's mods folder so you get:")
-    print("  mods/" + MOD_DIR + "/")
+    print("Windows 'Extract All' makes a single " + MOD_DIR + " folder; drop it in mods/.")
 
 
 if __name__ == "__main__":
