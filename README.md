@@ -188,7 +188,13 @@ A complete walkthrough of installing the mod loader **and** MachineParty+, start
 
 <p align="center"><a href="https://www.youtube.com/watch?v=WFT47ANgR2E"><b>&#9654; Watch the full install guide on YouTube</b></a></p>
 
-<p align="center">🇪🇸 <a href="https://www.youtube.com/watch?v=jGctRycQIBk"><b>&#9654; ¿Lo prefieres en español? Mira la guía en vídeo (Spanish translation)</b></a></p>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=jGctRycQIBk">
+    <img src="assets/install-guide-es.jpg" alt="Ver la guía de instalación de MachineParty+ en español en YouTube" width="640">
+  </a>
+</p>
+
+<p align="center">🇪🇸 <a href="https://www.youtube.com/watch?v=jGctRycQIBk"><b>&#9654; ¿Lo prefieres en español? Mira la guía en vídeo</b></a></p>
 
 MachineParty+ runs through the **[Machine Party Mod Loader](https://github.com/Krunk-theduck/MachinePartyModLoader)** by Krunk-theduck. You install the loader once, then drop MachineParty+ into the mods folder. Everyone who wants to browse, host, use voice/text chat, or moderate needs both. A friend can still join your private lobby by room ID code without either.
 
