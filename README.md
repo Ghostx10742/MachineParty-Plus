@@ -178,7 +178,7 @@ The floating mute/deafen and the side strip disappear during gameplay, because t
 
 ### Prefer to watch? Full video guide
 
-A complete walkthrough of installing the mod loader **and** MachineParty+, start to finish:
+A step-by-step walkthrough of installing the mod loader **and** MachineParty+, start to finish:
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=WFT47ANgR2E">
