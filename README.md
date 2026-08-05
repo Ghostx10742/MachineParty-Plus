@@ -59,10 +59,21 @@ MachineParty+ adds its own buttons around the game. Because the game only has ro
 
 ### On the main menu
 
-- **JOIN** opens the **server browser** (screenshot below).
-- Two extra native-styled buttons are added next to the others:
-  - **BANNED USERS** — view your ban list and unban anyone.
-  - **VOICE SETTINGS** — pick your microphone and speakers. Your choice is saved and reapplied every launch.
+<p align="center">
+  <img src="assets/main-menu-buttons.png" alt="Voice Settings and Banned Users added to the main menu" width="42%">
+</p>
+
+- **JOIN** opens the **server browser**.
+- Two extra buttons are added to the menu in the game's own style (circled above):
+  - **Voice Settings** — pick your microphone and speakers. Your choice is saved and reapplied every launch, so you only set it once.
+  - **Banned Users** — view and manage your ban list.
+
+**Voice Settings** and **Banned Users** panels:
+
+<p align="center">
+  <img src="assets/voice-settings.png" alt="The Voice Chat Settings panel" width="49%">
+  <img src="assets/banned-users.png" alt="The Banned Users panel" width="49%">
+</p>
 
 ### The server browser
 
@@ -89,14 +100,23 @@ MachineParty+ adds its own buttons around the game. Because the game only has ro
 - Toggle **Allow mid joining** — when on, your lobby stays listed after the match starts; when off, it drops off the browser once the match begins or the lobby is full, and reappears when a slot opens.
 - **CONFIRM** publishes it. The same button now reads **MAKE LOBBY PRIVATE**, so pressing it again flips you back to private. It is a simple on/off switch.
 
-**Side buttons (a small strip on the left of the lobby screen).**
+**Side buttons.** A small strip on the **left** of the lobby screen, styled to match the game's buttons (just a little smaller so it tucks out of the way):
 
-- **MANAGE PLAYERS** — available to **everyone**. Opens a live list of players; mute anyone or set their per-player volume. Hosts additionally see **Kick** and **Ban** on each player.
-- **BANNED USERS** — **host only**. Opens your ban list to review or unban.
+<p align="center">
+  <img src="assets/lobby-side-buttons.png" alt="Manage Players and Banned Users side buttons" width="34%">
+</p>
 
-These are styled to match the game's buttons, just a little smaller so they tuck to the side and out of the way.
+- **MANAGE PLAYERS** — available to **everyone**. Opens a live list of players where you can mute anyone or set their per-player volume with a slider. Hosts get an extra **MANAGE** button on each player for **Kick** / **Ban**.
+  <p align="center">
+    <img src="assets/manage-players.png" alt="The Players in Lobby / Manage Players panel" width="72%">
+  </p>
+- **BANNED USERS** — **host only**. Opens your ban list to review or unban (same panel shown in the main-menu section above).
 
 **Voice mute / deafen.** Two buttons float in the **top-right** corner while you're in the lobby:
+
+<p align="center">
+  <img src="assets/mute-deafen.png" alt="Mute Mic and Deafen buttons" width="26%">
+</p>
 
 - **MUTE MIC** — others can't hear you; you still hear them.
 - **DEAFEN** — you hear no one and no one hears you.
@@ -105,19 +125,30 @@ They hide automatically whenever a menu or popup is open.
 
 ### In a match
 
-To keep the play area clean, the lobby's extra buttons **move into the pause (Esc) menu** once a match starts:
+To keep the play area clean, the lobby's extra buttons **move into the pause (Esc) menu** once a match starts. Press **Esc** and you'll find **Manage Players** (everyone), **Banned Users** (host), **Mute Mic**, and **Deafen** added to the pause menu in its native style:
 
-- Press **Esc** and you'll find **Manage Players** (everyone), **Banned Users** (host), **Mute Mic**, and **Deafen** added to the pause menu in its native style.
-- The floating mute/deafen and the side strip disappear during gameplay, because they now live in the Esc menu.
+<p align="center">
+  <img src="assets/esc-menu.png" alt="Manage Players, Banned Users, Mute Mic and Deafen added to the pause menu" width="34%">
+</p>
+
+The floating mute/deafen and the side strip disappear during gameplay, because they now live here in the Esc menu.
 
 ### Mutation scoreboard
+
+<p align="center">
+  <img src="assets/scoreboard.png" alt="The mutation scoreboard" width="85%">
+</p>
 
 - **Hold Tab** during a match to bring up the scoreboard: every player, their live **mutation** score, and how many rounds they've **won** and **lost**.
 - It never grabs your mouse, so you keep playing normally while it's up. Mid-game joiners are added, players who leave drop off, and rejoiners keep the score they left with (just like the base game).
 
 ### Kick and Ban
 
-- Open **Manage Players** (host), pick a player, and choose **Kick** or **Ban**.
+<p align="center">
+  <img src="assets/kick-ban.png" alt="The Kick / Ban dialog for a player" width="58%">
+</p>
+
+- Open **Manage Players** (host), press **MANAGE** on a player, and choose **KICK** or **BAN**.
 - A **confirmation prompt** appears first so you never remove someone by accident.
   - **Kick** removes them from the current lobby (they can rejoin).
   - **Ban** removes them and blocks them from seeing or rejoining any lobby you host, until you unban them from **Banned Users**.
@@ -134,8 +165,12 @@ To keep the play area clean, the lobby's extra buttons **move into the pause (Es
 
 ### Languages
 
+<p align="center">
+  <img src="assets/languages.png" alt="Arabic and other languages in the game's language menu" width="30%">
+</p>
+
 - The entire mod UI, server browser and chat included, follows whatever language you set in Machine Party's own options. Change the game's language and MachineParty+ changes with it.
-- **Every language the game ships with is supported, plus Arabic.** These are community translations, so more polish and additional coverage will come over time.
+- **Every language the game ships with is supported, plus Arabic** (added by this mod, selectable right in the game's own language list). These are community translations, so more polish and additional coverage will come over time.
 
 ---
 
