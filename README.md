@@ -154,7 +154,7 @@ MachineParty+ runs through the **[Machine Party Mod Loader](https://github.com/K
 ### Step 2: Install MachineParty+
 
 1. Download **`Jarunk-MachinePartyPlus.zip`** from this repo's releases page:
-   https://github.com/YOUR-USERNAME/MachineParty-Plus/releases
+   https://github.com/Ghostx10742/MachineParty-Plus/releases
 2. Extract it into the **`mods`** folder inside your game folder, so you end up with the folder (not a zip) at:
    ```
    <your Machine Party folder>\mods\Jarunk-MachinePartyPlus\
@@ -194,7 +194,7 @@ Requirements: git, and Python 3 (used only to package the zip).
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/MachineParty-Plus.git
+   git clone https://github.com/Ghostx10742/MachineParty-Plus.git
    cd MachineParty-Plus
    ```
 2. Build the release zip:
