@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.godot/
+.DS_Store
+Thumbs.db
+dist/

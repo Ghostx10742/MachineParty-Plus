@@ -1,0 +1,1090 @@
+{
+ "LOC_CREDS_FINNISH": {
+  "en": "Finnish translation",
+  "ar": "الترجمة الفنلندية"
+ },
+ "LOC_IM_BOOTSTRAPPER": {
+  "en": "Simulation bootstrapper completed. Waiting for subjects ...",
+  "ar": "اكتمل مُشغّل المحاكاة. في انتظار المشاركين ..."
+ },
+ "LOC_MENU_CONFIRM": {
+  "en": "CONFIRM",
+  "ar": "تأكيد"
+ },
+ "LOC_CREDS_ESTONIAN": {
+  "en": "Estonian translation",
+  "ar": "الترجمة الإستونية"
+ },
+ "LOC_IM_BRIEFING": {
+  "en": "BRIEFING",
+  "ar": "الإحاطة"
+ },
+ "LOC_MENU_HOST": {
+  "en": "Host",
+  "ar": "استضافة"
+ },
+ "LOC_MENU_RESUME": {
+  "en": "RESUME",
+  "ar": "استئناف"
+ },
+ "LOC_IM_EVERYONE_DIED": {
+  "en": "EVERYONE DIED",
+  "ar": "مات الجميع"
+ },
+ "LOC_MENU_START": {
+  "en": "Start",
+  "ar": "ابدأ"
+ },
+ "LOC_MENU_BACK": {
+  "en": "Back",
+  "ar": "رجوع"
+ },
+ "LOC_MENU_SFX_VOLUME": {
+  "en": "SFX volume",
+  "ar": "مستوى المؤثرات الصوتية"
+ },
+ "LOC_CREDS_HEAD_OF_LOC": {
+  "en": "Head of Localization",
+  "ar": "رئيس قسم الترجمة"
+ },
+ "LOC_TAG_CUSTOM": {
+  "en": "Custom simulation parameters for experienced subjects.",
+  "ar": "معاملات محاكاة مخصصة للمشاركين ذوي الخبرة."
+ },
+ "LOC_CONTROL_RUNNER": {
+  "en": "RUNNERS:",
+  "ar": "العدّاؤون:"
+ },
+ "Mine. All mine!": {
+  "en": "Mine. All mine!",
+  "ar": "كلّه لي أنا!"
+ },
+ "LOC_END_STANDBY": {
+  "en": "Standby for next pool of simulations.",
+  "ar": "استعد لمجموعة المحاكاة التالية."
+ },
+ "Catch this!": {
+  "en": "Catch this!",
+  "ar": "أمسِك بهذه!"
+ },
+ "LOC_MENU_CUSTOMIZATION": {
+  "en": "Customization",
+  "ar": "التخصيص"
+ },
+ "LOC_CREDS_ENGINE": {
+  "en": "Made with Godot Engine",
+  "ar": "صُنع بمحرّك Godot"
+ },
+ "LOC_CHINESE_SIMPLIFIED": {
+  "en": "简体中文",
+  "ar": "简体中文"
+ },
+ "LOC_SHUFFLE": {
+  "en": "SHUFFLE",
+  "ar": "خلط"
+ },
+ "LOC_ROOM_BLOCKED": {
+  "en": "A user in the room has blocked you from joining.",
+  "ar": "أحد المستخدمين في الغرفة حظرك من الانضمام."
+ },
+ "LOC_CONTROL_INHALE": {
+  "en": "Inhale",
+  "ar": "استنشاق"
+ },
+ "LOC_CONTROL_HUNT": {
+  "en": "HUNT",
+  "ar": "مطاردة"
+ },
+ "LOC_MG_TAGLINE_11": {
+  "en": "SURVIVAL IS UNLIKELY.",
+  "ar": "النجاة غير مرجّحة."
+ },
+ "LOC_CONTROL_SEARCH_SYRINGE": {
+  "en": "Search / syringe",
+  "ar": "بحث / حقنة"
+ },
+ "LOC_MG_TAGLINE_10": {
+  "en": "THE ODDS ARE STACKED.",
+  "ar": "الاحتمالات ليست في صالحك."
+ },
+ "LOC_CREDS_SIMPLIFIEDCHINESE_LOC": {
+  "en": "Simplified Chinese Localization & LQA",
+  "ar": "ترجمة الصينية المبسّطة وضمان الجودة"
+ },
+ "LOC_CREDS_DB_DRACONIC": {
+  "en": "Eternal Draconic Overlord",
+  "ar": "سيّد التنانين الأزلي"
+ },
+ "Mind the gap.": {
+  "en": "Mind the gap.",
+  "ar": "انتبه للفجوة."
+ },
+ "LOC_CONTROL_DUCKHUNT": {
+  "en": "ADJUST LOOK SPEED WITH",
+  "ar": "اضبط سرعة النظر بواسطة"
+ },
+ "LOC_SWEDEN": {
+  "en": "Svenska",
+  "ar": "Svenska"
+ },
+ "LOC_CONTROL_SUBMIT": {
+  "en": "SUBMIT",
+  "ar": "إرسال"
+ },
+ "LOC_CONTROL_BURN": {
+  "en": "Burn",
+  "ar": "حرق"
+ },
+ "LOC_CREDS_TURKISH_LOC": {
+  "en": "Turkish Localization",
+  "ar": "الترجمة التركية"
+ },
+ "Smoke a total of 20 cigarettes.": {
+  "en": "Smoke a total of 20 cigarettes.",
+  "ar": "دخّن 20 سيجارة إجمالًا."
+ },
+ "LOC_TAG_ORIGINAL": {
+  "en": "The intended Machine Party experience. Recommended for new subjects.",
+  "ar": "تجربة Machine Party المقصودة. يُنصح بها للمشاركين الجدد."
+ },
+ "LOC_TAG_JOIN": {
+  "en": "Join a simulation. Requires a room ID in your clipboard.",
+  "ar": "انضم إلى محاكاة. يتطلّب وجود معرّف غرفة في الحافظة."
+ },
+ "Reach the end of the minefield without using the sonar.": {
+  "en": "Reach the end of the minefield without using the sonar.",
+  "ar": "اِبلغ نهاية حقل الألغام دون استخدام السونار."
+ },
+ "LOC_READY": {
+  "en": "READY",
+  "ar": "جاهز"
+ },
+ "LOC_CREDS_BR_LOCQA": {
+  "en": "Brazilian Portuguese LQA",
+  "ar": "ضمان جودة البرتغالية البرازيلية"
+ },
+ "LOC_ACCEPT": {
+  "en": "ACCEPT",
+  "ar": "قبول"
+ },
+ "LOC_LEAVE": {
+  "en": "LEAVE",
+  "ar": "مغادرة"
+ },
+ "LOC_TAG_VERSION_MISMATCH": {
+  "en": "Failed to connect. Your client version does not match the host version.",
+  "ar": "فشل الاتصال. إصدار برنامجك لا يطابق إصدار المضيف."
+ },
+ "LOC_IM_OK": {
+  "en": "OK",
+  "ar": "حسنًا"
+ },
+ "Dodge this!": {
+  "en": "Dodge this!",
+  "ar": "تفادَ هذه!"
+ },
+ "LOC_MENU_MUSIC_VOLUME": {
+  "en": "Music volume",
+  "ar": "مستوى الموسيقى"
+ },
+ "LOC_BACK": {
+  "en": "BACK",
+  "ar": "رجوع"
+ },
+ "LOC_TAG_SETTINGS": {
+  "en": "Adjust video and audio settings.",
+  "ar": "اضبط إعدادات الصورة والصوت."
+ },
+ "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.": {
+  "en": "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.",
+  "ar": "تحذير! تم تحميل محاكاتين في آنٍ واحد.\n\nقد يؤدي الإرسال كـ\"جاهز\" إلى مخاطر هندسية مجهولة.\n\nتم استدعاء فنّي."
+ },
+ "LOC_MENU_QUIT": {
+  "en": "QUIT TO MENU",
+  "ar": "الخروج إلى القائمة"
+ },
+ "LOC_IM_GO": {
+  "en": "GO!",
+  "ar": "انطلق!"
+ },
+ "LOC_TAG_EXIT": {
+  "en": "Terminate the application process.",
+  "ar": "إنهاء عملية التطبيق."
+ },
+ "LOC_ROOM_FULL": {
+  "en": "The room is full.",
+  "ar": "الغرفة ممتلئة."
+ },
+ "LOC_END_EFFECT": {
+  "en": "EFFECT:",
+  "ar": "التأثير:"
+ },
+ "LOC_CHINESE_TRADITIONAL": {
+  "en": "繁體中文",
+  "ar": "繁體中文"
+ },
+ "LOC_END_CHECK_GENE": {
+  "en": "Checking gene mutation results.",
+  "ar": "جارٍ فحص نتائج الطفرة الجينية."
+ },
+ "LOC_START_LOBBY": {
+  "en": "START",
+  "ar": "ابدأ"
+ },
+ "LOC_CREDS_SWEDISH": {
+  "en": "Swedish translation",
+  "ar": "الترجمة السويدية"
+ },
+ "LOC_ROOM_BLOCKED_SELF": {
+  "en": "A user you have blocked is in the room.",
+  "ar": "يوجد في الغرفة مستخدم قمت بحظره."
+ },
+ "LOC_CONTROL_MOVE": {
+  "en": "Move",
+  "ar": "تحرّك"
+ },
+ "LOC_JAPANESE": {
+  "en": "日本語",
+  "ar": "日本語"
+ },
+ "LOC_CREDS_JAPANESE_LOCQA": {
+  "en": "Japanese LQA",
+  "ar": "ضمان الجودة اليابانية"
+ },
+ "LOC_RUSSIAN": {
+  "en": "Русский",
+  "ar": "Русский"
+ },
+ "LOC_CONTROL_SHOOT": {
+  "en": "Shoot",
+  "ar": "إطلاق النار"
+ },
+ "LOC_IM_CONTROLS": {
+  "en": "CONTROLS",
+  "ar": "أدوات التحكم"
+ },
+ "Stairmaster": {
+  "en": "Stairmaster",
+  "ar": "سيّد السلالم"
+ },
+ "LOC_CONTROL_AIM": {
+  "en": "Aim",
+  "ar": "تصويب"
+ },
+ "LOC_CREDS_PROJECT_MANAGER": {
+  "en": "Project Manager",
+  "ar": "مدير المشروع"
+ },
+ "LOC_CREDS_LQA_LEAD": {
+  "en": "LQA Lead",
+  "ar": "قائد ضمان جودة الترجمة"
+ },
+ "LOC_CREDS_JAPANESE_LOC": {
+  "en": "Japanese Localization",
+  "ar": "الترجمة اليابانية"
+ },
+ "LOC_TURKISH": {
+  "en": "Türkçe",
+  "ar": "Türkçe"
+ },
+ "LOC_TAG_BACK": {
+  "en": "Return to previous instructions.",
+  "ar": "العودة إلى التعليمات السابقة."
+ },
+ "FIND THE SYRINGE": {
+  "en": "FIND THE SYRINGE",
+  "ar": "جِد الحقنة"
+ },
+ "LOC_MENU_EXIT": {
+  "en": "Exit",
+  "ar": "خروج"
+ },
+ "LOC_CREDS_UKRAINE_LOC": {
+  "en": "Ukrainian Localization & LQA",
+  "ar": "الترجمة الأوكرانية وضمان الجودة"
+ },
+ "LOC_CREDS_SWEDISH_LQA": {
+  "en": "Swedish LQA",
+  "ar": "ضمان الجودة السويدية"
+ },
+ "LOC_END_THANKS": {
+  "en": "Thank you for participating.",
+  "ar": "شكرًا لمشاركتك."
+ },
+ "LOC_IM_WAITING_FOR_SUBJECTS": {
+  "en": "Waiting for subjects ...",
+  "ar": "في انتظار المشاركين ..."
+ },
+ "Gluttony": {
+  "en": "Gluttony",
+  "ar": "الشراهة"
+ },
+ "LOC_CONTROL_MEMORIZE": {
+  "en": "MEMORIZE",
+  "ar": "احفظ"
+ },
+ "LOC_CREDS_AUDIO": {
+  "en": "Freesound contributors",
+  "ar": "المساهمون في Freesound"
+ },
+ "LOC_CREDS_FINNISH_LQA": {
+  "en": "Finnish LQA",
+  "ar": "ضمان الجودة الفنلندية"
+ },
+ "LOC_MENU_VSYNC": {
+  "en": "V-Sync",
+  "ar": "التزامن العمودي"
+ },
+ "LOC_SENTINEL_01": {
+  "en": "SENTINEL: Foreign modifications detected.",
+  "ar": "الحارس: تم اكتشاف تعديلات خارجية."
+ },
+ "LOC_CONTROL_CARVE": {
+  "en": "CARVE",
+  "ar": "انحت"
+ },
+ "LOC_SENTINEL_03": {
+  "en": "SENTINEL: Exit immediately.",
+  "ar": "الحارس: اخرج فورًا."
+ },
+ "LOC_SENTINEL_02": {
+  "en": "SENTINEL: Preset is not in accordance with KETAS protocol.",
+  "ar": "الحارس: الإعداد لا يتوافق مع بروتوكول KETAS."
+ },
+ "LOC_CONTROL_PICKUP_THROW_JUNK": {
+  "en": "Pick up / throw junk",
+  "ar": "التقاط / رمي الخردة"
+ },
+ "LOC_MENU_LOADING": {
+  "en": "Loading",
+  "ar": "جارٍ التحميل"
+ },
+ "LOC_MENU_OPTIONS": {
+  "en": "Options",
+  "ar": "الخيارات"
+ },
+ "This is my hole.": {
+  "en": "This is my hole.",
+  "ar": "هذه حفرتي."
+ },
+ "LOC_CREDS_TURKISH_LOCQA": {
+  "en": "Turkish LQA",
+  "ar": "ضمان الجودة التركية"
+ },
+ "LOC_MG_BRIEF_08": {
+  "en": "> Be a good guest.\n> Don't eat in front of the Host.\n> Finish your meal.\n",
+  "ar": "> كن ضيفًا مهذّبًا.\n> لا تأكل أمام المضيف.\n> أنهِ وجبتك."
+ },
+ "LOC_CONTROL_HUNTER": {
+  "en": "HUNTER:",
+  "ar": "الصيّاد:"
+ },
+ "LOC_MENU_MASTER_VOLUME": {
+  "en": "Master volume",
+  "ar": "مستوى الصوت الرئيسي"
+ },
+ "LOC_MG_BRIEF_09": {
+  "en": "> Search the office.\n> Find the syringe.\n> Infect the others.\n> If infected, revive and hunt.",
+  "ar": "> فتّش المكتب.\n> جد الحقنة.\n> اعدِ الآخرين.\n> إن أُصبت، عُد إلى الحياة وطارِد."
+ },
+ "LOC_CONTROL_INTERACT": {
+  "en": "Interact",
+  "ar": "تفاعل"
+ },
+ "LOC_ROOM_NO_PERMS": {
+  "en": "You don't have permission to join this room.",
+  "ar": "ليس لديك إذن للانضمام إلى هذه الغرفة."
+ },
+ "LOC_MG_BRIEF_02": {
+  "en": "> Find weapon parts in the\nfactory.\n\n> Bring them to your workstation\nto build the gun.\n\n> Shoot everyone else.",
+  "ar": "> ابحث عن أجزاء السلاح في\nالمصنع.\n\n> أحضرها إلى محطة عملك\nلتجميع السلاح.\n\n> أطلق النار على الجميع."
+ },
+ "LOC_MG_BRIEF_03": {
+  "en": "> Climb the escalator.\n> Mind the gap!",
+  "ar": "> اصعد السلّم المتحرّك.\n> انتبه للفجوة!"
+ },
+ "LOC_MENU_SETTINGS": {
+  "en": "SETTINGS",
+  "ar": "الإعدادات"
+ },
+ "LOC_MG_BRIEF_01": {
+  "en": "> Smoke a cigarette in order\nto pass.\n\n> Inhaling too much smoke will\nmake you cough.\n\n> Inhaling too little smoke is\ninefficient.",
+  "ar": "> دخّن سيجارة كي تمرّ.\n\n> استنشاق الكثير من الدخان\nسيجعلك تسعل.\n\n> استنشاق القليل من الدخان\nغير فعّال."
+ },
+ "LOC_MG_BRIEF_06": {
+  "en": "> Green zones are safe.\n> Red zones are not.\n> Watch out for the train.",
+  "ar": "> المناطق الخضراء آمنة.\n> المناطق الحمراء ليست كذلك.\n> احذر القطار."
+ },
+ "LOC_CONTROL_NAVIGATE": {
+  "en": "Navigate",
+  "ar": "تنقّل"
+ },
+ "LOC_END_FAIL": {
+  "en": "FAIL:",
+  "ar": "فشل:"
+ },
+ "Push 15 people into hacksaws in Lethal Rebound.": {
+  "en": "Push 15 people into hacksaws in Lethal Rebound.",
+  "ar": "ادفع 15 شخصًا إلى مناشير المعادن في الارتداد القاتل."
+ },
+ "LOC_MG_BRIEF_07": {
+  "en": "> Tiles are randomly shuffled.\n> Safe tiles are marked.\n> Don't fall in the pit.",
+  "ar": "> يتم خلط البلاطات عشوائيًا.\n> البلاطات الآمنة معلّمة.\n> لا تسقط في الحفرة."
+ },
+ "LOC_MG_BRIEF_04": {
+  "en": "> MEMORIZE.\n> CARVE.\n> SUBMIT!",
+  "ar": "> احفظ.\n> انحت.\n> أرسِل!"
+ },
+ "LOC_MG_BRIEF_05": {
+  "en": "> Use your sonar to navigate\nthe minefield.\n\n> Watch your step.",
+  "ar": "> استخدم السونار للتنقّل\nفي حقل الألغام.\n\n> انتبه لخطواتك."
+ },
+ "LOC_CREDS_KOREAN_LOC": {
+  "en": "Korean Localization & LQA",
+  "ar": "الترجمة الكورية وضمان الجودة"
+ },
+ "LOC_GERMAN": {
+  "en": "Deutsch",
+  "ar": "Deutsch"
+ },
+ "LOC_MG_BRIEF_15": {
+  "en": "> Collect crates to your area.\n> From anywhere, or anyone.\n> The least efficent get eliminated.",
+  "ar": "> اجمع الصناديق إلى منطقتك.\n> من أي مكان، أو من أي أحد.\n> الأقل كفاءة يُقصى."
+ },
+ "LOC_ROOM_LIMITED": {
+  "en": "You cannot join due to having a limited account.",
+  "ar": "لا يمكنك الانضمام بسبب امتلاكك حسابًا محدودًا."
+ },
+ "LOC_MG_BRIEF_14": {
+  "en": "> Work the line.\n> Recycle technology.\n> Burn the art.",
+  "ar": "> اعمل على الخط.\n> أعِد تدوير التقنية.\n> احرق الأعمال الفنية."
+ },
+ "LOC_MG_BRIEF_11": {
+  "en": "> Avoid the razor-sharp discs.\n> Last man standing wins.",
+  "ar": "> تجنّب الأقراص الحادّة كالموس.\n> آخر من يبقى واقفًا يفوز."
+ },
+ "LOC_MG_BRIEF_10": {
+  "en": "> Runners must reach the exit.\n> The hunter shoots to kill.\n> Body shots are survivable.\n> Headshots are not.",
+  "ar": "> على العدّائين بلوغ المخرج.\n> الصيّاد يطلق ليقتل.\n> إصابات الجسد يُنجى منها.\n> إصابات الرأس لا."
+ },
+ "LOC_MG_BRIEF_13": {
+  "en": "> Don't let it get you.\n> If it does, get it off.",
+  "ar": "> لا تدعه يمسك بك.\n> وإن فعل، فتخلّص منه."
+ },
+ "LOC_CONTROL_FORK_MOUTH": {
+  "en": "Fork to mouth",
+  "ar": "الشوكة إلى الفم"
+ },
+ "LOC_CREDS_TRADCHINESE_LOC": {
+  "en": "Traditional Chinese Localization",
+  "ar": "ترجمة الصينية التقليدية"
+ },
+ "LOC_MG_BRIEF_12": {
+  "en": "> Each subject has a platform.\n> Junk is funneled onto the platform.\n> Too much junk, and you die.",
+  "ar": "> لكل مشارك منصّة.\n> تُصبّ الخردة على المنصّة.\n> إن زادت الخردة، تموت."
+ },
+ "Have 4 crates in your deposit area in Forklift Certified.": {
+  "en": "Have 4 crates in your deposit area in Forklift Certified.",
+  "ar": "احتفظ بأربعة صناديق في منطقة إيداعك في رخصة رافعة شوكية."
+ },
+ "LOC_PLAYLIST": {
+  "en": "PLAYLIST",
+  "ar": "قائمة التشغيل"
+ },
+ "LOC_CONTROL_MOVE_CURSOR": {
+  "en": "Move cursor",
+  "ar": "تحريك المؤشر"
+ },
+ "LOC_CREDS_GERMAN_LOC": {
+  "en": "German Localization",
+  "ar": "الترجمة الألمانية"
+ },
+ "Finish eating your meal in under 20 seconds in Table Manners.": {
+  "en": "Finish eating your meal in under 20 seconds in Table Manners.",
+  "ar": "أنهِ تناول وجبتك في أقل من 20 ثانية في آداب المائدة."
+ },
+ "LOC_FRENCH": {
+  "en": "Français",
+  "ar": "Français"
+ },
+ "LOC_INVITE": {
+  "en": "INVITE",
+  "ar": "دعوة"
+ },
+ "LOC_CONTROL_PUSH": {
+  "en": "Push",
+  "ar": "دفع"
+ },
+ "LOC_CREDS_CAST_SPANISH_LOC": {
+  "en": "Castilian Spanish Localization & LQA",
+  "ar": "ترجمة الإسبانية القشتالية وضمان الجودة"
+ },
+ "LOC_CONTROL_CROUCH": {
+  "en": "Crouch",
+  "ar": "انحناء"
+ },
+ "LOC_CONTROL_RECIPE": {
+  "en": "RECIPE",
+  "ar": "الوصفة"
+ },
+ "LOC_CREDS_RUSSIAN_LOC": {
+  "en": "Russian Localization & LQA",
+  "ar": "الترجمة الروسية وضمان الجودة"
+ },
+ "LOC_CREDS_QA": {
+  "en": "Quality assurance",
+  "ar": "ضمان الجودة"
+ },
+ "LOC_CONTROL_RESET": {
+  "en": "RESET",
+  "ar": "إعادة تعيين"
+ },
+ "LOC_CREDS_MAIN": {
+  "en": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan",
+  "ar": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan"
+ },
+ "LOC_COPY_ROOM_ID": {
+  "en": "COPY ROOM ID",
+  "ar": "نسخ معرّف الغرفة"
+ },
+ "About those TPS reports.": {
+  "en": "About those TPS reports.",
+  "ar": "بخصوص تقارير TPS تلك."
+ },
+ "LOC_TAG_CREDITS": {
+  "en": "The Architects.",
+  "ar": "المهندسون."
+ },
+ "LOC_CREDS_PLAYTESTERS": {
+  "en": "Playtesters",
+  "ar": "مختبرو اللعب"
+ },
+ "Full Pack": {
+  "en": "Full Pack",
+  "ar": "عُلبة كاملة"
+ },
+ "LOC_CANCEL": {
+  "en": "CANCEL",
+  "ar": "إلغاء"
+ },
+ "LOC_ROOM_DISBANDED": {
+  "en": "This room no longer exists.",
+  "ar": "لم تعد هذه الغرفة موجودة."
+ },
+ "LOC_CONTROL_RECYCLE": {
+  "en": "Recycle",
+  "ar": "إعادة تدوير"
+ },
+ "Leg it!": {
+  "en": "Leg it!",
+  "ar": "اهرب بسرعة!"
+ },
+ "Throw the device with under 1 second left on its timer in Spinebreaker.": {
+  "en": "Throw the device with under 1 second left on its timer in Spinebreaker.",
+  "ar": "ارمِ الجهاز وبقي أقل من ثانية على مؤقّته في كاسر العمود الفقري."
+ },
+ "LOC_POLISH": {
+  "en": "Polski",
+  "ar": "Polski"
+ },
+ "LOC_IM_MORE_INFO": {
+  "en": "MORE INFO",
+  "ar": "مزيد من المعلومات"
+ },
+ "LOC_CONTROL_CLIMB": {
+  "en": "Climb",
+  "ar": "تسلّق"
+ },
+ "Win a round with 100% accuracy in the Filter.": {
+  "en": "Win a round with 100% accuracy in the Filter.",
+  "ar": "افُز بجولة بدقّة 100% في المُرشِّح."
+ },
+ "LOC_TAG_CUSTOMIZE": {
+  "en": "Customize your subject.",
+  "ar": "خصّص شخصيتك."
+ },
+ "LOC_END_PASS": {
+  "en": "PASS:",
+  "ar": "نجاح:"
+ },
+ "LOC_CREDS_FRENCH_LOC": {
+  "en": "French Localization & LQA",
+  "ar": "الترجمة الفرنسية وضمان الجودة"
+ },
+ "LOC_CONTROL_YOU": {
+  "en": "YOU",
+  "ar": "أنت"
+ },
+ "LOC_END_BAD_04": {
+  "en": "Could be worse.",
+  "ar": "كان يمكن أن يكون أسوأ."
+ },
+ "LOC_IM_NEXT_SIMULATION": {
+  "en": "NEXT SIMULATION: %s",
+  "ar": "المحاكاة التالية: %s"
+ },
+ "LOC_END_BAD_05": {
+  "en": "A waste of electricity.",
+  "ar": "مضيعة للكهرباء."
+ },
+ "LOC_IM_ERROR_NO_SCORE": {
+  "en": "ERROR: NO SCORE",
+  "ar": "خطأ: لا توجد نتيجة"
+ },
+ "LOC_END_BAD_01": {
+  "en": "Fuck it.",
+  "ar": "إلى الجحيم."
+ },
+ "LOC_TAG_START": {
+  "en": "Host or join a simulation.",
+  "ar": "استضف محاكاة أو انضم إليها."
+ },
+ "LOC_END_BAD_02": {
+  "en": "Whatever.",
+  "ar": "لا يهم."
+ },
+ "LOC_END_BAD_03": {
+  "en": "Figures.",
+  "ar": "كان متوقعًا."
+ },
+ "LOC_END_WINNER": {
+  "en": "Increase endorphin release.",
+  "ar": "زيادة إفراز الإندورفين."
+ },
+ "LOC_MENU_TERMINATE": {
+  "en": "TERMINATE",
+  "ar": "إنهاء"
+ },
+ "LOC_FINLAND": {
+  "en": "Suomi",
+  "ar": "Suomi"
+ },
+ "LOC_CONTROL_RAISE_LOWER": {
+  "en": "Raise / lower fork",
+  "ar": "رفع / خفض الشوكة"
+ },
+ "LOC_CREDS_GERMAN_LOCQA": {
+  "en": "German LQA",
+  "ar": "ضمان الجودة الألمانية"
+ },
+ "LOC_CREDS_POLISH_LOC": {
+  "en": "Polish Localization & LQA",
+  "ar": "الترجمة البولندية وضمان الجودة"
+ },
+ "LOC_ROOM_HOST_LEFT": {
+  "en": "The host has disbanded the room.",
+  "ar": "قام المضيف بحلّ الغرفة."
+ },
+ "LOC_END_LOSER": {
+  "en": "Adjust neural balance parameters.",
+  "ar": "ضبط معاملات التوازن العصبي."
+ },
+ "Infect someone in under 3 seconds after getting the syringe in Inside Job.": {
+  "en": "Infect someone in under 3 seconds after getting the syringe in Inside Job.",
+  "ar": "أصِب شخصًا في أقل من 3 ثوانٍ بعد حصولك على الحقنة في عملية من الداخل."
+ },
+ "LOC_CREDS_THANKS1": {
+  "en": "Special thanks",
+  "ar": "شكر خاص"
+ },
+ "LOC_CREDS_THANKS2": {
+  "en": "Thank you for playing!",
+  "ar": "شكرًا للعبك!"
+ },
+ "LOC_CONTROL_REVERSE": {
+  "en": "Reverse",
+  "ar": "للخلف"
+ },
+ "LOC_CONTROL_HIDE": {
+  "en": "HIDE",
+  "ar": "اختبئ"
+ },
+ "Take 50 correct steps in a row in Wrong Way.": {
+  "en": "Take 50 correct steps in a row in Wrong Way.",
+  "ar": "اخطُ 50 خطوة صحيحة متتالية في الطريق الخطأ."
+ },
+ "LOC_CONTROL_TOGGLE_LIGHT": {
+  "en": "Toggle light",
+  "ar": "تبديل الضوء"
+ },
+ "LOC_PORTUGUESE_BRAZIL": {
+  "en": "Português (Brasil)",
+  "ar": "Português (Brasil)"
+ },
+ "BOOM HEADSHOT!": {
+  "en": "BOOM HEADSHOT!",
+  "ar": "بوم! إصابة في الرأس!"
+ },
+ "LOC_ENGLISH": {
+  "en": "English",
+  "ar": "English"
+ },
+ "Survive until there are only 10 tiles left in Stable Footing.": {
+  "en": "Survive until there are only 10 tiles left in Stable Footing.",
+  "ar": "انجُ حتى تتبقّى 10 بلاطات فقط في موطئ قدم ثابت."
+ },
+ "LOC_RESET": {
+  "en": "RESET",
+  "ar": "إعادة تعيين"
+ },
+ "LOC_CREDS_LATAM_LOC": {
+  "en": "Latin American Spanish Localization & LQA",
+  "ar": "ترجمة الإسبانية لأمريكا اللاتينية وضمان الجودة"
+ },
+ "LOC_CREDS_ESTONIAN_LOCQA": {
+  "en": "Estonian LQA",
+  "ar": "ضمان الجودة الإستونية"
+ },
+ "LOC_CONTROL_STEER": {
+  "en": "Steer",
+  "ar": "توجيه"
+ },
+ "LOC_CREDS_DRAGONBABY": {
+  "en": "Dragonbaby",
+  "ar": "تنّين صغير"
+ },
+ "LOC_SPANISH_LATIN_AMERICA": {
+  "en": "Español (Latinoamérica)",
+  "ar": "Español (Latinoamérica)"
+ },
+ "LOC_MG_TAGLINE_04": {
+  "en": "FOLLOW THE RECIPE. SHOOT TO KILL.",
+  "ar": "اتبع الوصفة. أطلق لتقتل."
+ },
+ "LOC_MG_TAGLINE_05": {
+  "en": "INHALE. EXHALE. NEVER BOTH.",
+  "ar": "استنشق. ازفر. لا الاثنين معًا أبدًا."
+ },
+ "LOC_MG_TAGLINE_06": {
+  "en": "SEARCH. HUNT. HIDE.",
+  "ar": "ابحث. طارِد. اختبئ."
+ },
+ "LOC_CREDS_RESOURCES": {
+  "en": "Resources",
+  "ar": "الموارد"
+ },
+ "LOC_MG_TAGLINE_07": {
+  "en": "THE TRAINS ARE COMING.",
+  "ar": "القطارات قادمة."
+ },
+ "LOC_PLAYLIST_EMPTY": {
+  "en": "THE PLAYLIST CANNOT BE EMPTY.",
+  "ar": "لا يمكن أن تكون قائمة التشغيل فارغة."
+ },
+ "LOC_MENU_FULLSCREEN": {
+  "en": "Fullscreen",
+  "ar": "ملء الشاشة"
+ },
+ "LOC_MG_TAGLINE_01": {
+  "en": "MEMORIZE. CARVE. SUBMIT.",
+  "ar": "احفظ. انحت. أرسِل."
+ },
+ "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.": {
+  "en": "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.",
+  "ar": "انجُ في جولة حتى يُزال أقصى عدد من أجزاء المكعّب في تحدّي الإزميل."
+ },
+ "LOC_MG_TAGLINE_02": {
+  "en": "SCAN AHEAD. WATCH YOUR STEP.",
+  "ar": "امسح ما أمامك. انتبه لخطواتك."
+ },
+ "Kill someone that has already assembled a gun before you in Firearm Factory.": {
+  "en": "Kill someone that has already assembled a gun before you in Firearm Factory.",
+  "ar": "اقتل شخصًا جمّع سلاحًا قبلك في مصنع الأسلحة."
+ },
+ "LOC_MG_TITLE_08": {
+  "en": "TABLE MANNERS",
+  "ar": "آداب المائدة"
+ },
+ "LOC_MG_TAGLINE_03": {
+  "en": "FOLLOW DIRECTIONS. KEEP THE PACE.",
+  "ar": "اتبع التوجيهات. حافظ على الإيقاع."
+ },
+ "LOC_TAG_ARCADE": {
+  "en": "A quick session of 10 random simulations.",
+  "ar": "جلسة سريعة من 10 محاكاة عشوائية."
+ },
+ "LOC_MG_TITLE_09": {
+  "en": "INSIDE JOB",
+  "ar": "عملية من الداخل"
+ },
+ "LOC_TAG_HOST": {
+  "en": "Host a simulation.",
+  "ar": "استضف محاكاة."
+ },
+ "LOC_MG_TITLE_04": {
+  "en": "CHISEL GAUNTLET",
+  "ar": "تحدّي الإزميل"
+ },
+ "LOC_MG_TITLE_05": {
+  "en": "MINEFIELD",
+  "ar": "حقل الألغام"
+ },
+ "LOC_MG_TAGLINE_08": {
+  "en": "A BULLET WITH YOUR NAME ON IT.",
+  "ar": "رصاصة تحمل اسمك."
+ },
+ "LOC_END_SIM_CONCLUDED": {
+  "en": "All simulations concluded.",
+  "ar": "انتهت جميع المحاكاة."
+ },
+ "LOC_END_COMMENT": {
+  "en": "COMMENT:",
+  "ar": "تعليق:"
+ },
+ "LOC_MG_TITLE_06": {
+  "en": "TUNNEL HAZARD",
+  "ar": "خطر النفق"
+ },
+ "LOC_MG_TAGLINE_09": {
+  "en": "DINNER IS SERVED.",
+  "ar": "العشاء جاهز."
+ },
+ "LOC_MG_TITLE_07": {
+  "en": "STABLE FOOTING",
+  "ar": "موطئ قدم ثابت"
+ },
+ "Just another day at the job.": {
+  "en": "Just another day at the job.",
+  "ar": "مجرّد يوم عمل آخر."
+ },
+ "LOC_MG_TITLE_01": {
+  "en": "SMOKE BREAK",
+  "ar": "استراحة تدخين"
+ },
+ "LOC_CONTROL_FORK_PLATE": {
+  "en": "Fork to plate",
+  "ar": "الشوكة إلى الطبق"
+ },
+ "LOC_MENU_LANGUAGE": {
+  "en": "Language",
+  "ar": "اللغة"
+ },
+ "Quick draw!": {
+  "en": "Quick draw!",
+  "ar": "سحبٌ سريع!"
+ },
+ "LOC_MG_TITLE_02": {
+  "en": "FIREARM FACTORY",
+  "ar": "مصنع الأسلحة"
+ },
+ "LOC_MG_TITLE_03": {
+  "en": "WRONG WAY",
+  "ar": "الطريق الخطأ"
+ },
+ "Will it blend?": {
+  "en": "Will it blend?",
+  "ar": "هل سيُطحن؟"
+ },
+ "LOC_CONTROL_THROTTLE": {
+  "en": "Throttle",
+  "ar": "دوّاسة الوقود"
+ },
+ "LOC_ROOM_BANNED": {
+  "en": "You are banned from this room.",
+  "ar": "أنت محظور من هذه الغرفة."
+ },
+ "LOC_CREDS_TRADCHINESE_LOCQA": {
+  "en": "Traditional Chinese LQA",
+  "ar": "ضمان جودة الصينية التقليدية"
+ },
+ "LOC_SPANISH": {
+  "en": "Español (España)",
+  "ar": "Español (España)"
+ },
+ "LOC_MG_TITLE_15": {
+  "en": "FORKLIFT CERTIFIED",
+  "ar": "رخصة رافعة شوكية"
+ },
+ "LOC_MG_TITLE_14": {
+  "en": "THE FILTER",
+  "ar": "المُرشِّح"
+ },
+ "LOC_TAG_NO_ROOM_ID": {
+  "en": "No room ID was found in your clipboard.",
+  "ar": "لم يُعثر على معرّف غرفة في الحافظة."
+ },
+ "Flourished Memories": {
+  "en": "Flourished Memories",
+  "ar": "ذكريات مزدهرة"
+ },
+ "LOC_MG_TITLE_13": {
+  "en": "SPINE BREAKER",
+  "ar": "كاسر العمود الفقري"
+ },
+ "LOC_MG_TITLE_12": {
+  "en": "DEBRIS PLATFORMS",
+  "ar": "منصّات الحطام"
+ },
+ "LOC_CONTROL_DROP_INSERT_ITEMS": {
+  "en": "Drop / insert items",
+  "ar": "إسقاط / إدخال العناصر"
+ },
+ "LOC_MG_TITLE_11": {
+  "en": "LETHAL REBOUND",
+  "ar": "الارتداد القاتل"
+ },
+ "LOC_CONTROL_HUNTER_NAME": {
+  "en": "%s IS THE HUNTER.",
+  "ar": "%s هو الصيّاد."
+ },
+ "LOC_END_RESISTING": {
+  "en": "Resisting will lead to interminable injury.",
+  "ar": "المقاومة ستؤدي إلى إصابة لا تنتهي."
+ },
+ "LOC_MG_TITLE_10": {
+  "en": "DUCK HUNT",
+  "ar": "صيد البط"
+ },
+ "LOC_TAG_STEAM_FAIL": {
+  "en": "Steam is not initialized.",
+  "ar": "لم تتم تهيئة Steam."
+ },
+ "LOC_END_NEXT": {
+  "en": "Restarting ...",
+  "ar": "جارٍ إعادة التشغيل ..."
+ },
+ "LOC_END_GOOD_02": {
+  "en": "I like this one.",
+  "ar": "يعجبني هذا."
+ },
+ "LOC_RECONNECTING": {
+  "en": "Reconnecting.\n\nYou will join the next simulation.",
+  "ar": "جارٍ إعادة الاتصال.\n\nسوف تنضم إلى المحاكاة التالية."
+ },
+ "LOC_END_GOOD_03": {
+  "en": "My favourite so far.",
+  "ar": "المفضّل لديّ حتى الآن."
+ },
+ "LOC_UKRANIAN": {
+  "en": "Українська",
+  "ar": "Українська"
+ },
+ "LOC_CREDS_LOC_SUPPORT": {
+  "en": "Localization Support",
+  "ar": "دعم الترجمة"
+ },
+ "LOC_END_GOOD_01": {
+  "en": "Lots of potential.",
+  "ar": "إمكانات كبيرة."
+ },
+ "LOC_END_GOOD_06": {
+  "en": "Wow.",
+  "ar": "رائع."
+ },
+ "LOC_END_GOOD_04": {
+  "en": "Beautiful.",
+  "ar": "جميل."
+ },
+ "LOC_END_GOOD_05": {
+  "en": "Keep an eye on this one.",
+  "ar": "راقب هذا عن كثب."
+ },
+ "LOC_CREDS_BR_LOC": {
+  "en": "Brazilian Portuguese Localization",
+  "ar": "ترجمة البرتغالية البرازيلية"
+ },
+ "LOC_CONTROL_THROW_DEVICE": {
+  "en": "Throw device",
+  "ar": "رمي الجهاز"
+ },
+ "LOC_MENU_ORIGINAL": {
+  "en": "Original",
+  "ar": "الأصلي"
+ },
+ "Knock someone off by throwing a crate at them in Debris Platforms.": {
+  "en": "Knock someone off by throwing a crate at them in Debris Platforms.",
+  "ar": "أسقط شخصًا برمي صندوق عليه في منصّات الحطام."
+ },
+ "LOC_MENU_CREDITS": {
+  "en": "Credits",
+  "ar": "شكر وتقدير"
+ },
+ "Land a headshot in Duck Hunt.": {
+  "en": "Land a headshot in Duck Hunt.",
+  "ar": "سجّل إصابة في الرأس في صيد البط."
+ },
+ "LOC_ROOM_CONCLUDED": {
+  "en": "Unable to join. The simulation has concluded.",
+  "ar": "تعذّر الانضمام. لقد انتهت المحاكاة."
+ },
+ "LOC_CREDS_LOCALIZATION": {
+  "en": "Localization",
+  "ar": "الترجمة"
+ },
+ "LOC_ROOM_LOCKED": {
+  "en": "This room is community locked.",
+  "ar": "هذه الغرفة مقفلة من قِبل المجتمع."
+ },
+ "LOC_DEFAULT": {
+  "en": "DEFAULT",
+  "ar": "افتراضي"
+ },
+ "LOC_ROOM_UNKNOWN": {
+  "en": "Something went wrong.",
+  "ar": "حدث خطأ ما."
+ },
+ "LOC_CONTROL_SONAR": {
+  "en": "Use sonar [HOLD]",
+  "ar": "استخدم السونار [استمرار الضغط]"
+ },
+ "LOC_MENU_JOIN": {
+  "en": "Join",
+  "ar": "انضمام"
+ },
+ "LOC_ESTONIA": {
+  "en": "Eesti",
+  "ar": "Eesti"
+ },
+ "LOC_IM_ROUND": {
+  "en": "Round %s/%s",
+  "ar": "الجولة %s/%s"
+ },
+ "LOC_IM_PAGE": {
+  "en": "Page %s/%s",
+  "ar": "الصفحة %s/%s"
+ },
+ "LOC_CONTROL_PICKUP_ITEMS": {
+  "en": "Pick up items",
+  "ar": "التقاط العناصر"
+ },
+ "LOC_TAG_CONNECTION_TIMEOUT": {
+  "en": "Failed to join. The connection timed out.",
+  "ar": "فشل الانضمام. انتهت مهلة الاتصال."
+ },
+ "LOC_MENU_ARCADE": {
+  "en": "Arcade",
+  "ar": "أركيد"
+ },
+ "LOC_ROOM_ID_COPIED": {
+  "en": "ROOM ID COPIED TO CLIPBOARD.",
+  "ar": "تم نسخ معرّف الغرفة إلى الحافظة."
+ },
+ "LOC_ROOM_DISABLED": {
+  "en": "This room is locked or disabled.",
+  "ar": "هذه الغرفة مقفلة أو معطّلة."
+ },
+ "Win by taking the last nook in Tunnel Hazard.": {
+  "en": "Win by taking the last nook in Tunnel Hazard.",
+  "ar": "افُز بالاستحواذ على آخر ركن في خطر النفق."
+ },
+ "LOC_MENU_CUSTOM": {
+  "en": "Custom",
+  "ar": "مخصص"
+ },
+ "LOC_KOREAN": {
+  "en": "한국어",
+  "ar": "한국어"
+ },
+ "LOC_CONTROL_SCOPE": {
+  "en": "Scope [x2]",
+  "ar": "المنظار [x2]"
+ },
+ "LOC_CONTROL_WORKSPACE": {
+  "en": "WORKSPACE",
+  "ar": "منطقة العمل"
+ },
+ "LOC_MENU_BORDERLESS": {
+  "en": "Borderless",
+  "ar": "بلا حدود"
+ }
+}

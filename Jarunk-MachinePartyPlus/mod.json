@@ -1,0 +1,9 @@
+{
+  "id": "machineparty_plus",
+  "name": "MachineParty+",
+  "version": "1.5.0",
+  "authors": ["J_axon", "Krunk"],
+  "entry": "main.gd",
+  "priority": 0,
+  "requires": []
+}
