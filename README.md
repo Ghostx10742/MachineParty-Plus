@@ -169,13 +169,6 @@ MachineParty+ runs through the **[Machine Party Mod Loader](https://github.com/K
 
 To uninstall, delete the `Jarunk-MachinePartyPlus` folder from `mods`. To play vanilla again, remove the loader (or just delete the mod folder).
 
-### (Optional) Auto-run the loader
-
-If you'd rather not think about it, you can set Machine Party's Steam **Launch Options** to run the loader automatically:
-```
-"C:\path\to\Machine Party_Windows\MachinePartyModLoader.exe" %command%
-```
-
 ---
 
 ## Game updates
