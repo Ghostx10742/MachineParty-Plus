@@ -17,4 +17,4 @@ Screenshots used by the main README.
 | `scoreboard.png` | The hold-Tab mutation scoreboard. |
 | `kick-ban.png` | The Kick / Ban dialog for a player. |
 | `chat.png` | The text chat window. |
-| `languages.png` | The game's language menu with Arabic added. |
+| `languages.png` | The game's language menu with Arabic, Lithuanian and Serbian added. |

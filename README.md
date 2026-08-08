@@ -4,7 +4,7 @@
   <img src="assets/banner.png" alt="MachineParty+ - a server browser, voice chat, text chat and translation mod for Machine Party" width="100%">
 </p>
 
-**MachineParty+ is an all-in-one community mod for Machine Party.** It adds a global server browser, voice chat, text chat, player moderation (kick / ban), a live in-match scoreboard, and full translations into every language the game ships with, plus Arabic.
+**MachineParty+ is an all-in-one community mod for Machine Party.** It adds a global server browser, voice chat, text chat, player moderation (kick / ban), a live in-match scoreboard, and full translations into every language the game ships with, plus Arabic, Lithuanian and Serbian.
 
 Everything is built on top of the game's own Steam networking and is styled with the game's own fonts and a green terminal theme, so it fits right in. It does **not** repack or modify the game's data files. It only adds to them.
 
@@ -24,7 +24,7 @@ Created by **J_axon** and **Krunk**.
 - **Manage Players** — mute or set the volume of anyone in the lobby. Hosts also get **Kick** and **Ban** (with a confirmation prompt).
 - **Banned Users** — a persistent, Steam-ID-based ban list. Banned players are auto-removed and cannot see or rejoin your lobbies until you unban them.
 - **Mutation scoreboard** — hold **Tab** during a match to see everyone's live mutation score and how many rounds they've won and lost.
-- **Translations** — the whole mod UI follows the game's language setting. Every game language is supported, plus **Arabic**, with more polish and languages to come.
+- **Translations** — the whole mod UI follows the game's language setting. Every game language is supported, plus **Arabic**, **Lithuanian** and **Serbian** (Cyrillic and Latin), with more polish and languages to come.
 
 MachineParty+ is a pure GDScript mod loaded through the **[Machine Party Mod Loader](https://github.com/Krunk-theduck/MachinePartyModLoader)**.
 
@@ -166,11 +166,11 @@ The floating mute/deafen and the side strip disappear during gameplay, because t
 ### Languages
 
 <p align="center">
-  <img src="assets/languages.png" alt="Arabic and other languages in the game's language menu" width="30%">
+  <img src="assets/languages.png" alt="Arabic, Lithuanian and Serbian added to the game's language menu" width="55%">
 </p>
 
 - The entire mod UI, server browser and chat included, follows whatever language you set in Machine Party's own options. Change the game's language and MachineParty+ changes with it.
-- **Every language the game ships with is supported, plus Arabic** (added by this mod, selectable right in the game's own language list). These are community translations, so more polish and additional coverage will come over time.
+- **Every language the game ships with is supported, plus Arabic, Lithuanian and Serbian** (added by this mod, selectable right in the game's own language list). Serbian is available in both Cyrillic (Српски) and Latin (Srpski) scripts. These are community translations, so more polish and additional coverage will come over time.
 
 ---
 

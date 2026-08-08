@@ -1,0 +1,1362 @@
+{
+ "LOC_CREDS_FINNISH": {
+  "en": "Finnish translation",
+  "sr": "Превод на фински",
+  "srl": "Prevod na finski"
+ },
+ "LOC_IM_BOOTSTRAPPER": {
+  "en": "Simulation bootstrapper completed. Waiting for subjects ...",
+  "sr": "Покретач симулације је завршио. Чекам испитанике ...",
+  "srl": "Pokretač simulacije je završio. Čekam ispitanike ..."
+ },
+ "LOC_MENU_CONFIRM": {
+  "en": "CONFIRM",
+  "sr": "ПОТВРДИ",
+  "srl": "POTVRDI"
+ },
+ "LOC_CREDS_ESTONIAN": {
+  "en": "Estonian translation",
+  "sr": "Превод на естонски",
+  "srl": "Prevod na estonski"
+ },
+ "LOC_IM_BRIEFING": {
+  "en": "BRIEFING",
+  "sr": "УПУТСТВО",
+  "srl": "UPUTSTVO"
+ },
+ "LOC_MENU_HOST": {
+  "en": "Host",
+  "sr": "Направи",
+  "srl": "Napravi"
+ },
+ "LOC_MENU_RESUME": {
+  "en": "RESUME",
+  "sr": "НАСТАВИ",
+  "srl": "NASTAVI"
+ },
+ "LOC_IM_EVERYONE_DIED": {
+  "en": "EVERYONE DIED",
+  "sr": "СВИ СУ ПОГИНУЛИ",
+  "srl": "SVI SU POGINULI"
+ },
+ "LOC_MENU_START": {
+  "en": "Start",
+  "sr": "Почни",
+  "srl": "Počni"
+ },
+ "LOC_MENU_BACK": {
+  "en": "Back",
+  "sr": "Назад",
+  "srl": "Nazad"
+ },
+ "LOC_MENU_SFX_VOLUME": {
+  "en": "SFX volume",
+  "sr": "Јачина ефеката",
+  "srl": "Jačina efekata"
+ },
+ "LOC_CREDS_HEAD_OF_LOC": {
+  "en": "Head of Localization",
+  "sr": "Шеф локализације",
+  "srl": "Šef lokalizacije"
+ },
+ "LOC_TAG_CUSTOM": {
+  "en": "Custom simulation parameters for experienced subjects.",
+  "sr": "Прилагођени параметри симулације за искусне испитанике.",
+  "srl": "Prilagođeni parametri simulacije za iskusne ispitanike."
+ },
+ "LOC_CONTROL_RUNNER": {
+  "en": "RUNNERS:",
+  "sr": "ТРКАЧИ:",
+  "srl": "TRKAČI:"
+ },
+ "Mine. All mine!": {
+  "en": "Mine. All mine!",
+  "sr": "Моје. Све је моје!",
+  "srl": "Moje. Sve je moje!"
+ },
+ "LOC_END_STANDBY": {
+  "en": "Standby for next pool of simulations.",
+  "sr": "Припреми се за следећи скуп симулација.",
+  "srl": "Pripremi se za sledeći skup simulacija."
+ },
+ "Catch this!": {
+  "en": "Catch this!",
+  "sr": "Ухвати ово!",
+  "srl": "Uhvati ovo!"
+ },
+ "LOC_MENU_CUSTOMIZATION": {
+  "en": "Customization",
+  "sr": "Прилагођавање",
+  "srl": "Prilagođavanje"
+ },
+ "LOC_CREDS_ENGINE": {
+  "en": "Made with Godot Engine",
+  "sr": "Направљено помоћу Godot Engine",
+  "srl": "Napravljeno pomoću Godot Engine"
+ },
+ "LOC_CHINESE_SIMPLIFIED": {
+  "en": "简体中文",
+  "sr": "简体中文",
+  "srl": "简体中文"
+ },
+ "LOC_SHUFFLE": {
+  "en": "SHUFFLE",
+  "sr": "ИЗМЕШАЈ",
+  "srl": "IZMEŠAJ"
+ },
+ "LOC_ROOM_BLOCKED": {
+  "en": "A user in the room has blocked you from joining.",
+  "sr": "Корисник у соби те је блокирао да се придружиш.",
+  "srl": "Korisnik u sobi te je blokirao da se pridružiš."
+ },
+ "LOC_CONTROL_INHALE": {
+  "en": "Inhale",
+  "sr": "Удахни",
+  "srl": "Udahni"
+ },
+ "LOC_CONTROL_HUNT": {
+  "en": "HUNT",
+  "sr": "ЛОВИ",
+  "srl": "LOVI"
+ },
+ "LOC_MG_TAGLINE_11": {
+  "en": "SURVIVAL IS UNLIKELY.",
+  "sr": "ПРЕЖИВЉАВАЊЕ ЈЕ МАЛО ВЕРОВАТНО.",
+  "srl": "PREŽIVLJAVANJE JE MALO VEROVATNO."
+ },
+ "LOC_CONTROL_SEARCH_SYRINGE": {
+  "en": "Search / syringe",
+  "sr": "Претражи / шприц",
+  "srl": "Pretraži / špric"
+ },
+ "LOC_MG_TAGLINE_10": {
+  "en": "THE ODDS ARE STACKED.",
+  "sr": "ИЗГЛЕДИ СУ ПРОТИВ ТЕБЕ.",
+  "srl": "IZGLEDI SU PROTIV TEBE."
+ },
+ "LOC_CREDS_SIMPLIFIEDCHINESE_LOC": {
+  "en": "Simplified Chinese Localization & LQA",
+  "sr": "Локализација и LQA поједностављеног кинеског",
+  "srl": "Lokalizacija i LQA pojednostavljenog kineskog"
+ },
+ "LOC_CREDS_DB_DRACONIC": {
+  "en": "Eternal Draconic Overlord",
+  "sr": "Вечни змајски владар",
+  "srl": "Večni zmajski vladar"
+ },
+ "Mind the gap.": {
+  "en": "Mind the gap.",
+  "sr": "Пази на процеп.",
+  "srl": "Pazi na procep."
+ },
+ "LOC_CONTROL_DUCKHUNT": {
+  "en": "ADJUST LOOK SPEED WITH",
+  "sr": "ПОДЕСИ БРЗИНУ ПОГЛЕДА СА",
+  "srl": "PODESI BRZINU POGLEDA SA"
+ },
+ "LOC_SWEDEN": {
+  "en": "Svenska",
+  "sr": "Svenska",
+  "srl": "Svenska"
+ },
+ "LOC_CONTROL_SUBMIT": {
+  "en": "SUBMIT",
+  "sr": "ПОШАЉИ",
+  "srl": "POŠALJI"
+ },
+ "LOC_CONTROL_BURN": {
+  "en": "Burn",
+  "sr": "Спали",
+  "srl": "Spali"
+ },
+ "LOC_CREDS_TURKISH_LOC": {
+  "en": "Turkish Localization",
+  "sr": "Турска локализација",
+  "srl": "Turska lokalizacija"
+ },
+ "Smoke a total of 20 cigarettes.": {
+  "en": "Smoke a total of 20 cigarettes.",
+  "sr": "Попуши укупно 20 цигарета.",
+  "srl": "Popuši ukupno 20 cigareta."
+ },
+ "LOC_TAG_ORIGINAL": {
+  "en": "The intended Machine Party experience. Recommended for new subjects.",
+  "sr": "Предвиђено Machine Party искуство. Препоручено за нове испитанике.",
+  "srl": "Predviđeno Machine Party iskustvo. Preporučeno za nove ispitanike."
+ },
+ "LOC_TAG_JOIN": {
+  "en": "Join a simulation. Requires a room ID in your clipboard.",
+  "sr": "Придружи се симулацији. Потребан је ИД собе у остави.",
+  "srl": "Pridruži se simulaciji. Potreban je ID sobe u ostavi."
+ },
+ "Reach the end of the minefield without using the sonar.": {
+  "en": "Reach the end of the minefield without using the sonar.",
+  "sr": "Стигни до краја минског поља без сонара.",
+  "srl": "Stigni do kraja minskog polja bez sonara."
+ },
+ "LOC_READY": {
+  "en": "READY",
+  "sr": "СПРЕМАН",
+  "srl": "SPREMAN"
+ },
+ "LOC_CREDS_BR_LOCQA": {
+  "en": "Brazilian Portuguese LQA",
+  "sr": "LQA бразилског португалског",
+  "srl": "LQA brazilskog portugalskog"
+ },
+ "LOC_ACCEPT": {
+  "en": "ACCEPT",
+  "sr": "ПРИХВАТИ",
+  "srl": "PRIHVATI"
+ },
+ "LOC_LEAVE": {
+  "en": "LEAVE",
+  "sr": "НАПУСТИ",
+  "srl": "NAPUSTI"
+ },
+ "LOC_TAG_VERSION_MISMATCH": {
+  "en": "Failed to connect. Your client version does not match the host version.",
+  "sr": "Неуспешно повезивање. Твоја верзија се не поклапа са домаћиновом.",
+  "srl": "Neuspešno povezivanje. Tvoja verzija se ne poklapa sa domaćinovom."
+ },
+ "LOC_IM_OK": {
+  "en": "OK",
+  "sr": "У РЕДУ",
+  "srl": "U REDU"
+ },
+ "Dodge this!": {
+  "en": "Dodge this!",
+  "sr": "Избегни ово!",
+  "srl": "Izbegni ovo!"
+ },
+ "LOC_MENU_MUSIC_VOLUME": {
+  "en": "Music volume",
+  "sr": "Јачина музике",
+  "srl": "Jačina muzike"
+ },
+ "LOC_BACK": {
+  "en": "BACK",
+  "sr": "НАЗАД",
+  "srl": "NAZAD"
+ },
+ "LOC_TAG_SETTINGS": {
+  "en": "Adjust video and audio settings.",
+  "sr": "Подеси видео и аудио поставке.",
+  "srl": "Podesi video i audio postavke."
+ },
+ "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.": {
+  "en": "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.",
+  "sr": "УПОЗОРЕЊЕ! 2 СИМУЛАЦИЈЕ УЧИТАНЕ ОДЈЕДНОМ.\n\nСЛАЊЕ СПРЕМНОСТИ МОЖЕ ИЗАЗВАТИ НЕПОЗНАТЕ ГЕОМЕТРИЈСКЕ ОПАСНОСТИ.\n\nПОЗВАН ЈЕ ТЕХНИЧАР.",
+  "srl": "UPOZORENJE! 2 SIMULACIJE UČITANE ODJEDNOM.\n\nSLANJE SPREMNOSTI MOŽE IZAZVATI NEPOZNATE GEOMETRIJSKE OPASNOSTI.\n\nPOZVAN JE TEHNIČAR."
+ },
+ "LOC_MENU_QUIT": {
+  "en": "QUIT TO MENU",
+  "sr": "ИЗЛАЗ У МЕНИ",
+  "srl": "IZLAZ U MENI"
+ },
+ "LOC_IM_GO": {
+  "en": "GO!",
+  "sr": "КРЕНИ!",
+  "srl": "KRENI!"
+ },
+ "LOC_TAG_EXIT": {
+  "en": "Terminate the application process.",
+  "sr": "Прекини процес апликације.",
+  "srl": "Prekini proces aplikacije."
+ },
+ "LOC_ROOM_FULL": {
+  "en": "The room is full.",
+  "sr": "Соба је пуна.",
+  "srl": "Soba je puna."
+ },
+ "LOC_END_EFFECT": {
+  "en": "EFFECT:",
+  "sr": "ЕФЕКАТ:",
+  "srl": "EFEKAT:"
+ },
+ "LOC_CHINESE_TRADITIONAL": {
+  "en": "繁體中文",
+  "sr": "繁體中文",
+  "srl": "繁體中文"
+ },
+ "LOC_END_CHECK_GENE": {
+  "en": "Checking gene mutation results.",
+  "sr": "Провера резултата генске мутације.",
+  "srl": "Provera rezultata genske mutacije."
+ },
+ "LOC_START_LOBBY": {
+  "en": "START",
+  "sr": "ПОЧНИ",
+  "srl": "POČNI"
+ },
+ "LOC_CREDS_SWEDISH": {
+  "en": "Swedish translation",
+  "sr": "Превод на шведски",
+  "srl": "Prevod na švedski"
+ },
+ "LOC_ROOM_BLOCKED_SELF": {
+  "en": "A user you have blocked is in the room.",
+  "sr": "У соби је корисник кога си блокирао.",
+  "srl": "U sobi je korisnik koga si blokirao."
+ },
+ "LOC_CONTROL_MOVE": {
+  "en": "Move",
+  "sr": "Кретање",
+  "srl": "Kretanje"
+ },
+ "LOC_JAPANESE": {
+  "en": "日本語",
+  "sr": "日本語",
+  "srl": "日本語"
+ },
+ "LOC_CREDS_JAPANESE_LOCQA": {
+  "en": "Japanese LQA",
+  "sr": "Јапански LQA",
+  "srl": "Japanski LQA"
+ },
+ "LOC_RUSSIAN": {
+  "en": "Русский",
+  "sr": "Русский",
+  "srl": "Русский"
+ },
+ "LOC_CONTROL_SHOOT": {
+  "en": "Shoot",
+  "sr": "Пуцај",
+  "srl": "Pucaj"
+ },
+ "LOC_IM_CONTROLS": {
+  "en": "CONTROLS",
+  "sr": "КОНТРОЛЕ",
+  "srl": "KONTROLE"
+ },
+ "Stairmaster": {
+  "en": "Stairmaster",
+  "sr": "Мајстор степеница",
+  "srl": "Majstor stepenica"
+ },
+ "LOC_CONTROL_AIM": {
+  "en": "Aim",
+  "sr": "Нишани",
+  "srl": "Nišani"
+ },
+ "LOC_CREDS_PROJECT_MANAGER": {
+  "en": "Project Manager",
+  "sr": "Менаџер пројекта",
+  "srl": "Menadžer projekta"
+ },
+ "LOC_CREDS_LQA_LEAD": {
+  "en": "LQA Lead",
+  "sr": "Вођа LQA",
+  "srl": "Vođa LQA"
+ },
+ "LOC_CREDS_JAPANESE_LOC": {
+  "en": "Japanese Localization",
+  "sr": "Јапанска локализација",
+  "srl": "Japanska lokalizacija"
+ },
+ "LOC_TURKISH": {
+  "en": "Türkçe",
+  "sr": "Türkçe",
+  "srl": "Türkçe"
+ },
+ "LOC_TAG_BACK": {
+  "en": "Return to previous instructions.",
+  "sr": "Врати се на претходна упутства.",
+  "srl": "Vrati se na prethodna uputstva."
+ },
+ "FIND THE SYRINGE": {
+  "en": "FIND THE SYRINGE",
+  "sr": "НАЂИ ШПРИЦ",
+  "srl": "NAĐI ŠPRIC"
+ },
+ "LOC_MENU_EXIT": {
+  "en": "Exit",
+  "sr": "Излаз",
+  "srl": "Izlaz"
+ },
+ "LOC_CREDS_UKRAINE_LOC": {
+  "en": "Ukrainian Localization & LQA",
+  "sr": "Украјинска локализација и LQA",
+  "srl": "Ukrajinska lokalizacija i LQA"
+ },
+ "LOC_CREDS_SWEDISH_LQA": {
+  "en": "Swedish LQA",
+  "sr": "Шведски LQA",
+  "srl": "Švedski LQA"
+ },
+ "LOC_END_THANKS": {
+  "en": "Thank you for participating.",
+  "sr": "Хвала на учешћу.",
+  "srl": "Hvala na učešću."
+ },
+ "LOC_IM_WAITING_FOR_SUBJECTS": {
+  "en": "Waiting for subjects ...",
+  "sr": "Чекам испитанике ...",
+  "srl": "Čekam ispitanike ..."
+ },
+ "Gluttony": {
+  "en": "Gluttony",
+  "sr": "Прождрљивост",
+  "srl": "Proždrljivost"
+ },
+ "LOC_CONTROL_MEMORIZE": {
+  "en": "MEMORIZE",
+  "sr": "ЗАПАМТИ",
+  "srl": "ZAPAMTI"
+ },
+ "LOC_CREDS_AUDIO": {
+  "en": "Freesound contributors",
+  "sr": "Freesound сарадници",
+  "srl": "Freesound saradnici"
+ },
+ "LOC_CREDS_FINNISH_LQA": {
+  "en": "Finnish LQA",
+  "sr": "Фински LQA",
+  "srl": "Finski LQA"
+ },
+ "LOC_MENU_VSYNC": {
+  "en": "V-Sync",
+  "sr": "V-Sync",
+  "srl": "V-Sync"
+ },
+ "LOC_SENTINEL_01": {
+  "en": "SENTINEL: Foreign modifications detected.",
+  "sr": "СТРАЖАР: Откривене су стране измене.",
+  "srl": "STRAŽAR: Otkrivene su strane izmene."
+ },
+ "LOC_CONTROL_CARVE": {
+  "en": "CARVE",
+  "sr": "КЛЕШИ",
+  "srl": "KLEŠI"
+ },
+ "LOC_SENTINEL_03": {
+  "en": "SENTINEL: Exit immediately.",
+  "sr": "СТРАЖАР: Изађи одмах.",
+  "srl": "STRAŽAR: Izađi odmah."
+ },
+ "LOC_SENTINEL_02": {
+  "en": "SENTINEL: Preset is not in accordance with KETAS protocol.",
+  "sr": "СТРАЖАР: Поставка није у складу са KETAS протоколом.",
+  "srl": "STRAŽAR: Postavka nije u skladu sa KETAS protokolom."
+ },
+ "LOC_CONTROL_PICKUP_THROW_JUNK": {
+  "en": "Pick up / throw junk",
+  "sr": "Узми / баци отпад",
+  "srl": "Uzmi / baci otpad"
+ },
+ "LOC_MENU_LOADING": {
+  "en": "Loading",
+  "sr": "Учитавање",
+  "srl": "Učitavanje"
+ },
+ "LOC_MENU_OPTIONS": {
+  "en": "Options",
+  "sr": "Опције",
+  "srl": "Opcije"
+ },
+ "This is my hole.": {
+  "en": "This is my hole.",
+  "sr": "Ово је моја рупа.",
+  "srl": "Ovo je moja rupa."
+ },
+ "LOC_CREDS_TURKISH_LOCQA": {
+  "en": "Turkish LQA",
+  "sr": "Турски LQA",
+  "srl": "Turski LQA"
+ },
+ "LOC_MG_BRIEF_08": {
+  "en": "> Be a good guest.\n> Don't eat in front of the Host.\n> Finish your meal.\n",
+  "sr": "> Буди добар гост.\n> Не једи пред Домаћином.\n> Поједи свој оброк.\n",
+  "srl": "> Budi dobar gost.\n> Ne jedi pred Domaćinom.\n> Pojedi svoj obrok.\n"
+ },
+ "LOC_CONTROL_HUNTER": {
+  "en": "HUNTER:",
+  "sr": "ЛОВАЦ:",
+  "srl": "LOVAC:"
+ },
+ "LOC_MENU_MASTER_VOLUME": {
+  "en": "Master volume",
+  "sr": "Главна јачина",
+  "srl": "Glavna jačina"
+ },
+ "LOC_MG_BRIEF_09": {
+  "en": "> Search the office.\n> Find the syringe.\n> Infect the others.\n> If infected, revive and hunt.",
+  "sr": "> Претражи канцеларију.\n> Нађи шприц.\n> Зарази остале.\n> Ако си заражен, оживи и лови.",
+  "srl": "> Pretraži kancelariju.\n> Nađi špric.\n> Zarazi ostale.\n> Ako si zaražen, oživi i lovi."
+ },
+ "LOC_CONTROL_INTERACT": {
+  "en": "Interact",
+  "sr": "Интеракција",
+  "srl": "Interakcija"
+ },
+ "LOC_ROOM_NO_PERMS": {
+  "en": "You don't have permission to join this room.",
+  "sr": "Немаш дозволу да се придружиш овој соби.",
+  "srl": "Nemaš dozvolu da se pridružiš ovoj sobi."
+ },
+ "LOC_MG_BRIEF_02": {
+  "en": "> Find weapon parts in the\nfactory.\n\n> Bring them to your workstation\nto build the gun.\n\n> Shoot everyone else.",
+  "sr": "> Нађи делове оружја у\nфабрици.\n\n> Однеси их до свог радног\nместа и склопи оружје.\n\n> Упуцај све остале.",
+  "srl": "> Nađi delove oružja u\nfabrici.\n\n> Odnesi ih do svog radnog\nmesta i sklopi oružje.\n\n> Upucaj sve ostale."
+ },
+ "LOC_MG_BRIEF_03": {
+  "en": "> Climb the escalator.\n> Mind the gap!",
+  "sr": "> Попни се уз степенице.\n> Пази на процеп!",
+  "srl": "> Popni se uz stepenice.\n> Pazi na procep!"
+ },
+ "LOC_MENU_SETTINGS": {
+  "en": "SETTINGS",
+  "sr": "ПОДЕШАВАЊА",
+  "srl": "PODEŠAVANJA"
+ },
+ "LOC_MG_BRIEF_01": {
+  "en": "> Smoke a cigarette in order\nto pass.\n\n> Inhaling too much smoke will\nmake you cough.\n\n> Inhaling too little smoke is\ninefficient.",
+  "sr": "> Попуши цигарету да\nпрођеш.\n\n> Превише дима ће те\nнатерати да кашљеш.\n\n> Премало дима је\nнеефикасно.",
+  "srl": "> Popuši cigaretu da\nprođeš.\n\n> Previše dima će te\nnaterati da kašlješ.\n\n> Premalo dima je\nneefikasno."
+ },
+ "LOC_MG_BRIEF_06": {
+  "en": "> Green zones are safe.\n> Red zones are not.\n> Watch out for the train.",
+  "sr": "> Зелене зоне су безбедне.\n> Црвене нису.\n> Пази на воз.",
+  "srl": "> Zelene zone su bezbedne.\n> Crvene nisu.\n> Pazi na voz."
+ },
+ "LOC_CONTROL_NAVIGATE": {
+  "en": "Navigate",
+  "sr": "Крећи се",
+  "srl": "Kreći se"
+ },
+ "LOC_END_FAIL": {
+  "en": "FAIL:",
+  "sr": "НЕУСПЕХ:",
+  "srl": "NEUSPEH:"
+ },
+ "Push 15 people into hacksaws in Lethal Rebound.": {
+  "en": "Push 15 people into hacksaws in Lethal Rebound.",
+  "sr": "Гурни 15 људи у тестере у „Смртоносни одбој“.",
+  "srl": "Gurni 15 ljudi u testere u „Smrtonosni odboj“."
+ },
+ "LOC_MG_BRIEF_07": {
+  "en": "> Tiles are randomly shuffled.\n> Safe tiles are marked.\n> Don't fall in the pit.",
+  "sr": "> Плочице се насумично мешају.\n> Безбедне су означене.\n> Не упадни у јаму.",
+  "srl": "> Pločice se nasumično mešaju.\n> Bezbedne su označene.\n> Ne upadni u jamu."
+ },
+ "LOC_MG_BRIEF_04": {
+  "en": "> MEMORIZE.\n> CARVE.\n> SUBMIT!",
+  "sr": "> ЗАПАМТИ.\n> КЛЕШИ.\n> ПОШАЉИ!",
+  "srl": "> ZAPAMTI.\n> KLEŠI.\n> POŠALJI!"
+ },
+ "LOC_MG_BRIEF_05": {
+  "en": "> Use your sonar to navigate\nthe minefield.\n\n> Watch your step.",
+  "sr": "> Користи сонар да прођеш\nминско поље.\n\n> Пази куда газиш.",
+  "srl": "> Koristi sonar da prođeš\nminsko polje.\n\n> Pazi kuda gaziš."
+ },
+ "LOC_CREDS_KOREAN_LOC": {
+  "en": "Korean Localization & LQA",
+  "sr": "Корејска локализација и LQA",
+  "srl": "Korejska lokalizacija i LQA"
+ },
+ "LOC_GERMAN": {
+  "en": "Deutsch",
+  "sr": "Deutsch",
+  "srl": "Deutsch"
+ },
+ "LOC_MG_BRIEF_15": {
+  "en": "> Collect crates to your area.\n> From anywhere, or anyone.\n> The least efficent get eliminated.",
+  "sr": "> Скупљај гајбе у своју зону.\n> Са било ког места, од било кога.\n> Најмање ефикасни испадају.",
+  "srl": "> Skupljaj gajbe u svoju zonu.\n> Sa bilo kog mesta, od bilo koga.\n> Najmanje efikasni ispadaju."
+ },
+ "LOC_ROOM_LIMITED": {
+  "en": "You cannot join due to having a limited account.",
+  "sr": "Не можеш да се придружиш јер имаш ограничен налог.",
+  "srl": "Ne možeš da se pridružiš jer imaš ograničen nalog."
+ },
+ "LOC_MG_BRIEF_14": {
+  "en": "> Work the line.\n> Recycle technology.\n> Burn the art.",
+  "sr": "> Ради на траци.\n> Рециклирај технологију.\n> Спали уметнине.",
+  "srl": "> Radi na traci.\n> Recikliraj tehnologiju.\n> Spali umetnine."
+ },
+ "LOC_MG_BRIEF_11": {
+  "en": "> Avoid the razor-sharp discs.\n> Last man standing wins.",
+  "sr": "> Избегавај оштре дискове.\n> Последњи преживели побеђује.",
+  "srl": "> Izbegavaj oštre diskove.\n> Poslednji preživeli pobeđuje."
+ },
+ "LOC_MG_BRIEF_10": {
+  "en": "> Runners must reach the exit.\n> The hunter shoots to kill.\n> Body shots are survivable.\n> Headshots are not.",
+  "sr": "> Тркачи морају стићи до излаза.\n> Ловац пуца да убије.\n> Погоци у тело се преживе.\n> У главу не.",
+  "srl": "> Trkači moraju stići do izlaza.\n> Lovac puca da ubije.\n> Pogoci u telo se prežive.\n> U glavu ne."
+ },
+ "LOC_MG_BRIEF_13": {
+  "en": "> Don't let it get you.\n> If it does, get it off.",
+  "sr": "> Не дозволи да те ухвати.\n> Ако те ухвати, стреси га.",
+  "srl": "> Ne dozvoli da te uhvati.\n> Ako te uhvati, stresi ga."
+ },
+ "LOC_CONTROL_FORK_MOUTH": {
+  "en": "Fork to mouth",
+  "sr": "Виљушка до уста",
+  "srl": "Viljuška do usta"
+ },
+ "LOC_CREDS_TRADCHINESE_LOC": {
+  "en": "Traditional Chinese Localization",
+  "sr": "Локализација традиционалног кинеског",
+  "srl": "Lokalizacija tradicionalnog kineskog"
+ },
+ "LOC_MG_BRIEF_12": {
+  "en": "> Each subject has a platform.\n> Junk is funneled onto the platform.\n> Too much junk, and you die.",
+  "sr": "> Сваки испитаник има платформу.\n> Отпад се сипа на платформу.\n> Превише отпада и умиреш.",
+  "srl": "> Svaki ispitanik ima platformu.\n> Otpad se sipa na platformu.\n> Previše otpada i umireš."
+ },
+ "Have 4 crates in your deposit area in Forklift Certified.": {
+  "en": "Have 4 crates in your deposit area in Forklift Certified.",
+  "sr": "Имај 4 гајбе у својој зони у „Дозвола за виљушкар“.",
+  "srl": "Imaj 4 gajbe u svojoj zoni u „Dozvola za viljuškar“."
+ },
+ "LOC_PLAYLIST": {
+  "en": "PLAYLIST",
+  "sr": "ЛИСТА",
+  "srl": "LISTA"
+ },
+ "LOC_CONTROL_MOVE_CURSOR": {
+  "en": "Move cursor",
+  "sr": "Помери курсор",
+  "srl": "Pomeri kursor"
+ },
+ "LOC_CREDS_GERMAN_LOC": {
+  "en": "German Localization",
+  "sr": "Немачка локализација",
+  "srl": "Nemačka lokalizacija"
+ },
+ "Finish eating your meal in under 20 seconds in Table Manners.": {
+  "en": "Finish eating your meal in under 20 seconds in Table Manners.",
+  "sr": "Поједи оброк за мање од 20 секунди у „Бонтон за столом“.",
+  "srl": "Pojedi obrok za manje od 20 sekundi u „Bonton za stolom“."
+ },
+ "LOC_FRENCH": {
+  "en": "Français",
+  "sr": "Français",
+  "srl": "Français"
+ },
+ "LOC_INVITE": {
+  "en": "INVITE",
+  "sr": "ПОЗОВИ",
+  "srl": "POZOVI"
+ },
+ "LOC_CONTROL_PUSH": {
+  "en": "Push",
+  "sr": "Гурни",
+  "srl": "Gurni"
+ },
+ "LOC_CREDS_CAST_SPANISH_LOC": {
+  "en": "Castilian Spanish Localization & LQA",
+  "sr": "Локализација и LQA кастиљанског шпанског",
+  "srl": "Lokalizacija i LQA kastiljanskog španskog"
+ },
+ "LOC_CONTROL_CROUCH": {
+  "en": "Crouch",
+  "sr": "Чучни",
+  "srl": "Čučni"
+ },
+ "LOC_CONTROL_RECIPE": {
+  "en": "RECIPE",
+  "sr": "РЕЦЕПТ",
+  "srl": "RECEPT"
+ },
+ "LOC_CREDS_RUSSIAN_LOC": {
+  "en": "Russian Localization & LQA",
+  "sr": "Руска локализација и LQA",
+  "srl": "Ruska lokalizacija i LQA"
+ },
+ "LOC_CREDS_QA": {
+  "en": "Quality assurance",
+  "sr": "Контрола квалитета",
+  "srl": "Kontrola kvaliteta"
+ },
+ "LOC_CONTROL_RESET": {
+  "en": "RESET",
+  "sr": "РЕСЕТУЈ",
+  "srl": "RESETUJ"
+ },
+ "LOC_CREDS_MAIN": {
+  "en": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan",
+  "sr": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan",
+  "srl": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan"
+ },
+ "LOC_COPY_ROOM_ID": {
+  "en": "COPY ROOM ID",
+  "sr": "КОПИРАЈ ИД СОБЕ",
+  "srl": "KOPIRAJ ID SOBE"
+ },
+ "About those TPS reports.": {
+  "en": "About those TPS reports.",
+  "sr": "У вези оних TPS извештаја.",
+  "srl": "U vezi onih TPS izveštaja."
+ },
+ "LOC_TAG_CREDITS": {
+  "en": "The Architects.",
+  "sr": "Архитекте.",
+  "srl": "Arhitekte."
+ },
+ "LOC_CREDS_PLAYTESTERS": {
+  "en": "Playtesters",
+  "sr": "Тестери игре",
+  "srl": "Testeri igre"
+ },
+ "Full Pack": {
+  "en": "Full Pack",
+  "sr": "Пуна кутија",
+  "srl": "Puna kutija"
+ },
+ "LOC_CANCEL": {
+  "en": "CANCEL",
+  "sr": "ОТКАЖИ",
+  "srl": "OTKAŽI"
+ },
+ "LOC_ROOM_DISBANDED": {
+  "en": "This room no longer exists.",
+  "sr": "Ова соба више не постоји.",
+  "srl": "Ova soba više ne postoji."
+ },
+ "LOC_CONTROL_RECYCLE": {
+  "en": "Recycle",
+  "sr": "Рециклирај",
+  "srl": "Recikliraj"
+ },
+ "Leg it!": {
+  "en": "Leg it!",
+  "sr": "Бежи!",
+  "srl": "Beži!"
+ },
+ "Throw the device with under 1 second left on its timer in Spinebreaker.": {
+  "en": "Throw the device with under 1 second left on its timer in Spinebreaker.",
+  "sr": "Баци уређај са мање од 1 секунде на тајмеру у „Ломач кичме“.",
+  "srl": "Baci uređaj sa manje od 1 sekunde na tajmeru u „Lomač kičme“."
+ },
+ "LOC_POLISH": {
+  "en": "Polski",
+  "sr": "Polski",
+  "srl": "Polski"
+ },
+ "LOC_IM_MORE_INFO": {
+  "en": "MORE INFO",
+  "sr": "ВИШЕ ИНФОРМАЦИЈА",
+  "srl": "VIŠE INFORMACIJA"
+ },
+ "LOC_CONTROL_CLIMB": {
+  "en": "Climb",
+  "sr": "Пењи се",
+  "srl": "Penji se"
+ },
+ "Win a round with 100% accuracy in the Filter.": {
+  "en": "Win a round with 100% accuracy in the Filter.",
+  "sr": "Победи рунду са 100% прецизности у „Филтеру“.",
+  "srl": "Pobedi rundu sa 100% preciznosti u „Filteru“."
+ },
+ "LOC_TAG_CUSTOMIZE": {
+  "en": "Customize your subject.",
+  "sr": "Прилагоди свог испитаника.",
+  "srl": "Prilagodi svog ispitanika."
+ },
+ "LOC_END_PASS": {
+  "en": "PASS:",
+  "sr": "УСПЕХ:",
+  "srl": "USPEH:"
+ },
+ "LOC_CREDS_FRENCH_LOC": {
+  "en": "French Localization & LQA",
+  "sr": "Француска локализација и LQA",
+  "srl": "Francuska lokalizacija i LQA"
+ },
+ "LOC_CONTROL_YOU": {
+  "en": "YOU",
+  "sr": "ТИ",
+  "srl": "TI"
+ },
+ "LOC_END_BAD_04": {
+  "en": "Could be worse.",
+  "sr": "Могло је горе.",
+  "srl": "Moglo je gore."
+ },
+ "LOC_IM_NEXT_SIMULATION": {
+  "en": "NEXT SIMULATION: %s",
+  "sr": "СЛЕДЕЋА СИМУЛАЦИЈА: %s",
+  "srl": "SLEDEĆA SIMULACIJA: %s"
+ },
+ "LOC_END_BAD_05": {
+  "en": "A waste of electricity.",
+  "sr": "Траћење струје.",
+  "srl": "Traćenje struje."
+ },
+ "LOC_IM_ERROR_NO_SCORE": {
+  "en": "ERROR: NO SCORE",
+  "sr": "ГРЕШКА: НЕМА РЕЗУЛТАТА",
+  "srl": "GREŠKA: NEMA REZULTATA"
+ },
+ "LOC_END_BAD_01": {
+  "en": "Fuck it.",
+  "sr": "До ђавола.",
+  "srl": "Do đavola."
+ },
+ "LOC_TAG_START": {
+  "en": "Host or join a simulation.",
+  "sr": "Направи симулацију или се придружи.",
+  "srl": "Napravi simulaciju ili se pridruži."
+ },
+ "LOC_END_BAD_02": {
+  "en": "Whatever.",
+  "sr": "Свеједно.",
+  "srl": "Svejedno."
+ },
+ "LOC_END_BAD_03": {
+  "en": "Figures.",
+  "sr": "Очекивано.",
+  "srl": "Očekivano."
+ },
+ "LOC_END_WINNER": {
+  "en": "Increase endorphin release.",
+  "sr": "Повећати лучење ендорфина.",
+  "srl": "Povećati lučenje endorfina."
+ },
+ "LOC_MENU_TERMINATE": {
+  "en": "TERMINATE",
+  "sr": "ПРЕКИНИ",
+  "srl": "PREKINI"
+ },
+ "LOC_FINLAND": {
+  "en": "Suomi",
+  "sr": "Suomi",
+  "srl": "Suomi"
+ },
+ "LOC_CONTROL_RAISE_LOWER": {
+  "en": "Raise / lower fork",
+  "sr": "Подигни / спусти виљушку",
+  "srl": "Podigni / spusti viljušku"
+ },
+ "LOC_CREDS_GERMAN_LOCQA": {
+  "en": "German LQA",
+  "sr": "Немачки LQA",
+  "srl": "Nemački LQA"
+ },
+ "LOC_CREDS_POLISH_LOC": {
+  "en": "Polish Localization & LQA",
+  "sr": "Пољска локализација и LQA",
+  "srl": "Poljska lokalizacija i LQA"
+ },
+ "LOC_ROOM_HOST_LEFT": {
+  "en": "The host has disbanded the room.",
+  "sr": "Домаћин је распустио собу.",
+  "srl": "Domaćin je raspustio sobu."
+ },
+ "LOC_END_LOSER": {
+  "en": "Adjust neural balance parameters.",
+  "sr": "Подесити параметре неуралне равнотеже.",
+  "srl": "Podesiti parametre neuralne ravnoteže."
+ },
+ "Infect someone in under 3 seconds after getting the syringe in Inside Job.": {
+  "en": "Infect someone in under 3 seconds after getting the syringe in Inside Job.",
+  "sr": "Зарази некога за мање од 3 секунде након узимања шприца у „Унутрашњи посао“.",
+  "srl": "Zarazi nekoga za manje od 3 sekunde nakon uzimanja šprica u „Unutrašnji posao“."
+ },
+ "LOC_CREDS_THANKS1": {
+  "en": "Special thanks",
+  "sr": "Посебне захвалнице",
+  "srl": "Posebne zahvalnice"
+ },
+ "LOC_CREDS_THANKS2": {
+  "en": "Thank you for playing!",
+  "sr": "Хвала што играте!",
+  "srl": "Hvala što igrate!"
+ },
+ "LOC_CONTROL_REVERSE": {
+  "en": "Reverse",
+  "sr": "Уназад",
+  "srl": "Unazad"
+ },
+ "LOC_CONTROL_HIDE": {
+  "en": "HIDE",
+  "sr": "САКРИЈ СЕ",
+  "srl": "SAKRIJ SE"
+ },
+ "Take 50 correct steps in a row in Wrong Way.": {
+  "en": "Take 50 correct steps in a row in Wrong Way.",
+  "sr": "Направи 50 тачних корака заредом у „Погрешан смер“.",
+  "srl": "Napravi 50 tačnih koraka zaredom u „Pogrešan smer“."
+ },
+ "LOC_CONTROL_TOGGLE_LIGHT": {
+  "en": "Toggle light",
+  "sr": "Упали/угаси светло",
+  "srl": "Upali/ugasi svetlo"
+ },
+ "LOC_PORTUGUESE_BRAZIL": {
+  "en": "Português (Brasil)",
+  "sr": "Português (Brasil)",
+  "srl": "Português (Brasil)"
+ },
+ "BOOM HEADSHOT!": {
+  "en": "BOOM HEADSHOT!",
+  "sr": "БУМ! У ГЛАВУ!",
+  "srl": "BUM! U GLAVU!"
+ },
+ "LOC_ENGLISH": {
+  "en": "English",
+  "sr": "English",
+  "srl": "English"
+ },
+ "Survive until there are only 10 tiles left in Stable Footing.": {
+  "en": "Survive until there are only 10 tiles left in Stable Footing.",
+  "sr": "Преживи док не остане само 10 плочица у „Чврсто тло“.",
+  "srl": "Preživi dok ne ostane samo 10 pločica u „Čvrsto tlo“."
+ },
+ "LOC_RESET": {
+  "en": "RESET",
+  "sr": "РЕСЕТУЈ",
+  "srl": "RESETUJ"
+ },
+ "LOC_CREDS_LATAM_LOC": {
+  "en": "Latin American Spanish Localization & LQA",
+  "sr": "Локализација и LQA латиноамеричког шпанског",
+  "srl": "Lokalizacija i LQA latinoameričkog španskog"
+ },
+ "LOC_CREDS_ESTONIAN_LOCQA": {
+  "en": "Estonian LQA",
+  "sr": "Естонски LQA",
+  "srl": "Estonski LQA"
+ },
+ "LOC_CONTROL_STEER": {
+  "en": "Steer",
+  "sr": "Управљај",
+  "srl": "Upravljaj"
+ },
+ "LOC_CREDS_DRAGONBABY": {
+  "en": "Dragonbaby",
+  "sr": "Змајче",
+  "srl": "Zmajče"
+ },
+ "LOC_SPANISH_LATIN_AMERICA": {
+  "en": "Español (Latinoamérica)",
+  "sr": "Español (Latinoamérica)",
+  "srl": "Español (Latinoamérica)"
+ },
+ "LOC_MG_TAGLINE_04": {
+  "en": "FOLLOW THE RECIPE. SHOOT TO KILL.",
+  "sr": "ПРАТИ РЕЦЕПТ. ПУЦАЈ ДА УБИЈЕШ.",
+  "srl": "PRATI RECEPT. PUCAJ DA UBIJEŠ."
+ },
+ "LOC_MG_TAGLINE_05": {
+  "en": "INHALE. EXHALE. NEVER BOTH.",
+  "sr": "УДАХНИ. ИЗДАХНИ. НИКАД ОБОЈЕ.",
+  "srl": "UDAHNI. IZDAHNI. NIKAD OBOJE."
+ },
+ "LOC_MG_TAGLINE_06": {
+  "en": "SEARCH. HUNT. HIDE.",
+  "sr": "ТРАЖИ. ЛОВИ. САКРИЈ СЕ.",
+  "srl": "TRAŽI. LOVI. SAKRIJ SE."
+ },
+ "LOC_CREDS_RESOURCES": {
+  "en": "Resources",
+  "sr": "Ресурси",
+  "srl": "Resursi"
+ },
+ "LOC_MG_TAGLINE_07": {
+  "en": "THE TRAINS ARE COMING.",
+  "sr": "ВОЗОВИ ДОЛАЗЕ.",
+  "srl": "VOZOVI DOLAZE."
+ },
+ "LOC_PLAYLIST_EMPTY": {
+  "en": "THE PLAYLIST CANNOT BE EMPTY.",
+  "sr": "ЛИСТА НЕ СМЕ БИТИ ПРАЗНА.",
+  "srl": "LISTA NE SME BITI PRAZNA."
+ },
+ "LOC_MENU_FULLSCREEN": {
+  "en": "Fullscreen",
+  "sr": "Цео екран",
+  "srl": "Ceo ekran"
+ },
+ "LOC_MG_TAGLINE_01": {
+  "en": "MEMORIZE. CARVE. SUBMIT.",
+  "sr": "ЗАПАМТИ. КЛЕШИ. ПОШАЉИ.",
+  "srl": "ZAPAMTI. KLEŠI. POŠALJI."
+ },
+ "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.": {
+  "en": "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.",
+  "sr": "Преживи рунду док се не уклони највише сегмената коцке у „Изазов длета“.",
+  "srl": "Preživi rundu dok se ne ukloni najviše segmenata kocke u „Izazov dleta“."
+ },
+ "LOC_MG_TAGLINE_02": {
+  "en": "SCAN AHEAD. WATCH YOUR STEP.",
+  "sr": "СКЕНИРАЈ ИСПРЕД. ПАЗИ КУДА ГАЗИШ.",
+  "srl": "SKENIRAJ ISPRED. PAZI KUDA GAZIŠ."
+ },
+ "Kill someone that has already assembled a gun before you in Firearm Factory.": {
+  "en": "Kill someone that has already assembled a gun before you in Firearm Factory.",
+  "sr": "Убиј некога ко је склопио оружје пре тебе у „Фабрика оружја“.",
+  "srl": "Ubij nekoga ko je sklopio oružje pre tebe u „Fabrika oružja“."
+ },
+ "LOC_MG_TITLE_08": {
+  "en": "TABLE MANNERS",
+  "sr": "БОНТОН ЗА СТОЛОМ",
+  "srl": "BONTON ZA STOLOM"
+ },
+ "LOC_MG_TAGLINE_03": {
+  "en": "FOLLOW DIRECTIONS. KEEP THE PACE.",
+  "sr": "ПРАТИ УПУТСТВА. ДРЖИ РИТАМ.",
+  "srl": "PRATI UPUTSTVA. DRŽI RITAM."
+ },
+ "LOC_TAG_ARCADE": {
+  "en": "A quick session of 10 random simulations.",
+  "sr": "Брза сесија од 10 насумичних симулација.",
+  "srl": "Brza sesija od 10 nasumičnih simulacija."
+ },
+ "LOC_MG_TITLE_09": {
+  "en": "INSIDE JOB",
+  "sr": "УНУТРАШЊИ ПОСАО",
+  "srl": "UNUTRAŠNJI POSAO"
+ },
+ "LOC_TAG_HOST": {
+  "en": "Host a simulation.",
+  "sr": "Направи симулацију.",
+  "srl": "Napravi simulaciju."
+ },
+ "LOC_MG_TITLE_04": {
+  "en": "CHISEL GAUNTLET",
+  "sr": "ИЗАЗОВ ДЛЕТА",
+  "srl": "IZAZOV DLETA"
+ },
+ "LOC_MG_TITLE_05": {
+  "en": "MINEFIELD",
+  "sr": "МИНСКО ПОЉЕ",
+  "srl": "MINSKO POLJE"
+ },
+ "LOC_MG_TAGLINE_08": {
+  "en": "A BULLET WITH YOUR NAME ON IT.",
+  "sr": "МЕТАК СА ТВОЈИМ ИМЕНОМ.",
+  "srl": "METAK SA TVOJIM IMENOM."
+ },
+ "LOC_END_SIM_CONCLUDED": {
+  "en": "All simulations concluded.",
+  "sr": "Све симулације су завршене.",
+  "srl": "Sve simulacije su završene."
+ },
+ "LOC_END_COMMENT": {
+  "en": "COMMENT:",
+  "sr": "КОМЕНТАР:",
+  "srl": "KOMENTAR:"
+ },
+ "LOC_MG_TITLE_06": {
+  "en": "TUNNEL HAZARD",
+  "sr": "ОПАСНОСТ У ТУНЕЛУ",
+  "srl": "OPASNOST U TUNELU"
+ },
+ "LOC_MG_TAGLINE_09": {
+  "en": "DINNER IS SERVED.",
+  "sr": "ВЕЧЕРА ЈЕ СЕРВИРАНА.",
+  "srl": "VEČERA JE SERVIRANA."
+ },
+ "LOC_MG_TITLE_07": {
+  "en": "STABLE FOOTING",
+  "sr": "ЧВРСТО ТЛО",
+  "srl": "ČVRSTO TLO"
+ },
+ "Just another day at the job.": {
+  "en": "Just another day at the job.",
+  "sr": "Само још један дан на послу.",
+  "srl": "Samo još jedan dan na poslu."
+ },
+ "LOC_MG_TITLE_01": {
+  "en": "SMOKE BREAK",
+  "sr": "ПАУЗА ЗА ПУШЕЊЕ",
+  "srl": "PAUZA ZA PUŠENJE"
+ },
+ "LOC_CONTROL_FORK_PLATE": {
+  "en": "Fork to plate",
+  "sr": "Виљушка до тањира",
+  "srl": "Viljuška do tanjira"
+ },
+ "LOC_MENU_LANGUAGE": {
+  "en": "Language",
+  "sr": "Језик",
+  "srl": "Jezik"
+ },
+ "Quick draw!": {
+  "en": "Quick draw!",
+  "sr": "Брзо потезање!",
+  "srl": "Brzo potezanje!"
+ },
+ "LOC_MG_TITLE_02": {
+  "en": "FIREARM FACTORY",
+  "sr": "ФАБРИКА ОРУЖЈА",
+  "srl": "FABRIKA ORUŽJA"
+ },
+ "LOC_MG_TITLE_03": {
+  "en": "WRONG WAY",
+  "sr": "ПОГРЕШАН СМЕР",
+  "srl": "POGREŠAN SMER"
+ },
+ "Will it blend?": {
+  "en": "Will it blend?",
+  "sr": "Хоће ли се самлети?",
+  "srl": "Hoće li se samleti?"
+ },
+ "LOC_CONTROL_THROTTLE": {
+  "en": "Throttle",
+  "sr": "Гас",
+  "srl": "Gas"
+ },
+ "LOC_ROOM_BANNED": {
+  "en": "You are banned from this room.",
+  "sr": "Забрањен ти је приступ овој соби.",
+  "srl": "Zabranjen ti je pristup ovoj sobi."
+ },
+ "LOC_CREDS_TRADCHINESE_LOCQA": {
+  "en": "Traditional Chinese LQA",
+  "sr": "LQA традиционалног кинеског",
+  "srl": "LQA tradicionalnog kineskog"
+ },
+ "LOC_SPANISH": {
+  "en": "Español (España)",
+  "sr": "Español (España)",
+  "srl": "Español (España)"
+ },
+ "LOC_MG_TITLE_15": {
+  "en": "FORKLIFT CERTIFIED",
+  "sr": "ДОЗВОЛА ЗА ВИЉУШКАР",
+  "srl": "DOZVOLA ZA VILJUŠKAR"
+ },
+ "LOC_MG_TITLE_14": {
+  "en": "THE FILTER",
+  "sr": "ФИЛТЕР",
+  "srl": "FILTER"
+ },
+ "LOC_TAG_NO_ROOM_ID": {
+  "en": "No room ID was found in your clipboard.",
+  "sr": "У остави није пронађен ИД собе.",
+  "srl": "U ostavi nije pronađen ID sobe."
+ },
+ "Flourished Memories": {
+  "en": "Flourished Memories",
+  "sr": "Процветале успомене",
+  "srl": "Procvetale uspomene"
+ },
+ "LOC_MG_TITLE_13": {
+  "en": "SPINE BREAKER",
+  "sr": "ЛОМАЧ КИЧМЕ",
+  "srl": "LOMAČ KIČME"
+ },
+ "LOC_MG_TITLE_12": {
+  "en": "DEBRIS PLATFORMS",
+  "sr": "ПЛАТФОРМЕ ОД КРША",
+  "srl": "PLATFORME OD KRŠA"
+ },
+ "LOC_CONTROL_DROP_INSERT_ITEMS": {
+  "en": "Drop / insert items",
+  "sr": "Испусти / убаци предмете",
+  "srl": "Ispusti / ubaci predmete"
+ },
+ "LOC_MG_TITLE_11": {
+  "en": "LETHAL REBOUND",
+  "sr": "СМРТОНОСНИ ОДБОЈ",
+  "srl": "SMRTONOSNI ODBOJ"
+ },
+ "LOC_CONTROL_HUNTER_NAME": {
+  "en": "%s IS THE HUNTER.",
+  "sr": "%s ЈЕ ЛОВАЦ.",
+  "srl": "%s JE LOVAC."
+ },
+ "LOC_END_RESISTING": {
+  "en": "Resisting will lead to interminable injury.",
+  "sr": "Отпор ће довести до бескрајне повреде.",
+  "srl": "Otpor će dovesti do beskrajne povrede."
+ },
+ "LOC_MG_TITLE_10": {
+  "en": "DUCK HUNT",
+  "sr": "ЛОВ НА ПАТКЕ",
+  "srl": "LOV NA PATKE"
+ },
+ "LOC_TAG_STEAM_FAIL": {
+  "en": "Steam is not initialized.",
+  "sr": "Steam није покренут.",
+  "srl": "Steam nije pokrenut."
+ },
+ "LOC_END_NEXT": {
+  "en": "Restarting ...",
+  "sr": "Поновно покретање ...",
+  "srl": "Ponovno pokretanje ..."
+ },
+ "LOC_END_GOOD_02": {
+  "en": "I like this one.",
+  "sr": "Овај ми се свиђа.",
+  "srl": "Ovaj mi se sviđa."
+ },
+ "LOC_RECONNECTING": {
+  "en": "Reconnecting.\n\nYou will join the next simulation.",
+  "sr": "Поновно повезивање.\n\nПридружићеш се следећој симулацији.",
+  "srl": "Ponovno povezivanje.\n\nPridružićeš se sledećoj simulaciji."
+ },
+ "LOC_END_GOOD_03": {
+  "en": "My favourite so far.",
+  "sr": "Засад мој омиљени.",
+  "srl": "Zasad moj omiljeni."
+ },
+ "LOC_UKRANIAN": {
+  "en": "Українська",
+  "sr": "Українська",
+  "srl": "Українська"
+ },
+ "LOC_CREDS_LOC_SUPPORT": {
+  "en": "Localization Support",
+  "sr": "Подршка локализацији",
+  "srl": "Podrška lokalizaciji"
+ },
+ "LOC_END_GOOD_01": {
+  "en": "Lots of potential.",
+  "sr": "Много потенцијала.",
+  "srl": "Mnogo potencijala."
+ },
+ "LOC_END_GOOD_06": {
+  "en": "Wow.",
+  "sr": "Опа.",
+  "srl": "Opa."
+ },
+ "LOC_END_GOOD_04": {
+  "en": "Beautiful.",
+  "sr": "Прелепо.",
+  "srl": "Prelepo."
+ },
+ "LOC_END_GOOD_05": {
+  "en": "Keep an eye on this one.",
+  "sr": "Пази на овог.",
+  "srl": "Pazi na ovog."
+ },
+ "LOC_CREDS_BR_LOC": {
+  "en": "Brazilian Portuguese Localization",
+  "sr": "Локализација бразилског португалског",
+  "srl": "Lokalizacija brazilskog portugalskog"
+ },
+ "LOC_CONTROL_THROW_DEVICE": {
+  "en": "Throw device",
+  "sr": "Баци уређај",
+  "srl": "Baci uređaj"
+ },
+ "LOC_MENU_ORIGINAL": {
+  "en": "Original",
+  "sr": "Оригинал",
+  "srl": "Original"
+ },
+ "Knock someone off by throwing a crate at them in Debris Platforms.": {
+  "en": "Knock someone off by throwing a crate at them in Debris Platforms.",
+  "sr": "Обори некога бацивши гајбу на њега у „Платформе од крша“.",
+  "srl": "Obori nekoga bacivši gajbu na njega u „Platforme od krša“."
+ },
+ "LOC_MENU_CREDITS": {
+  "en": "Credits",
+  "sr": "Заслуге",
+  "srl": "Zasluge"
+ },
+ "Land a headshot in Duck Hunt.": {
+  "en": "Land a headshot in Duck Hunt.",
+  "sr": "Погоди у главу у „Лов на патке“.",
+  "srl": "Pogodi u glavu u „Lov na patke“."
+ },
+ "LOC_ROOM_CONCLUDED": {
+  "en": "Unable to join. The simulation has concluded.",
+  "sr": "Придруживање није могуће. Симулација је завршена.",
+  "srl": "Pridruživanje nije moguće. Simulacija je završena."
+ },
+ "LOC_CREDS_LOCALIZATION": {
+  "en": "Localization",
+  "sr": "Локализација",
+  "srl": "Lokalizacija"
+ },
+ "LOC_ROOM_LOCKED": {
+  "en": "This room is community locked.",
+  "sr": "Ову собу је закључала заједница.",
+  "srl": "Ovu sobu je zaključala zajednica."
+ },
+ "LOC_DEFAULT": {
+  "en": "DEFAULT",
+  "sr": "ПОДРАЗУМЕВАНО",
+  "srl": "PODRAZUMEVANO"
+ },
+ "LOC_ROOM_UNKNOWN": {
+  "en": "Something went wrong.",
+  "sr": "Нешто је пошло по злу.",
+  "srl": "Nešto je pošlo po zlu."
+ },
+ "LOC_CONTROL_SONAR": {
+  "en": "Use sonar [HOLD]",
+  "sr": "Користи сонар [ДРЖИ]",
+  "srl": "Koristi sonar [DRŽI]"
+ },
+ "LOC_MENU_JOIN": {
+  "en": "Join",
+  "sr": "Придружи се",
+  "srl": "Pridruži se"
+ },
+ "LOC_ESTONIA": {
+  "en": "Eesti",
+  "sr": "Eesti",
+  "srl": "Eesti"
+ },
+ "LOC_IM_ROUND": {
+  "en": "Round %s/%s",
+  "sr": "Рунда %s/%s",
+  "srl": "Runda %s/%s"
+ },
+ "LOC_IM_PAGE": {
+  "en": "Page %s/%s",
+  "sr": "Страна %s/%s",
+  "srl": "Strana %s/%s"
+ },
+ "LOC_CONTROL_PICKUP_ITEMS": {
+  "en": "Pick up items",
+  "sr": "Узми предмете",
+  "srl": "Uzmi predmete"
+ },
+ "LOC_TAG_CONNECTION_TIMEOUT": {
+  "en": "Failed to join. The connection timed out.",
+  "sr": "Неуспешно придруживање. Веза је истекла.",
+  "srl": "Neuspešno pridruživanje. Veza je istekla."
+ },
+ "LOC_MENU_ARCADE": {
+  "en": "Arcade",
+  "sr": "Аркада",
+  "srl": "Arkada"
+ },
+ "LOC_ROOM_ID_COPIED": {
+  "en": "ROOM ID COPIED TO CLIPBOARD.",
+  "sr": "ИД СОБЕ КОПИРАН У ОСТАВУ.",
+  "srl": "ID SOBE KOPIRAN U OSTAVU."
+ },
+ "LOC_ROOM_DISABLED": {
+  "en": "This room is locked or disabled.",
+  "sr": "Ова соба је закључана или онемогућена.",
+  "srl": "Ova soba je zaključana ili onemogućena."
+ },
+ "Win by taking the last nook in Tunnel Hazard.": {
+  "en": "Win by taking the last nook in Tunnel Hazard.",
+  "sr": "Победи заузимањем последњег кутка у „Опасност у тунелу“.",
+  "srl": "Pobedi zauzimanjem poslednjeg kutka u „Opasnost u tunelu“."
+ },
+ "LOC_MENU_CUSTOM": {
+  "en": "Custom",
+  "sr": "Прилагођено",
+  "srl": "Prilagođeno"
+ },
+ "LOC_KOREAN": {
+  "en": "한국어",
+  "sr": "한국어",
+  "srl": "한국어"
+ },
+ "LOC_CONTROL_SCOPE": {
+  "en": "Scope [x2]",
+  "sr": "Оптика [x2]",
+  "srl": "Optika [x2]"
+ },
+ "LOC_CONTROL_WORKSPACE": {
+  "en": "WORKSPACE",
+  "sr": "РАДНИ ПРОСТОР",
+  "srl": "RADNI PROSTOR"
+ },
+ "LOC_MENU_BORDERLESS": {
+  "en": "Borderless",
+  "sr": "Без ивица",
+  "srl": "Bez ivica"
+ }
+}

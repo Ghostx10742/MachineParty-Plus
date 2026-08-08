@@ -127,6 +127,18 @@ func _mod_ready(loader) -> void:
 	arabic.name = "MPSB_Arabic"
 	arabic.ar_json_path = loader.dir_of(MOD_ID).path_join("ar.json")
 	add_child(arabic)
+	# Lithuanian translation (OFF by default - just adds Lietuvių to the language menu)
+	var lithuanian = Lithuanian.new()
+	lithuanian.mod = self
+	lithuanian.name = "MPSB_Lithuanian"
+	lithuanian.lt_json_path = loader.dir_of(MOD_ID).path_join("lt.json")
+	add_child(lithuanian)
+	# Serbian translation (OFF by default - adds Српски + Srpski to the language menu)
+	var serbian = Serbian.new()
+	serbian.mod = self
+	serbian.name = "MPSB_Serbian"
+	serbian.sr_json_path = loader.dir_of(MOD_ID).path_join("sr.json")
+	add_child(serbian)
 	loader.note("MachineParty+ v1.0.0 ready")
 
 
@@ -260,6 +272,9 @@ func _loc() -> String:
 		return "zht"
 	if key.begins_with("zh"):
 		return "zhs"
+	if key.begins_with("sr"):
+		# Serbian ships in two scripts: sr_Latn -> "srl" (Latin), else "sr" (Cyrillic)
+		return "srl" if key.contains("latn") else "sr"
 	return key.substr(0, 2)   # ar, fr, de, br, ru, ua, pl, sv, fi, ee, ja, ko, ...
 
 
@@ -596,13 +611,12 @@ func _open_manage_players() -> void:
 # ------------------------------------------------------------------ peer events
 
 func _on_peer_connected(net_id: int) -> void:
-	# auto-kick banned players from lobbies we host. Cooperative only (no hard
-	# fallback here): a banned client that keeps reconnecting must never trigger
-	# repeated hard disconnects, which is what crashed the host.
+	# auto-kick banned players from lobbies we host, cooperatively (no hard
+	# disconnect ever, which is what crashed the host).
 	if _is_host():
 		var info = _player_info(net_id)
 		if is_banned(str(info.get("id", ""))):
-			_remove_player(net_id, true, false)
+			_remove_player(net_id, true)
 	players_changed.emit()
 	_update_joinable()
 
@@ -782,7 +796,7 @@ func join_by_code(code: String) -> String:
 func kick(net_id: int) -> void:
 	if not _is_host():
 		return
-	_remove_player(net_id, false, true)
+	_remove_player(net_id, false)
 
 
 func ban(net_id: int) -> void:
@@ -795,66 +809,53 @@ func ban(net_id: int) -> void:
 		_bans[sid] = pname
 		_save_bans()
 		_publish_bans()          # so this lobby immediately hides from them
-	_remove_player(net_id, true, true)
+	_remove_player(net_id, true)
 
 
-# Remove a player WITHOUT crashing the host. The old approach (host calls
-# multiplayer_peer.disconnect_peer) leaves the kicked client still sitting in
-# the Steam lobby with a half-open peer, and the game's own post-disconnect RPC
-# then fires against a peer that is neither cleanly gone nor in-tree -> crash.
-#
-# Instead we ASK the client to leave through the game's own "leave lobby" path
-# (the exact thing the Leave button does). To the host that looks like a normal
-# voluntary disconnect, which the game already handles every day. A hard
-# disconnect is kept only as a fallback (manual kick/ban) for non-mod clients;
-# the banned-auto-kick path passes hard_fallback=false so a reconnect storm can
-# never stack hard disconnects (that was the ban crash).
-func _remove_player(net_id: int, is_ban: bool, hard_fallback: bool) -> void:
+# Remove a player WITHOUT crashing the host. We NEVER call
+# multiplayer_peer.disconnect_peer: a host-side hard disconnect leaves the peer
+# half-open and the game's own post-disconnect RPC then fires against it -> host
+# crash (the recurring "kick/ban crashes host" bug). Instead we ASK the client
+# to leave through the game's own "leave lobby" path (exactly what the Leave
+# button does); to the host that is an ordinary voluntary disconnect the game
+# handles cleanly. The request is a reliable Steam P2P packet, resent a few
+# times to cover P2P-session setup latency. Every client reachable through the
+# server browser runs the mod, so this removes them reliably.
+func _remove_player(net_id: int, is_ban: bool) -> void:
 	if net_id <= 1 or (multiplayer and net_id == multiplayer.get_unique_id()):
 		return
 	if _leaving.has(net_id):          # already asked this peer to leave
 		return
 	_leaving[net_id] = true
+	_send_leave_request(net_id, is_ban)
+	_resend_leave_request(net_id, is_ban, 4)   # belt-and-suspenders; no hard disconnect
+
+
+func _send_leave_request(net_id: int, is_ban: bool) -> void:
 	var info := _player_info(net_id)
 	var sid := int(info.get("id", 0))
 	if sid != 0 and _voice:
 		_voice.send_ctrl(sid, {"t": ("ban" if is_ban else "kick")})
-	if _loader: _loader.note("remove: asked peer %d to leave (ban=%s, hard=%s)" % [net_id, str(is_ban), str(hard_fallback)])
-	if hard_fallback:
-		_schedule_kick_fallback(net_id)
+	if _loader: _loader.note("remove: asked peer %d to leave (ban=%s)" % [net_id, str(is_ban)])
 
 
-func _schedule_kick_fallback(net_id: int) -> void:
-	# Give a modded client ~1.5s to leave cleanly on its own. If it is still
-	# connected after that (a vanilla client that can't hear our request), force
-	# the disconnect as a last resort.
-	if not is_inside_tree():
+# Resend the cooperative leave request while the peer is still connected, in case
+# the first reliable packet raced the Steam P2P session opening. Stops as soon as
+# the peer is gone. Never force-disconnects (that is what crashed the host).
+func _resend_leave_request(net_id: int, is_ban: bool, tries_left: int) -> void:
+	if tries_left <= 0 or not is_inside_tree():
 		return
-	var t := get_tree().create_timer(1.5)
+	var t := get_tree().create_timer(0.6)
 	t.timeout.connect(func():
-		if _is_host() and _is_connected_peer(net_id):
-			_force_disconnect(net_id)
+		if _is_host() and _is_connected_peer(net_id) and _leaving.has(net_id):
+			_send_leave_request(net_id, is_ban)
+			_resend_leave_request(net_id, is_ban, tries_left - 1)
 	)
 
 
 func _is_connected_peer(net_id: int) -> bool:
 	return NetworkManager != null and NetworkManager.active_backend != null \
 		and NetworkManager.active_backend.connected_players.has(net_id)
-
-
-func _force_disconnect(net_id: int) -> void:
-	if not _is_host():
-		return
-	var be = NetworkManager.active_backend
-	if be == null:
-		return
-	var peer = be.multiplayer_peer
-	if not is_instance_valid(peer) or not peer.has_method("disconnect_peer"):
-		return
-	if _loader: _loader.note("kick: forcing disconnect of peer %d" % net_id)
-	peer.disconnect_peer(net_id)
-	players_changed.emit.call_deferred()
-	_update_joinable.call_deferred()
 
 
 # ---- Control packets (host <-> client management over Steam P2P) -------------
@@ -2509,3 +2510,256 @@ class Arabic:
 			if not btn.language_button_pressed.is_connected(handler._on_language_button_pressed):
 				btn.language_button_pressed.connect(handler._on_language_button_pressed)
 		if mod and mod._loader: mod._loader.note("arabic: language option injected")
+
+
+# =============================================================================
+#  Lithuanian translation - merged in, OFF by default. Adds "Lietuvių" to the
+#  language menu; only when the player picks it does anything change. Lithuanian
+#  is a left-to-right, Latin-script language, so (unlike Arabic) no layout
+#  mirroring is needed. We register a "lt" Translation for every LOC key from
+#  lt.json and add a system-font fallback so Lithuanian diacritics (ą č ę ė į š
+#  ų ū ž) always render even if a game font lacks those glyphs.
+# =============================================================================
+
+class Lithuanian:
+	extends Node
+	var mod
+	var lt_json_path := ""
+	const LOCALE := "lt"
+	const LT_LABEL := "Lietuvių"
+	const LT_BTN_NAME := "MPSB_LithuanianLang"
+	const LANG_HANDLER := "res://scenes/main_menu/scripts/language_handler.gd"
+	const GAME_FONTS := [
+		"res://fonts/whitrabt.ttf", "res://fonts/Terminal F4.ttf",
+		"res://fonts/Hack-Regular.ttf", "res://fonts/alarm clock.ttf",
+	]
+	# Fonts with full Lithuanian coverage; allow_system_fallback picks whatever the
+	# OS has if none of these are installed.
+	const LT_FONTS := [
+		"Noto Sans", "Segoe UI", "Arial", "Tahoma", "DejaVu Sans",
+	]
+
+	func _ready() -> void:
+		_register_translation()
+		_add_font_fallback()
+		get_tree().node_added.connect(_on_node_added)
+		call_deferred("_scan", get_tree().root)
+
+	func _scan(node) -> void:
+		_on_node_added(node)
+		for c in node.get_children():
+			_scan(c)
+
+	func _on_node_added(node) -> void:
+		var s = node.get_script()
+		if s != null and s.resource_path == LANG_HANDLER:
+			_inject_lithuanian(node)
+
+	func _register_translation() -> void:
+		if lt_json_path == "" or not FileAccess.file_exists(lt_json_path):
+			if mod and mod._loader: mod._loader.note("lithuanian: lt.json not found at " + lt_json_path)
+			return
+		var data = JSON.parse_string(FileAccess.get_file_as_string(lt_json_path))
+		if typeof(data) != TYPE_DICTIONARY:
+			return
+		var t := Translation.new()
+		t.locale = LOCALE
+		var count := 0
+		for key in data.keys():
+			var entry = data[key]
+			var lt := ""
+			if typeof(entry) == TYPE_DICTIONARY:
+				lt = str(entry.get("lt", ""))
+			else:
+				lt = str(entry)
+			if lt != "":
+				t.add_message(key, lt)
+				count += 1
+		TranslationServer.add_translation(t)
+		if mod and mod._loader: mod._loader.note("lithuanian: registered %d strings" % count)
+
+	func _add_font_fallback() -> void:
+		var ltf := SystemFont.new()
+		ltf.font_names = PackedStringArray(LT_FONTS)
+		ltf.allow_system_fallback = true
+		for path in GAME_FONTS:
+			if not ResourceLoader.exists(path):
+				continue
+			var f = load(path)
+			if f is FontFile:
+				var fbs: Array = f.fallbacks
+				var has_sys := false
+				for e in fbs:
+					if e is SystemFont:
+						has_sys = true
+						break
+				if not has_sys:
+					fbs.append(ltf)
+					f.fallbacks = fbs
+
+	func _inject_lithuanian(handler) -> void:
+		if not is_instance_valid(handler):
+			return
+		var vbox = handler.get("language_list_vbox")
+		if vbox == null or not is_instance_valid(vbox):
+			return
+		# the language list is populated asynchronously; wait until it settles
+		var last := -1
+		for i in range(240):
+			await get_tree().process_frame
+			if not is_instance_valid(vbox):
+				return
+			if vbox.has_node(LT_BTN_NAME):
+				return
+			var n: int = vbox.get_child_count()
+			if n > 0 and n == last:
+				break
+			last = n
+		if not is_instance_valid(vbox) or vbox.has_node(LT_BTN_NAME):
+			return
+		var kids = vbox.get_children()
+		if kids.is_empty():
+			return
+		# duplicate a real language button so font / theme / sounds match exactly
+		var btn = kids[0].duplicate()
+		btn.name = LT_BTN_NAME
+		btn.text = LT_LABEL
+		if "lang" in btn:
+			btn.lang = LOCALE
+		btn.modulate.a = 1.0
+		vbox.add_child(btn)
+		if btn.has_signal("language_button_pressed") and handler.has_method("_on_language_button_pressed"):
+			if not btn.language_button_pressed.is_connected(handler._on_language_button_pressed):
+				btn.language_button_pressed.connect(handler._on_language_button_pressed)
+		if mod and mod._loader: mod._loader.note("lithuanian: language option injected")
+
+
+# =============================================================================
+#  Serbian translation - merged in, OFF by default. Serbian is digraphic, so we
+#  add BOTH scripts as separate options: "Српски" (Cyrillic, locale sr) and
+#  "Srpski" (Latin, locale sr_Latn). Both are registered from sr.json (fields
+#  "sr" = Cyrillic, "srl" = Latin, a deterministic transliteration). Latin uses
+#  the same glyphs as the game fonts; the system-font fallback added below also
+#  covers the Cyrillic script (ђ ј љ њ ћ џ).
+# =============================================================================
+
+class Serbian:
+	extends Node
+	var mod
+	var sr_json_path := ""
+	const LOCALE_CYR := "sr"
+	const LOCALE_LAT := "sr_Latn"
+	const LABEL_CYR := "Српски"
+	const LABEL_LAT := "Srpski"
+	const BTN_CYR := "MPSB_SerbianCyrLang"
+	const BTN_LAT := "MPSB_SerbianLatLang"
+	const LANG_HANDLER := "res://scenes/main_menu/scripts/language_handler.gd"
+	const GAME_FONTS := [
+		"res://fonts/whitrabt.ttf", "res://fonts/Terminal F4.ttf",
+		"res://fonts/Hack-Regular.ttf", "res://fonts/alarm clock.ttf",
+	]
+	# Fonts covering Serbian Cyrillic + Latin; allow_system_fallback picks whatever
+	# the OS has if none are installed.
+	const SR_FONTS := [
+		"Noto Sans", "Segoe UI", "Arial", "Tahoma", "DejaVu Sans",
+	]
+
+	func _ready() -> void:
+		_register_translations()
+		_add_font_fallback()
+		get_tree().node_added.connect(_on_node_added)
+		call_deferred("_scan", get_tree().root)
+
+	func _scan(node) -> void:
+		_on_node_added(node)
+		for c in node.get_children():
+			_scan(c)
+
+	func _on_node_added(node) -> void:
+		var s = node.get_script()
+		if s != null and s.resource_path == LANG_HANDLER:
+			_inject_serbian(node)
+
+	func _register_translations() -> void:
+		if sr_json_path == "" or not FileAccess.file_exists(sr_json_path):
+			if mod and mod._loader: mod._loader.note("serbian: sr.json not found at " + sr_json_path)
+			return
+		var data = JSON.parse_string(FileAccess.get_file_as_string(sr_json_path))
+		if typeof(data) != TYPE_DICTIONARY:
+			return
+		var t_cyr := Translation.new(); t_cyr.locale = LOCALE_CYR
+		var t_lat := Translation.new(); t_lat.locale = LOCALE_LAT
+		var count := 0
+		for key in data.keys():
+			var entry = data[key]
+			if typeof(entry) != TYPE_DICTIONARY:
+				continue
+			var cyr := str(entry.get("sr", ""))
+			var lat := str(entry.get("srl", ""))
+			if cyr != "": t_cyr.add_message(key, cyr)
+			if lat != "": t_lat.add_message(key, lat)
+			count += 1
+		TranslationServer.add_translation(t_cyr)
+		TranslationServer.add_translation(t_lat)
+		if mod and mod._loader: mod._loader.note("serbian: registered %d strings (Cyrillic + Latin)" % count)
+
+	func _add_font_fallback() -> void:
+		var srf := SystemFont.new()
+		srf.font_names = PackedStringArray(SR_FONTS)
+		srf.allow_system_fallback = true
+		for path in GAME_FONTS:
+			if not ResourceLoader.exists(path):
+				continue
+			var f = load(path)
+			if f is FontFile:
+				var fbs: Array = f.fallbacks
+				var has_sys := false
+				for e in fbs:
+					if e is SystemFont:
+						has_sys = true
+						break
+				if not has_sys:
+					fbs.append(srf)
+					f.fallbacks = fbs
+
+	func _inject_serbian(handler) -> void:
+		if not is_instance_valid(handler):
+			return
+		var vbox = handler.get("language_list_vbox")
+		if vbox == null or not is_instance_valid(vbox):
+			return
+		# the language list is populated asynchronously; wait until it settles
+		var last := -1
+		for i in range(240):
+			await get_tree().process_frame
+			if not is_instance_valid(vbox):
+				return
+			if vbox.has_node(BTN_CYR):
+				return
+			var n: int = vbox.get_child_count()
+			if n > 0 and n == last:
+				break
+			last = n
+		if not is_instance_valid(vbox) or vbox.has_node(BTN_CYR):
+			return
+		_add_button(vbox, handler, BTN_CYR, LABEL_CYR, LOCALE_CYR)
+		_add_button(vbox, handler, BTN_LAT, LABEL_LAT, LOCALE_LAT)
+		if mod and mod._loader: mod._loader.note("serbian: language options injected (Српски + Srpski)")
+
+	func _add_button(vbox, handler, node_name: String, label: String, locale: String) -> void:
+		if not is_instance_valid(vbox) or vbox.has_node(node_name):
+			return
+		var kids = vbox.get_children()
+		if kids.is_empty():
+			return
+		# duplicate a real language button so font / theme / sounds match exactly
+		var btn = kids[0].duplicate()
+		btn.name = node_name
+		btn.text = label
+		if "lang" in btn:
+			btn.lang = locale
+		btn.modulate.a = 1.0
+		vbox.add_child(btn)
+		if btn.has_signal("language_button_pressed") and handler.has_method("_on_language_button_pressed"):
+			if not btn.language_button_pressed.is_connected(handler._on_language_button_pressed):
+				btn.language_button_pressed.connect(handler._on_language_button_pressed)

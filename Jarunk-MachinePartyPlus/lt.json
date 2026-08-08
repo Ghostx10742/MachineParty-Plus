@@ -1,0 +1,1090 @@
+{
+ "LOC_CREDS_FINNISH": {
+  "en": "Finnish translation",
+  "lt": "Vertimas į suomių kalbą"
+ },
+ "LOC_IM_BOOTSTRAPPER": {
+  "en": "Simulation bootstrapper completed. Waiting for subjects ...",
+  "lt": "Simuliacijos paleidiklis baigė darbą. Laukiama subjektų ..."
+ },
+ "LOC_MENU_CONFIRM": {
+  "en": "CONFIRM",
+  "lt": "PATVIRTINTI"
+ },
+ "LOC_CREDS_ESTONIAN": {
+  "en": "Estonian translation",
+  "lt": "Vertimas į estų kalbą"
+ },
+ "LOC_IM_BRIEFING": {
+  "en": "BRIEFING",
+  "lt": "INSTRUKTAŽAS"
+ },
+ "LOC_MENU_HOST": {
+  "en": "Host",
+  "lt": "Kurti"
+ },
+ "LOC_MENU_RESUME": {
+  "en": "RESUME",
+  "lt": "TĘSTI"
+ },
+ "LOC_IM_EVERYONE_DIED": {
+  "en": "EVERYONE DIED",
+  "lt": "VISI ŽUVO"
+ },
+ "LOC_MENU_START": {
+  "en": "Start",
+  "lt": "Pradėti"
+ },
+ "LOC_MENU_BACK": {
+  "en": "Back",
+  "lt": "Atgal"
+ },
+ "LOC_MENU_SFX_VOLUME": {
+  "en": "SFX volume",
+  "lt": "Garso efektų garsumas"
+ },
+ "LOC_CREDS_HEAD_OF_LOC": {
+  "en": "Head of Localization",
+  "lt": "Lokalizacijos vadovas"
+ },
+ "LOC_TAG_CUSTOM": {
+  "en": "Custom simulation parameters for experienced subjects.",
+  "lt": "Pasirinktiniai simuliacijos parametrai patyrusiems subjektams."
+ },
+ "LOC_CONTROL_RUNNER": {
+  "en": "RUNNERS:",
+  "lt": "BĖGIKAI:"
+ },
+ "Mine. All mine!": {
+  "en": "Mine. All mine!",
+  "lt": "Viskas mano! Vien tik mano!"
+ },
+ "LOC_END_STANDBY": {
+  "en": "Standby for next pool of simulations.",
+  "lt": "Laukite kito simuliacijų rinkinio."
+ },
+ "Catch this!": {
+  "en": "Catch this!",
+  "lt": "Pagauk šitą!"
+ },
+ "LOC_MENU_CUSTOMIZATION": {
+  "en": "Customization",
+  "lt": "Personalizavimas"
+ },
+ "LOC_CREDS_ENGINE": {
+  "en": "Made with Godot Engine",
+  "lt": "Sukurta naudojant „Godot“ variklį"
+ },
+ "LOC_CHINESE_SIMPLIFIED": {
+  "en": "简体中文",
+  "lt": "简体中文"
+ },
+ "LOC_SHUFFLE": {
+  "en": "SHUFFLE",
+  "lt": "MAIŠYTI"
+ },
+ "LOC_ROOM_BLOCKED": {
+  "en": "A user in the room has blocked you from joining.",
+  "lt": "Kambaryje esantis naudotojas užblokavo jūsų prisijungimą."
+ },
+ "LOC_CONTROL_INHALE": {
+  "en": "Inhale",
+  "lt": "Įkvėpti"
+ },
+ "LOC_CONTROL_HUNT": {
+  "en": "HUNT",
+  "lt": "MEDŽIOTI"
+ },
+ "LOC_MG_TAGLINE_11": {
+  "en": "SURVIVAL IS UNLIKELY.",
+  "lt": "IŠGYVENIMAS MAŽAI TIKĖTINAS."
+ },
+ "LOC_CONTROL_SEARCH_SYRINGE": {
+  "en": "Search / syringe",
+  "lt": "Ieškoti / švirkštas"
+ },
+ "LOC_MG_TAGLINE_10": {
+  "en": "THE ODDS ARE STACKED.",
+  "lt": "GALIMYBĖS NE TAVO NAUDAI."
+ },
+ "LOC_CREDS_SIMPLIFIEDCHINESE_LOC": {
+  "en": "Simplified Chinese Localization & LQA",
+  "lt": "Supaprastintosios kinų k. lokalizacija ir LQA"
+ },
+ "LOC_CREDS_DB_DRACONIC": {
+  "en": "Eternal Draconic Overlord",
+  "lt": "Amžinasis Drakonų Valdovas"
+ },
+ "Mind the gap.": {
+  "en": "Mind the gap.",
+  "lt": "Saugokis tarpo."
+ },
+ "LOC_CONTROL_DUCKHUNT": {
+  "en": "ADJUST LOOK SPEED WITH",
+  "lt": "REGULIUOKITE ŽVILGSNIO GREITĮ SU"
+ },
+ "LOC_SWEDEN": {
+  "en": "Svenska",
+  "lt": "Svenska"
+ },
+ "LOC_CONTROL_SUBMIT": {
+  "en": "SUBMIT",
+  "lt": "PATEIKTI"
+ },
+ "LOC_CONTROL_BURN": {
+  "en": "Burn",
+  "lt": "Deginti"
+ },
+ "LOC_CREDS_TURKISH_LOC": {
+  "en": "Turkish Localization",
+  "lt": "Turkų k. lokalizacija"
+ },
+ "Smoke a total of 20 cigarettes.": {
+  "en": "Smoke a total of 20 cigarettes.",
+  "lt": "Surūkyk iš viso 20 cigarečių."
+ },
+ "LOC_TAG_ORIGINAL": {
+  "en": "The intended Machine Party experience. Recommended for new subjects.",
+  "lt": "Numatytoji „Machine Party“ patirtis. Rekomenduojama naujiems subjektams."
+ },
+ "LOC_TAG_JOIN": {
+  "en": "Join a simulation. Requires a room ID in your clipboard.",
+  "lt": "Prisijunkite prie simuliacijos. Iškarpinėje reikia kambario ID."
+ },
+ "Reach the end of the minefield without using the sonar.": {
+  "en": "Reach the end of the minefield without using the sonar.",
+  "lt": "Pasiek minų lauko pabaigą nenaudodamas sonaro."
+ },
+ "LOC_READY": {
+  "en": "READY",
+  "lt": "PASIRENGĘS"
+ },
+ "LOC_CREDS_BR_LOCQA": {
+  "en": "Brazilian Portuguese LQA",
+  "lt": "Brazilų portugalų k. LQA"
+ },
+ "LOC_ACCEPT": {
+  "en": "ACCEPT",
+  "lt": "PRIIMTI"
+ },
+ "LOC_LEAVE": {
+  "en": "LEAVE",
+  "lt": "PALIKTI"
+ },
+ "LOC_TAG_VERSION_MISMATCH": {
+  "en": "Failed to connect. Your client version does not match the host version.",
+  "lt": "Nepavyko prisijungti. Jūsų kliento versija nesutampa su šeimininko versija."
+ },
+ "LOC_IM_OK": {
+  "en": "OK",
+  "lt": "GERAI"
+ },
+ "Dodge this!": {
+  "en": "Dodge this!",
+  "lt": "Išsisuk nuo šito!"
+ },
+ "LOC_MENU_MUSIC_VOLUME": {
+  "en": "Music volume",
+  "lt": "Muzikos garsumas"
+ },
+ "LOC_BACK": {
+  "en": "BACK",
+  "lt": "ATGAL"
+ },
+ "LOC_TAG_SETTINGS": {
+  "en": "Adjust video and audio settings.",
+  "lt": "Reguliuokite vaizdo ir garso nustatymus."
+ },
+ "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.": {
+  "en": "WARNING! 2 SIMULATIONS LOADED AT ONCE.\n\nSUBMITTING AS READY MAY RISK UNKNOWN GEOMETRICAL HAZARDS.\n\nA TECHNICIAN HAS BEEN CALLED.",
+  "lt": "ĮSPĖJIMAS! VIENU METU ĮKELTOS 2 SIMULIACIJOS.\n\nPATEIKUS „PASIRENGĘS“ GALI KILTI NEŽINOMŲ GEOMETRINIŲ PAVOJŲ.\n\nIŠKVIESTAS TECHNIKAS."
+ },
+ "LOC_MENU_QUIT": {
+  "en": "QUIT TO MENU",
+  "lt": "IŠEITI Į MENIU"
+ },
+ "LOC_IM_GO": {
+  "en": "GO!",
+  "lt": "PIRMYN!"
+ },
+ "LOC_TAG_EXIT": {
+  "en": "Terminate the application process.",
+  "lt": "Nutraukti programos procesą."
+ },
+ "LOC_ROOM_FULL": {
+  "en": "The room is full.",
+  "lt": "Kambarys pilnas."
+ },
+ "LOC_END_EFFECT": {
+  "en": "EFFECT:",
+  "lt": "POVEIKIS:"
+ },
+ "LOC_CHINESE_TRADITIONAL": {
+  "en": "繁體中文",
+  "lt": "繁體中文"
+ },
+ "LOC_END_CHECK_GENE": {
+  "en": "Checking gene mutation results.",
+  "lt": "Tikrinami genų mutacijos rezultatai."
+ },
+ "LOC_START_LOBBY": {
+  "en": "START",
+  "lt": "PRADĖTI"
+ },
+ "LOC_CREDS_SWEDISH": {
+  "en": "Swedish translation",
+  "lt": "Vertimas į švedų kalbą"
+ },
+ "LOC_ROOM_BLOCKED_SELF": {
+  "en": "A user you have blocked is in the room.",
+  "lt": "Kambaryje yra jūsų užblokuotas naudotojas."
+ },
+ "LOC_CONTROL_MOVE": {
+  "en": "Move",
+  "lt": "Judėti"
+ },
+ "LOC_JAPANESE": {
+  "en": "日本語",
+  "lt": "日本語"
+ },
+ "LOC_CREDS_JAPANESE_LOCQA": {
+  "en": "Japanese LQA",
+  "lt": "Japonų k. LQA"
+ },
+ "LOC_RUSSIAN": {
+  "en": "Русский",
+  "lt": "Русский"
+ },
+ "LOC_CONTROL_SHOOT": {
+  "en": "Shoot",
+  "lt": "Šauti"
+ },
+ "LOC_IM_CONTROLS": {
+  "en": "CONTROLS",
+  "lt": "VALDYMAS"
+ },
+ "Stairmaster": {
+  "en": "Stairmaster",
+  "lt": "Laiptų meistras"
+ },
+ "LOC_CONTROL_AIM": {
+  "en": "Aim",
+  "lt": "Taikytis"
+ },
+ "LOC_CREDS_PROJECT_MANAGER": {
+  "en": "Project Manager",
+  "lt": "Projekto vadovas"
+ },
+ "LOC_CREDS_LQA_LEAD": {
+  "en": "LQA Lead",
+  "lt": "LQA vadovas"
+ },
+ "LOC_CREDS_JAPANESE_LOC": {
+  "en": "Japanese Localization",
+  "lt": "Japonų k. lokalizacija"
+ },
+ "LOC_TURKISH": {
+  "en": "Türkçe",
+  "lt": "Türkçe"
+ },
+ "LOC_TAG_BACK": {
+  "en": "Return to previous instructions.",
+  "lt": "Grįžti prie ankstesnių nurodymų."
+ },
+ "FIND THE SYRINGE": {
+  "en": "FIND THE SYRINGE",
+  "lt": "SURASK ŠVIRKŠTĄ"
+ },
+ "LOC_MENU_EXIT": {
+  "en": "Exit",
+  "lt": "Išeiti"
+ },
+ "LOC_CREDS_UKRAINE_LOC": {
+  "en": "Ukrainian Localization & LQA",
+  "lt": "Ukrainiečių k. lokalizacija ir LQA"
+ },
+ "LOC_CREDS_SWEDISH_LQA": {
+  "en": "Swedish LQA",
+  "lt": "Švedų k. LQA"
+ },
+ "LOC_END_THANKS": {
+  "en": "Thank you for participating.",
+  "lt": "Ačiū, kad dalyvavote."
+ },
+ "LOC_IM_WAITING_FOR_SUBJECTS": {
+  "en": "Waiting for subjects ...",
+  "lt": "Laukiama subjektų ..."
+ },
+ "Gluttony": {
+  "en": "Gluttony",
+  "lt": "Rijūnystė"
+ },
+ "LOC_CONTROL_MEMORIZE": {
+  "en": "MEMORIZE",
+  "lt": "ĮSIMINTI"
+ },
+ "LOC_CREDS_AUDIO": {
+  "en": "Freesound contributors",
+  "lt": "„Freesound“ bendraautoriai"
+ },
+ "LOC_CREDS_FINNISH_LQA": {
+  "en": "Finnish LQA",
+  "lt": "Suomių k. LQA"
+ },
+ "LOC_MENU_VSYNC": {
+  "en": "V-Sync",
+  "lt": "V-Sync"
+ },
+ "LOC_SENTINEL_01": {
+  "en": "SENTINEL: Foreign modifications detected.",
+  "lt": "SARGYBINIS: Aptikti pašaliniai pakeitimai."
+ },
+ "LOC_CONTROL_CARVE": {
+  "en": "CARVE",
+  "lt": "DROŽTI"
+ },
+ "LOC_SENTINEL_03": {
+  "en": "SENTINEL: Exit immediately.",
+  "lt": "SARGYBINIS: Nedelsiant išeikite."
+ },
+ "LOC_SENTINEL_02": {
+  "en": "SENTINEL: Preset is not in accordance with KETAS protocol.",
+  "lt": "SARGYBINIS: Šablonas neatitinka KETAS protokolo."
+ },
+ "LOC_CONTROL_PICKUP_THROW_JUNK": {
+  "en": "Pick up / throw junk",
+  "lt": "Pakelti / mesti šiukšles"
+ },
+ "LOC_MENU_LOADING": {
+  "en": "Loading",
+  "lt": "Įkeliama"
+ },
+ "LOC_MENU_OPTIONS": {
+  "en": "Options",
+  "lt": "Parinktys"
+ },
+ "This is my hole.": {
+  "en": "This is my hole.",
+  "lt": "Tai mano skylė."
+ },
+ "LOC_CREDS_TURKISH_LOCQA": {
+  "en": "Turkish LQA",
+  "lt": "Turkų k. LQA"
+ },
+ "LOC_MG_BRIEF_08": {
+  "en": "> Be a good guest.\n> Don't eat in front of the Host.\n> Finish your meal.\n",
+  "lt": "> Būk geras svečias.\n> Nevalgyk prieš Šeimininką.\n> Suvalgyk visą maistą.\n"
+ },
+ "LOC_CONTROL_HUNTER": {
+  "en": "HUNTER:",
+  "lt": "MEDŽIOTOJAS:"
+ },
+ "LOC_MENU_MASTER_VOLUME": {
+  "en": "Master volume",
+  "lt": "Pagrindinis garsumas"
+ },
+ "LOC_MG_BRIEF_09": {
+  "en": "> Search the office.\n> Find the syringe.\n> Infect the others.\n> If infected, revive and hunt.",
+  "lt": "> Apieškok biurą.\n> Surask švirkštą.\n> Užkrėsk kitus.\n> Jei užkrėstas, prisikelk ir medžiok."
+ },
+ "LOC_CONTROL_INTERACT": {
+  "en": "Interact",
+  "lt": "Sąveikauti"
+ },
+ "LOC_ROOM_NO_PERMS": {
+  "en": "You don't have permission to join this room.",
+  "lt": "Neturite leidimo prisijungti prie šio kambario."
+ },
+ "LOC_MG_BRIEF_02": {
+  "en": "> Find weapon parts in the\nfactory.\n\n> Bring them to your workstation\nto build the gun.\n\n> Shoot everyone else.",
+  "lt": "> Surask ginklo dalis\nfabrike.\n\n> Nunešk jas į savo darbo\nvietą ir surink ginklą.\n\n> Nušauk visus kitus."
+ },
+ "LOC_MG_BRIEF_03": {
+  "en": "> Climb the escalator.\n> Mind the gap!",
+  "lt": "> Lipk eskalatoriumi.\n> Saugokis tarpo!"
+ },
+ "LOC_MENU_SETTINGS": {
+  "en": "SETTINGS",
+  "lt": "NUSTATYMAI"
+ },
+ "LOC_MG_BRIEF_01": {
+  "en": "> Smoke a cigarette in order\nto pass.\n\n> Inhaling too much smoke will\nmake you cough.\n\n> Inhaling too little smoke is\ninefficient.",
+  "lt": "> Surūkyk cigaretę, kad\npraeitum.\n\n> Įkvėpęs per daug dūmų\npradėsi kosėti.\n\n> Įkvėpęs per mažai dūmų -\nneefektyvu."
+ },
+ "LOC_MG_BRIEF_06": {
+  "en": "> Green zones are safe.\n> Red zones are not.\n> Watch out for the train.",
+  "lt": "> Žalios zonos saugios.\n> Raudonos - ne.\n> Saugokis traukinio."
+ },
+ "LOC_CONTROL_NAVIGATE": {
+  "en": "Navigate",
+  "lt": "Naršyti"
+ },
+ "LOC_END_FAIL": {
+  "en": "FAIL:",
+  "lt": "NEIŠLAIKYTA:"
+ },
+ "Push 15 people into hacksaws in Lethal Rebound.": {
+  "en": "Push 15 people into hacksaws in Lethal Rebound.",
+  "lt": "Įstumk 15 žmonių į metalo pjūklus „Mirtinas atšokimas“."
+ },
+ "LOC_MG_BRIEF_07": {
+  "en": "> Tiles are randomly shuffled.\n> Safe tiles are marked.\n> Don't fall in the pit.",
+  "lt": "> Plytelės atsitiktinai išmaišomos.\n> Saugios plytelės pažymėtos.\n> Nenukrisk į duobę."
+ },
+ "LOC_MG_BRIEF_04": {
+  "en": "> MEMORIZE.\n> CARVE.\n> SUBMIT!",
+  "lt": "> ĮSIMINK.\n> DROŽK.\n> PATEIK!"
+ },
+ "LOC_MG_BRIEF_05": {
+  "en": "> Use your sonar to navigate\nthe minefield.\n\n> Watch your step.",
+  "lt": "> Naudok sonarą, kad praeitum\nminų lauką.\n\n> Žiūrėk po kojomis."
+ },
+ "LOC_CREDS_KOREAN_LOC": {
+  "en": "Korean Localization & LQA",
+  "lt": "Korėjiečių k. lokalizacija ir LQA"
+ },
+ "LOC_GERMAN": {
+  "en": "Deutsch",
+  "lt": "Deutsch"
+ },
+ "LOC_MG_BRIEF_15": {
+  "en": "> Collect crates to your area.\n> From anywhere, or anyone.\n> The least efficent get eliminated.",
+  "lt": "> Rink dėžes į savo zoną.\n> Iš bet kur ir iš bet ko.\n> Mažiausiai efektyvūs pašalinami."
+ },
+ "LOC_ROOM_LIMITED": {
+  "en": "You cannot join due to having a limited account.",
+  "lt": "Negalite prisijungti, nes turite ribotą paskyrą."
+ },
+ "LOC_MG_BRIEF_14": {
+  "en": "> Work the line.\n> Recycle technology.\n> Burn the art.",
+  "lt": "> Dirbk prie konvejerio.\n> Perdirbk techniką.\n> Degink meną."
+ },
+ "LOC_MG_BRIEF_11": {
+  "en": "> Avoid the razor-sharp discs.\n> Last man standing wins.",
+  "lt": "> Venk aštrių kaip skustuvas diskų.\n> Laimi paskutinis išlikęs."
+ },
+ "LOC_MG_BRIEF_10": {
+  "en": "> Runners must reach the exit.\n> The hunter shoots to kill.\n> Body shots are survivable.\n> Headshots are not.",
+  "lt": "> Bėgikai turi pasiekti išėjimą.\n> Medžiotojas šauna mirtinai.\n> Šūvius į kūną galima išgyventi.\n> Į galvą - ne."
+ },
+ "LOC_MG_BRIEF_13": {
+  "en": "> Don't let it get you.\n> If it does, get it off.",
+  "lt": "> Neleisk jam tavęs pačiupti.\n> Jei pačiupo - nusikratyk."
+ },
+ "LOC_CONTROL_FORK_MOUTH": {
+  "en": "Fork to mouth",
+  "lt": "Šakute į burną"
+ },
+ "LOC_CREDS_TRADCHINESE_LOC": {
+  "en": "Traditional Chinese Localization",
+  "lt": "Tradicinės kinų k. lokalizacija"
+ },
+ "LOC_MG_BRIEF_12": {
+  "en": "> Each subject has a platform.\n> Junk is funneled onto the platform.\n> Too much junk, and you die.",
+  "lt": "> Kiekvienas subjektas turi platformą.\n> Ant platformos krenta šiukšlės.\n> Per daug šiukšlių - ir žūsi."
+ },
+ "Have 4 crates in your deposit area in Forklift Certified.": {
+  "en": "Have 4 crates in your deposit area in Forklift Certified.",
+  "lt": "Turėk 4 dėžes savo padėjimo zonoje „Autokrautuvo licencija“."
+ },
+ "LOC_PLAYLIST": {
+  "en": "PLAYLIST",
+  "lt": "GROJARAŠTIS"
+ },
+ "LOC_CONTROL_MOVE_CURSOR": {
+  "en": "Move cursor",
+  "lt": "Judinti žymeklį"
+ },
+ "LOC_CREDS_GERMAN_LOC": {
+  "en": "German Localization",
+  "lt": "Vokiečių k. lokalizacija"
+ },
+ "Finish eating your meal in under 20 seconds in Table Manners.": {
+  "en": "Finish eating your meal in under 20 seconds in Table Manners.",
+  "lt": "Suvalgyk maistą greičiau nei per 20 sekundžių „Stalo etiketas“."
+ },
+ "LOC_FRENCH": {
+  "en": "Français",
+  "lt": "Français"
+ },
+ "LOC_INVITE": {
+  "en": "INVITE",
+  "lt": "PAKVIESTI"
+ },
+ "LOC_CONTROL_PUSH": {
+  "en": "Push",
+  "lt": "Stumti"
+ },
+ "LOC_CREDS_CAST_SPANISH_LOC": {
+  "en": "Castilian Spanish Localization & LQA",
+  "lt": "Kastilijos ispanų k. lokalizacija ir LQA"
+ },
+ "LOC_CONTROL_CROUCH": {
+  "en": "Crouch",
+  "lt": "Pritūpti"
+ },
+ "LOC_CONTROL_RECIPE": {
+  "en": "RECIPE",
+  "lt": "RECEPTAS"
+ },
+ "LOC_CREDS_RUSSIAN_LOC": {
+  "en": "Russian Localization & LQA",
+  "lt": "Rusų k. lokalizacija ir LQA"
+ },
+ "LOC_CREDS_QA": {
+  "en": "Quality assurance",
+  "lt": "Kokybės užtikrinimas"
+ },
+ "LOC_CONTROL_RESET": {
+  "en": "RESET",
+  "lt": "ATSTATYTI"
+ },
+ "LOC_CREDS_MAIN": {
+  "en": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan",
+  "lt": "Created by Mikk 'mikeklubnika' Maasik and GDeavid\n\nArtwork and animations by Mike Klubnika\nProgramming and technical art by GDeavid\n\nOriginal soundtrack composed by Alex Peipman\nMastered by Angel Marcloid at Angel Hair Audio\n\"Vita Brevis\" piano performance by Marlene Cardin\n\nPublished by Oro Interactive\n\nSam De Boeck - Founder & CEO \nHans Haave - Chief Publishing Officer\nStijn Deschuyteneer - Head of Communication\nDaniel Lyozov - Head of Scouting & BD\nThea Bjerregaard - Senior Producer\n\nTest subject voice acting by Martin Halldin\nField resident guitar played by Arne Maasik\n\nKey artwork by Chancellor Stokes\n\nGame icon artwork by Blasko\n\nKordus Interactive logo cinematic\nMordred - 3D Animation\nHudson Bikichky - Sound design\n\nInspirations\n\nGrunt's Party by gruntastic (Sven Co-op)\nCommunity maps from Blockland\nPummel Party by Rebuilt Games\nBishi Bashi by Konami\nA particular party game (featuring a plumber) developed in Japan"
+ },
+ "LOC_COPY_ROOM_ID": {
+  "en": "COPY ROOM ID",
+  "lt": "KOPIJUOTI KAMBARIO ID"
+ },
+ "About those TPS reports.": {
+  "en": "About those TPS reports.",
+  "lt": "Dėl tų TPS ataskaitų."
+ },
+ "LOC_TAG_CREDITS": {
+  "en": "The Architects.",
+  "lt": "Architektai."
+ },
+ "LOC_CREDS_PLAYTESTERS": {
+  "en": "Playtesters",
+  "lt": "Žaidimo testuotojai"
+ },
+ "Full Pack": {
+  "en": "Full Pack",
+  "lt": "Pilnas pakelis"
+ },
+ "LOC_CANCEL": {
+  "en": "CANCEL",
+  "lt": "ATŠAUKTI"
+ },
+ "LOC_ROOM_DISBANDED": {
+  "en": "This room no longer exists.",
+  "lt": "Šio kambario nebėra."
+ },
+ "LOC_CONTROL_RECYCLE": {
+  "en": "Recycle",
+  "lt": "Perdirbti"
+ },
+ "Leg it!": {
+  "en": "Leg it!",
+  "lt": "Nešk kudašių!"
+ },
+ "Throw the device with under 1 second left on its timer in Spinebreaker.": {
+  "en": "Throw the device with under 1 second left on its timer in Spinebreaker.",
+  "lt": "Mesk įtaisą, kai laikmatyje liko mažiau nei 1 sekundė „Stuburo laužytojas“."
+ },
+ "LOC_POLISH": {
+  "en": "Polski",
+  "lt": "Polski"
+ },
+ "LOC_IM_MORE_INFO": {
+  "en": "MORE INFO",
+  "lt": "DAUGIAU INFORMACIJOS"
+ },
+ "LOC_CONTROL_CLIMB": {
+  "en": "Climb",
+  "lt": "Lipti"
+ },
+ "Win a round with 100% accuracy in the Filter.": {
+  "en": "Win a round with 100% accuracy in the Filter.",
+  "lt": "Laimėk raundą 100 % taiklumu „Filtre“."
+ },
+ "LOC_TAG_CUSTOMIZE": {
+  "en": "Customize your subject.",
+  "lt": "Pritaikykite savo subjektą."
+ },
+ "LOC_END_PASS": {
+  "en": "PASS:",
+  "lt": "IŠLAIKYTA:"
+ },
+ "LOC_CREDS_FRENCH_LOC": {
+  "en": "French Localization & LQA",
+  "lt": "Prancūzų k. lokalizacija ir LQA"
+ },
+ "LOC_CONTROL_YOU": {
+  "en": "YOU",
+  "lt": "TU"
+ },
+ "LOC_END_BAD_04": {
+  "en": "Could be worse.",
+  "lt": "Galėjo būti blogiau."
+ },
+ "LOC_IM_NEXT_SIMULATION": {
+  "en": "NEXT SIMULATION: %s",
+  "lt": "KITA SIMULIACIJA: %s"
+ },
+ "LOC_END_BAD_05": {
+  "en": "A waste of electricity.",
+  "lt": "Elektros švaistymas."
+ },
+ "LOC_IM_ERROR_NO_SCORE": {
+  "en": "ERROR: NO SCORE",
+  "lt": "KLAIDA: NĖRA REZULTATO"
+ },
+ "LOC_END_BAD_01": {
+  "en": "Fuck it.",
+  "lt": "Po velnių."
+ },
+ "LOC_TAG_START": {
+  "en": "Host or join a simulation.",
+  "lt": "Sukurkite simuliaciją arba prisijunkite prie jos."
+ },
+ "LOC_END_BAD_02": {
+  "en": "Whatever.",
+  "lt": "Nesvarbu."
+ },
+ "LOC_END_BAD_03": {
+  "en": "Figures.",
+  "lt": "Ko ir tikėtasi."
+ },
+ "LOC_END_WINNER": {
+  "en": "Increase endorphin release.",
+  "lt": "Padidinti endorfinų išsiskyrimą."
+ },
+ "LOC_MENU_TERMINATE": {
+  "en": "TERMINATE",
+  "lt": "NUTRAUKTI"
+ },
+ "LOC_FINLAND": {
+  "en": "Suomi",
+  "lt": "Suomi"
+ },
+ "LOC_CONTROL_RAISE_LOWER": {
+  "en": "Raise / lower fork",
+  "lt": "Kelti / leisti šakutę"
+ },
+ "LOC_CREDS_GERMAN_LOCQA": {
+  "en": "German LQA",
+  "lt": "Vokiečių k. LQA"
+ },
+ "LOC_CREDS_POLISH_LOC": {
+  "en": "Polish Localization & LQA",
+  "lt": "Lenkų k. lokalizacija ir LQA"
+ },
+ "LOC_ROOM_HOST_LEFT": {
+  "en": "The host has disbanded the room.",
+  "lt": "Šeimininkas išformavo kambarį."
+ },
+ "LOC_END_LOSER": {
+  "en": "Adjust neural balance parameters.",
+  "lt": "Koreguoti neuroninės pusiausvyros parametrus."
+ },
+ "Infect someone in under 3 seconds after getting the syringe in Inside Job.": {
+  "en": "Infect someone in under 3 seconds after getting the syringe in Inside Job.",
+  "lt": "Užkrėsk ką nors greičiau nei per 3 sekundes gavęs švirkštą „Darbas iš vidaus“."
+ },
+ "LOC_CREDS_THANKS1": {
+  "en": "Special thanks",
+  "lt": "Ypatinga padėka"
+ },
+ "LOC_CREDS_THANKS2": {
+  "en": "Thank you for playing!",
+  "lt": "Ačiū, kad žaidžiate!"
+ },
+ "LOC_CONTROL_REVERSE": {
+  "en": "Reverse",
+  "lt": "Atbulai"
+ },
+ "LOC_CONTROL_HIDE": {
+  "en": "HIDE",
+  "lt": "SLĖPTIS"
+ },
+ "Take 50 correct steps in a row in Wrong Way.": {
+  "en": "Take 50 correct steps in a row in Wrong Way.",
+  "lt": "Ženk 50 teisingų žingsnių iš eilės „Ne ta kryptis“."
+ },
+ "LOC_CONTROL_TOGGLE_LIGHT": {
+  "en": "Toggle light",
+  "lt": "Perjungti šviesą"
+ },
+ "LOC_PORTUGUESE_BRAZIL": {
+  "en": "Português (Brasil)",
+  "lt": "Português (Brasil)"
+ },
+ "BOOM HEADSHOT!": {
+  "en": "BOOM HEADSHOT!",
+  "lt": "BUM! TIESIAI Į GALVĄ!"
+ },
+ "LOC_ENGLISH": {
+  "en": "English",
+  "lt": "English"
+ },
+ "Survive until there are only 10 tiles left in Stable Footing.": {
+  "en": "Survive until there are only 10 tiles left in Stable Footing.",
+  "lt": "Išgyvenk, kol liks tik 10 plytelių „Tvirtas pagrindas“."
+ },
+ "LOC_RESET": {
+  "en": "RESET",
+  "lt": "ATSTATYTI"
+ },
+ "LOC_CREDS_LATAM_LOC": {
+  "en": "Latin American Spanish Localization & LQA",
+  "lt": "Lotynų Amerikos ispanų k. lokalizacija ir LQA"
+ },
+ "LOC_CREDS_ESTONIAN_LOCQA": {
+  "en": "Estonian LQA",
+  "lt": "Estų k. LQA"
+ },
+ "LOC_CONTROL_STEER": {
+  "en": "Steer",
+  "lt": "Vairuoti"
+ },
+ "LOC_CREDS_DRAGONBABY": {
+  "en": "Dragonbaby",
+  "lt": "Drakoniukas"
+ },
+ "LOC_SPANISH_LATIN_AMERICA": {
+  "en": "Español (Latinoamérica)",
+  "lt": "Español (Latinoamérica)"
+ },
+ "LOC_MG_TAGLINE_04": {
+  "en": "FOLLOW THE RECIPE. SHOOT TO KILL.",
+  "lt": "SEK RECEPTĄ. ŠAUK, KAD NUŽUDYTUM."
+ },
+ "LOC_MG_TAGLINE_05": {
+  "en": "INHALE. EXHALE. NEVER BOTH.",
+  "lt": "ĮKVĖPK. IŠKVĖPK. NIEKADA ABIEJŲ."
+ },
+ "LOC_MG_TAGLINE_06": {
+  "en": "SEARCH. HUNT. HIDE.",
+  "lt": "IEŠKOK. MEDŽIOK. SLĖPKIS."
+ },
+ "LOC_CREDS_RESOURCES": {
+  "en": "Resources",
+  "lt": "Ištekliai"
+ },
+ "LOC_MG_TAGLINE_07": {
+  "en": "THE TRAINS ARE COMING.",
+  "lt": "TRAUKINIAI ARTĖJA."
+ },
+ "LOC_PLAYLIST_EMPTY": {
+  "en": "THE PLAYLIST CANNOT BE EMPTY.",
+  "lt": "GROJARAŠTIS NEGALI BŪTI TUŠČIAS."
+ },
+ "LOC_MENU_FULLSCREEN": {
+  "en": "Fullscreen",
+  "lt": "Visas ekranas"
+ },
+ "LOC_MG_TAGLINE_01": {
+  "en": "MEMORIZE. CARVE. SUBMIT.",
+  "lt": "ĮSIMINK. DROŽK. PATEIK."
+ },
+ "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.": {
+  "en": "Survive a round until the maximum number of cube segments are removed in Chisel Gauntlet.",
+  "lt": "Išgyvenk raundą, kol bus pašalinta daugiausia kubo segmentų „Kalto išbandymas“."
+ },
+ "LOC_MG_TAGLINE_02": {
+  "en": "SCAN AHEAD. WATCH YOUR STEP.",
+  "lt": "SKENUOK PRIEKYJE. ŽIŪRĖK PO KOJOMIS."
+ },
+ "Kill someone that has already assembled a gun before you in Firearm Factory.": {
+  "en": "Kill someone that has already assembled a gun before you in Firearm Factory.",
+  "lt": "Nužudyk ką nors, kas surinko ginklą anksčiau už tave „Ginklų fabrikas“."
+ },
+ "LOC_MG_TITLE_08": {
+  "en": "TABLE MANNERS",
+  "lt": "STALO ETIKETAS"
+ },
+ "LOC_MG_TAGLINE_03": {
+  "en": "FOLLOW DIRECTIONS. KEEP THE PACE.",
+  "lt": "SEK NURODYMUS. IŠLAIKYK TEMPĄ."
+ },
+ "LOC_TAG_ARCADE": {
+  "en": "A quick session of 10 random simulations.",
+  "lt": "Greitas 10 atsitiktinių simuliacijų seansas."
+ },
+ "LOC_MG_TITLE_09": {
+  "en": "INSIDE JOB",
+  "lt": "DARBAS IŠ VIDAUS"
+ },
+ "LOC_TAG_HOST": {
+  "en": "Host a simulation.",
+  "lt": "Sukurkite simuliaciją."
+ },
+ "LOC_MG_TITLE_04": {
+  "en": "CHISEL GAUNTLET",
+  "lt": "KALTO IŠBANDYMAS"
+ },
+ "LOC_MG_TITLE_05": {
+  "en": "MINEFIELD",
+  "lt": "MINŲ LAUKAS"
+ },
+ "LOC_MG_TAGLINE_08": {
+  "en": "A BULLET WITH YOUR NAME ON IT.",
+  "lt": "KULKA SU TAVO VARDU."
+ },
+ "LOC_END_SIM_CONCLUDED": {
+  "en": "All simulations concluded.",
+  "lt": "Visos simuliacijos baigtos."
+ },
+ "LOC_END_COMMENT": {
+  "en": "COMMENT:",
+  "lt": "KOMENTARAS:"
+ },
+ "LOC_MG_TITLE_06": {
+  "en": "TUNNEL HAZARD",
+  "lt": "TUNELIO PAVOJUS"
+ },
+ "LOC_MG_TAGLINE_09": {
+  "en": "DINNER IS SERVED.",
+  "lt": "VAKARIENĖ PATIEKTA."
+ },
+ "LOC_MG_TITLE_07": {
+  "en": "STABLE FOOTING",
+  "lt": "TVIRTAS PAGRINDAS"
+ },
+ "Just another day at the job.": {
+  "en": "Just another day at the job.",
+  "lt": "Dar viena diena darbe."
+ },
+ "LOC_MG_TITLE_01": {
+  "en": "SMOKE BREAK",
+  "lt": "RŪKYMO PERTRAUKA"
+ },
+ "LOC_CONTROL_FORK_PLATE": {
+  "en": "Fork to plate",
+  "lt": "Šakute į lėkštę"
+ },
+ "LOC_MENU_LANGUAGE": {
+  "en": "Language",
+  "lt": "Kalba"
+ },
+ "Quick draw!": {
+  "en": "Quick draw!",
+  "lt": "Greitas šūvis!"
+ },
+ "LOC_MG_TITLE_02": {
+  "en": "FIREARM FACTORY",
+  "lt": "GINKLŲ FABRIKAS"
+ },
+ "LOC_MG_TITLE_03": {
+  "en": "WRONG WAY",
+  "lt": "NE TA KRYPTIS"
+ },
+ "Will it blend?": {
+  "en": "Will it blend?",
+  "lt": "Ar susimals?"
+ },
+ "LOC_CONTROL_THROTTLE": {
+  "en": "Throttle",
+  "lt": "Akceleratorius"
+ },
+ "LOC_ROOM_BANNED": {
+  "en": "You are banned from this room.",
+  "lt": "Jums uždrausta patekti į šį kambarį."
+ },
+ "LOC_CREDS_TRADCHINESE_LOCQA": {
+  "en": "Traditional Chinese LQA",
+  "lt": "Tradicinės kinų k. LQA"
+ },
+ "LOC_SPANISH": {
+  "en": "Español (España)",
+  "lt": "Español (España)"
+ },
+ "LOC_MG_TITLE_15": {
+  "en": "FORKLIFT CERTIFIED",
+  "lt": "AUTOKRAUTUVO LICENCIJA"
+ },
+ "LOC_MG_TITLE_14": {
+  "en": "THE FILTER",
+  "lt": "FILTRAS"
+ },
+ "LOC_TAG_NO_ROOM_ID": {
+  "en": "No room ID was found in your clipboard.",
+  "lt": "Iškarpinėje nerastas kambario ID."
+ },
+ "Flourished Memories": {
+  "en": "Flourished Memories",
+  "lt": "Suklestėję prisiminimai"
+ },
+ "LOC_MG_TITLE_13": {
+  "en": "SPINE BREAKER",
+  "lt": "STUBURO LAUŽYTOJAS"
+ },
+ "LOC_MG_TITLE_12": {
+  "en": "DEBRIS PLATFORMS",
+  "lt": "NUOLAUŽŲ PLATFORMOS"
+ },
+ "LOC_CONTROL_DROP_INSERT_ITEMS": {
+  "en": "Drop / insert items",
+  "lt": "Numesti / įdėti daiktus"
+ },
+ "LOC_MG_TITLE_11": {
+  "en": "LETHAL REBOUND",
+  "lt": "MIRTINAS ATŠOKIMAS"
+ },
+ "LOC_CONTROL_HUNTER_NAME": {
+  "en": "%s IS THE HUNTER.",
+  "lt": "%s YRA MEDŽIOTOJAS."
+ },
+ "LOC_END_RESISTING": {
+  "en": "Resisting will lead to interminable injury.",
+  "lt": "Priešinimasis sukels nesibaigiantį sužalojimą."
+ },
+ "LOC_MG_TITLE_10": {
+  "en": "DUCK HUNT",
+  "lt": "ANČIŲ MEDŽIOKLĖ"
+ },
+ "LOC_TAG_STEAM_FAIL": {
+  "en": "Steam is not initialized.",
+  "lt": "Steam nepaleistas."
+ },
+ "LOC_END_NEXT": {
+  "en": "Restarting ...",
+  "lt": "Paleidžiama iš naujo ..."
+ },
+ "LOC_END_GOOD_02": {
+  "en": "I like this one.",
+  "lt": "Šis man patinka."
+ },
+ "LOC_RECONNECTING": {
+  "en": "Reconnecting.\n\nYou will join the next simulation.",
+  "lt": "Jungiamasi iš naujo.\n\nPrisijungsite prie kitos simuliacijos."
+ },
+ "LOC_END_GOOD_03": {
+  "en": "My favourite so far.",
+  "lt": "Kol kas mėgstamiausias."
+ },
+ "LOC_UKRANIAN": {
+  "en": "Українська",
+  "lt": "Українська"
+ },
+ "LOC_CREDS_LOC_SUPPORT": {
+  "en": "Localization Support",
+  "lt": "Lokalizacijos palaikymas"
+ },
+ "LOC_END_GOOD_01": {
+  "en": "Lots of potential.",
+  "lt": "Daug potencialo."
+ },
+ "LOC_END_GOOD_06": {
+  "en": "Wow.",
+  "lt": "Oho."
+ },
+ "LOC_END_GOOD_04": {
+  "en": "Beautiful.",
+  "lt": "Nuostabu."
+ },
+ "LOC_END_GOOD_05": {
+  "en": "Keep an eye on this one.",
+  "lt": "Šį reikia stebėti."
+ },
+ "LOC_CREDS_BR_LOC": {
+  "en": "Brazilian Portuguese Localization",
+  "lt": "Brazilų portugalų k. lokalizacija"
+ },
+ "LOC_CONTROL_THROW_DEVICE": {
+  "en": "Throw device",
+  "lt": "Mesti įtaisą"
+ },
+ "LOC_MENU_ORIGINAL": {
+  "en": "Original",
+  "lt": "Originalus"
+ },
+ "Knock someone off by throwing a crate at them in Debris Platforms.": {
+  "en": "Knock someone off by throwing a crate at them in Debris Platforms.",
+  "lt": "Numušk ką nors mesdamas į jį dėžę „Nuolaužų platformos“."
+ },
+ "LOC_MENU_CREDITS": {
+  "en": "Credits",
+  "lt": "Titrai"
+ },
+ "Land a headshot in Duck Hunt.": {
+  "en": "Land a headshot in Duck Hunt.",
+  "lt": "Pataikyk į galvą „Ančių medžioklė“."
+ },
+ "LOC_ROOM_CONCLUDED": {
+  "en": "Unable to join. The simulation has concluded.",
+  "lt": "Nepavyko prisijungti. Simuliacija baigėsi."
+ },
+ "LOC_CREDS_LOCALIZATION": {
+  "en": "Localization",
+  "lt": "Lokalizacija"
+ },
+ "LOC_ROOM_LOCKED": {
+  "en": "This room is community locked.",
+  "lt": "Šį kambarį užrakino bendruomenė."
+ },
+ "LOC_DEFAULT": {
+  "en": "DEFAULT",
+  "lt": "NUMATYTASIS"
+ },
+ "LOC_ROOM_UNKNOWN": {
+  "en": "Something went wrong.",
+  "lt": "Kažkas nepavyko."
+ },
+ "LOC_CONTROL_SONAR": {
+  "en": "Use sonar [HOLD]",
+  "lt": "Naudoti sonarą [LAIKYTI]"
+ },
+ "LOC_MENU_JOIN": {
+  "en": "Join",
+  "lt": "Prisijungti"
+ },
+ "LOC_ESTONIA": {
+  "en": "Eesti",
+  "lt": "Eesti"
+ },
+ "LOC_IM_ROUND": {
+  "en": "Round %s/%s",
+  "lt": "Raundas %s/%s"
+ },
+ "LOC_IM_PAGE": {
+  "en": "Page %s/%s",
+  "lt": "Puslapis %s/%s"
+ },
+ "LOC_CONTROL_PICKUP_ITEMS": {
+  "en": "Pick up items",
+  "lt": "Pakelti daiktus"
+ },
+ "LOC_TAG_CONNECTION_TIMEOUT": {
+  "en": "Failed to join. The connection timed out.",
+  "lt": "Nepavyko prisijungti. Baigėsi ryšio laukimo laikas."
+ },
+ "LOC_MENU_ARCADE": {
+  "en": "Arcade",
+  "lt": "Arkada"
+ },
+ "LOC_ROOM_ID_COPIED": {
+  "en": "ROOM ID COPIED TO CLIPBOARD.",
+  "lt": "KAMBARIO ID NUKOPIJUOTAS Į IŠKARPINĘ."
+ },
+ "LOC_ROOM_DISABLED": {
+  "en": "This room is locked or disabled.",
+  "lt": "Šis kambarys užrakintas arba išjungtas."
+ },
+ "Win by taking the last nook in Tunnel Hazard.": {
+  "en": "Win by taking the last nook in Tunnel Hazard.",
+  "lt": "Laimėk užimdamas paskutinį kampą „Tunelio pavojus“."
+ },
+ "LOC_MENU_CUSTOM": {
+  "en": "Custom",
+  "lt": "Pasirinktinis"
+ },
+ "LOC_KOREAN": {
+  "en": "한국어",
+  "lt": "한국어"
+ },
+ "LOC_CONTROL_SCOPE": {
+  "en": "Scope [x2]",
+  "lt": "Taikiklis [x2]"
+ },
+ "LOC_CONTROL_WORKSPACE": {
+  "en": "WORKSPACE",
+  "lt": "DARBO VIETA"
+ },
+ "LOC_MENU_BORDERLESS": {
+  "en": "Borderless",
+  "lt": "Berėmis"
+ }
+}
