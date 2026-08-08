@@ -1,7 +1,7 @@
 extends Node
 
 # =============================================================================
-#  MachineParty+ v1.0.0 - server browser + voice + chat for Machine Party
+#  MachineParty+ v1.5.0 - server browser + voice + chat for Machine Party
 #  Created by J_axon and Krunk (equal creators). Built for the Machine Party
 #  Mod Loader (MPML) by Krunk-theduck.
 # -----------------------------------------------------------------------------
@@ -139,7 +139,7 @@ func _mod_ready(loader) -> void:
 	serbian.name = "MPSB_Serbian"
 	serbian.sr_json_path = loader.dir_of(MOD_ID).path_join("sr.json")
 	add_child(serbian)
-	loader.note("MachineParty+ v1.0.0 ready")
+	loader.note("MachineParty+ v1.5.0 ready")
 
 
 func match_score():
