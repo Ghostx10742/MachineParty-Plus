@@ -1,7 +1,7 @@
 extends Node
 
 # =============================================================================
-#  MachineParty+ v1.5.0 - server browser + voice + chat for Machine Party
+#  MachineParty+ v2.0.0 - server browser + voice + chat for Machine Party
 #  Created by J_axon and Krunk (equal creators). Built for the Machine Party
 #  Mod Loader (MPML) by Krunk-theduck.
 # -----------------------------------------------------------------------------
@@ -147,7 +147,7 @@ func _mod_ready(loader) -> void:
 	end_comments.mod = self
 	end_comments.name = "MPSB_EndComments"
 	add_child(end_comments)
-	loader.note("MachineParty+ v1.5.0 ready")
+	loader.note("MachineParty+ v2.0.0 ready")
 
 
 func match_score():
