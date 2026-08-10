@@ -273,6 +273,7 @@ Translations live in `Jarunk-MachinePartyPlus/mod_i18n.json`, keyed by the Engli
 ## Credits
 
 - Created by **J_axon** and **Krunk**.
+- Testing by **AL3N** and **TunaFeesh**.
 - Loaded through the **[Machine Party Mod Loader](https://github.com/Krunk-theduck/MachinePartyModLoader)** by **Krunk-theduck**.
 
 ---
