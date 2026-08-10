@@ -25,6 +25,8 @@ Created by **J_axon** and **Krunk**.
 - **Banned Users** — a persistent, Steam-ID-based ban list. Banned players are auto-removed and cannot see or rejoin your lobbies until you unban them.
 - **Mutation scoreboard** — hold **Tab** during a match to see everyone's live mutation score and how many rounds they've won and lost.
 - **Translations** — the whole mod UI follows the game's language setting. Every game language is supported, plus **Arabic**, **Lithuanian** and **Serbian** (Cyrillic and Latin), with more polish and languages to come.
+- **Drop & pick up the gun (Firearm Factory)** — once you've assembled your gun you can drop it on the floor, and anyone can grab it. A picked-up gun works exactly like one taken from the bench; your own workstation still stays yours alone. Best in lobbies where everyone runs the mod.
+- **Extra end-of-round comments** — additional observer remarks in the pass/fail results screen, shown with the same chance as the game's originals and fully localized into every supported language. These appear in lobbies where everyone has the mod. ⚠️ **Language warning:** in keeping with Machine Party's tone, some of these contain crude, profane and explicit language.
 
 MachineParty+ is a pure GDScript mod loaded through the **[Machine Party Mod Loader](https://github.com/Krunk-theduck/MachinePartyModLoader)**.
 

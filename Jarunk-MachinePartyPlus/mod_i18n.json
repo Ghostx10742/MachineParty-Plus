@@ -67,7 +67,17 @@
   "Mute ": "Silenciar a ",
   "Unmute ": "Activar sonido de ",
   "Kick this player?": "¿Expulsar a este jugador?",
-  "Ban this player? They cannot rejoin.": "¿Banear a este jugador? No podrá volver a unirse."
+  "Ban this player? They cannot rejoin.": "¿Banear a este jugador? No podrá volver a unirse.",
+  "Just go kill yourself": "Anda y mátate",
+  "Get better bozo": "Mejora, payaso",
+  "What a fucking loser": "Vaya puto perdedor",
+  "\"Just get good\"-Sun Tzu": "\"Solo mejora\"-Sun Tzu",
+  "Skill issue": "Falta de habilidad",
+  "Great.... but touch some grass": "Genial.... pero sal a la calle",
+  "Let me suck it plz": "Déjame chupártela porfa",
+  "This one is the fucking GOAT": "Este es el puto GOAT",
+  "Give this one extra food pellets!": "¡A este dadle bolitas extra de comida!",
+  "I think he knows ball": "Creo que este sabe lo que hace"
  },
  "ar": {
   "SERVER BROWSER": "متصفح الغرف",
@@ -137,7 +147,17 @@
   "Mute ": "كتم ",
   "Unmute ": "إلغاء كتم ",
   "Kick this player?": "طرد هذا اللاعب؟",
-  "Ban this player? They cannot rejoin.": "حظر هذا اللاعب؟ لن يتمكن من الانضمام مجددًا."
+  "Ban this player? They cannot rejoin.": "حظر هذا اللاعب؟ لن يتمكن من الانضمام مجددًا.",
+  "Just go kill yourself": "اذهب واقتل نفسك",
+  "Get better bozo": "تحسّن يا مهرّج",
+  "What a fucking loser": "يا له من فاشل لعين",
+  "\"Just get good\"-Sun Tzu": "\"تحسّن وحسب\"-سون تزو",
+  "Skill issue": "مشكلة مهارة",
+  "Great.... but touch some grass": "رائع.... لكن اخرج واستنشق بعض الهواء",
+  "Let me suck it plz": "دعني أمصّها من فضلك",
+  "This one is the fucking GOAT": "هذا هو الأسطورة اللعين",
+  "Give this one extra food pellets!": "أعطوا هذا حبيبات طعام إضافية!",
+  "I think he knows ball": "أظن أن هذا يفهم اللعبة"
  },
  "fr": {
   "SERVER BROWSER": "NAVIGATEUR DE SALONS",
@@ -207,7 +227,17 @@
   "Mute ": "Rendre muet ",
   "Unmute ": "Réactiver ",
   "Kick this player?": "Exclure ce joueur ?",
-  "Ban this player? They cannot rejoin.": "Bannir ce joueur ? Il ne pourra pas revenir."
+  "Ban this player? They cannot rejoin.": "Bannir ce joueur ? Il ne pourra pas revenir.",
+  "Just go kill yourself": "Va donc te tuer",
+  "Get better bozo": "Progresse, guignol",
+  "What a fucking loser": "Quel putain de loser",
+  "\"Just get good\"-Sun Tzu": "\"Deviens bon\"-Sun Tzu",
+  "Skill issue": "Manque de skill",
+  "Great.... but touch some grass": "Génial.... mais sors prendre l'air",
+  "Let me suck it plz": "Laisse-moi te la sucer stp",
+  "This one is the fucking GOAT": "Lui c'est le putain de GOAT",
+  "Give this one extra food pellets!": "Donnez-lui des croquettes en plus !",
+  "I think he knows ball": "Je crois que lui, il capte le game"
  },
  "de": {
   "SERVER BROWSER": "SERVER-BROWSER",
@@ -277,7 +307,17 @@
   "Mute ": "Stummschalten: ",
   "Unmute ": "Ton an: ",
   "Kick this player?": "Diesen Spieler kicken?",
-  "Ban this player? They cannot rejoin.": "Diesen Spieler bannen? Er kann nicht wieder beitreten."
+  "Ban this player? They cannot rejoin.": "Diesen Spieler bannen? Er kann nicht wieder beitreten.",
+  "Just go kill yourself": "Bring dich doch einfach um",
+  "Get better bozo": "Werd besser, Vollpfosten",
+  "What a fucking loser": "Was für ein verdammter Versager",
+  "\"Just get good\"-Sun Tzu": "\"Werd besser\"-Sun Tzu",
+  "Skill issue": "Skill-Problem",
+  "Great.... but touch some grass": "Stark.... aber geh mal an die frische Luft",
+  "Let me suck it plz": "Lass mich ihn lutschen bitte",
+  "This one is the fucking GOAT": "Der ist der verdammte GOAT",
+  "Give this one extra food pellets!": "Gebt diesem extra Futterpellets!",
+  "I think he knows ball": "Der hat's echt drauf, glaub ich"
  },
  "br": {
   "SERVER BROWSER": "NAVEGADOR DE SALAS",
@@ -347,7 +387,17 @@
   "Mute ": "Silenciar ",
   "Unmute ": "Ativar som de ",
   "Kick this player?": "Expulsar este jogador?",
-  "Ban this player? They cannot rejoin.": "Banir este jogador? Ele não poderá voltar."
+  "Ban this player? They cannot rejoin.": "Banir este jogador? Ele não poderá voltar.",
+  "Just go kill yourself": "Vai se matar logo",
+  "Get better bozo": "Melhora, palhaço",
+  "What a fucking loser": "Que perdedor de merda",
+  "\"Just get good\"-Sun Tzu": "\"Só melhora\"-Sun Tzu",
+  "Skill issue": "Falta de habilidade",
+  "Great.... but touch some grass": "Ótimo.... mas vai tomar um ar",
+  "Let me suck it plz": "Deixa eu chupar, por favor",
+  "This one is the fucking GOAT": "Esse é o porra do GOAT",
+  "Give this one extra food pellets!": "Deem a este uns pellets extra de comida!",
+  "I think he knows ball": "Acho que esse manja mesmo"
  },
  "ru": {
   "SERVER BROWSER": "СПИСОК СЕРВЕРОВ",
@@ -417,7 +467,17 @@
   "Mute ": "Заглушить ",
   "Unmute ": "Вкл. звук ",
   "Kick this player?": "Выгнать этого игрока?",
-  "Ban this player? They cannot rejoin.": "Забанить этого игрока? Он не сможет вернуться."
+  "Ban this player? They cannot rejoin.": "Забанить этого игрока? Он не сможет вернуться.",
+  "Just go kill yourself": "Просто убей себя",
+  "Get better bozo": "Стань лучше, клоун",
+  "What a fucking loser": "Вот же грёбаный неудачник",
+  "\"Just get good\"-Sun Tzu": "\"Стань лучше\"-Сунь-цзы",
+  "Skill issue": "Проблема со скиллом",
+  "Great.... but touch some grass": "Отлично.... но выйди на улицу",
+  "Let me suck it plz": "Дай отсосать, плиз",
+  "This one is the fucking GOAT": "Это грёбаный ГОАТ",
+  "Give this one extra food pellets!": "Дайте этому побольше кормовых гранул!",
+  "I think he knows ball": "Кажется, этот шарит"
  },
  "ua": {
   "SERVER BROWSER": "СПИСОК СЕРВЕРІВ",
@@ -487,7 +547,17 @@
   "Mute ": "Вимкнути звук ",
   "Unmute ": "Увімкнути звук ",
   "Kick this player?": "Вигнати цього гравця?",
-  "Ban this player? They cannot rejoin.": "Заблокувати цього гравця? Він не зможе повернутися."
+  "Ban this player? They cannot rejoin.": "Заблокувати цього гравця? Він не зможе повернутися.",
+  "Just go kill yourself": "Просто вбий себе",
+  "Get better bozo": "Ставай кращим, клоун",
+  "What a fucking loser": "Ото ж клятий невдаха",
+  "\"Just get good\"-Sun Tzu": "\"Стань кращим\"-Сунь-дзи",
+  "Skill issue": "Проблема зі скілом",
+  "Great.... but touch some grass": "Чудово.... але вийди на вулицю",
+  "Let me suck it plz": "Дай відсмоктати, плиз",
+  "This one is the fucking GOAT": "Оце клятий ГОАТ",
+  "Give this one extra food pellets!": "Дайте цьому більше кормових гранул!",
+  "I think he knows ball": "Здається, цей шарить"
  },
  "pl": {
   "SERVER BROWSER": "PRZEGLĄDARKA SERWERÓW",
@@ -557,7 +627,17 @@
   "Mute ": "Wycisz ",
   "Unmute ": "Wyłącz wyciszenie ",
   "Kick this player?": "Wyrzucić tego gracza?",
-  "Ban this player? They cannot rejoin.": "Zbanować tego gracza? Nie będzie mógł wrócić."
+  "Ban this player? They cannot rejoin.": "Zbanować tego gracza? Nie będzie mógł wrócić.",
+  "Just go kill yourself": "Po prostu się zabij",
+  "Get better bozo": "Popraw się, klaunie",
+  "What a fucking loser": "Co za pieprzony przegryw",
+  "\"Just get good\"-Sun Tzu": "\"Ogarnij się\"-Sun Tzu",
+  "Skill issue": "Problem z umiejętnościami",
+  "Great.... but touch some grass": "Świetnie.... ale wyjdź na dwór",
+  "Let me suck it plz": "Daj possać, plz",
+  "This one is the fucking GOAT": "Ten to pieprzony GOAT",
+  "Give this one extra food pellets!": "Dajcie temu ekstra granulki karmy!",
+  "I think he knows ball": "Chyba ten to ogarnia"
  },
  "sv": {
   "SERVER BROWSER": "SERVERLISTA",
@@ -627,7 +707,17 @@
   "Mute ": "Tysta ",
   "Unmute ": "Slå på ljud för ",
   "Kick this player?": "Sparka ut den här spelaren?",
-  "Ban this player? They cannot rejoin.": "Bannlysa den här spelaren? Hen kan inte återansluta."
+  "Ban this player? They cannot rejoin.": "Bannlysa den här spelaren? Hen kan inte återansluta.",
+  "Just go kill yourself": "Ta bara livet av dig",
+  "Get better bozo": "Bli bättre, pajas",
+  "What a fucking loser": "Vilken jävla förlorare",
+  "\"Just get good\"-Sun Tzu": "\"Bli bättre\"-Sun Tzu",
+  "Skill issue": "Bristande skill",
+  "Great.... but touch some grass": "Grymt.... men gå ut lite",
+  "Let me suck it plz": "Får jag suga den, tack",
+  "This one is the fucking GOAT": "Han är jävla GOAT",
+  "Give this one extra food pellets!": "Ge den här extra foderpellets!",
+  "I think he knows ball": "Den här kan grejen, tror jag"
  },
  "fi": {
   "SERVER BROWSER": "PALVELINSELAIN",
@@ -697,7 +787,17 @@
   "Mute ": "Mykistä ",
   "Unmute ": "Poista mykistys ",
   "Kick this player?": "Potkaistaanko tämä pelaaja?",
-  "Ban this player? They cannot rejoin.": "Estetäänkö tämä pelaaja? Hän ei voi liittyä uudelleen."
+  "Ban this player? They cannot rejoin.": "Estetäänkö tämä pelaaja? Hän ei voi liittyä uudelleen.",
+  "Just go kill yourself": "Tapa itsesi vaan",
+  "Get better bozo": "Paranna peliäsi, pelle",
+  "What a fucking loser": "Mikä helvetin luuseri",
+  "\"Just get good\"-Sun Tzu": "\"Paranna vaan\"-Sun Tzu",
+  "Skill issue": "Taito-ongelma",
+  "Great.... but touch some grass": "Hienoa.... mutta käy joskus ulkona",
+  "Let me suck it plz": "Anna kun imen, plz",
+  "This one is the fucking GOAT": "Toi on helvetin GOAT",
+  "Give this one extra food pellets!": "Antakaa tälle ekstra rehupellettejä!",
+  "I think he knows ball": "Taitaa tää tyyppi tietää hommansa"
  },
  "ee": {
   "SERVER BROWSER": "SERVERITE LOEND",
@@ -767,7 +867,17 @@
   "Mute ": "Vaigista ",
   "Unmute ": "Taasta heli ",
   "Kick this player?": "Kas visata see mängija välja?",
-  "Ban this player? They cannot rejoin.": "Kas blokeerida see mängija? Ta ei saa uuesti liituda."
+  "Ban this player? They cannot rejoin.": "Kas blokeerida see mängija? Ta ei saa uuesti liituda.",
+  "Just go kill yourself": "Tapa end lihtsalt ära",
+  "Get better bozo": "Õpi juurde, kloun",
+  "What a fucking loser": "Milline neetud luuser",
+  "\"Just get good\"-Sun Tzu": "\"Õpi juurde\"-Sun Tzu",
+  "Skill issue": "Oskuste probleem",
+  "Great.... but touch some grass": "Suurepärane.... aga käi vahel õues ka",
+  "Let me suck it plz": "Las ma imen, plz",
+  "This one is the fucking GOAT": "See on kuramuse GOAT",
+  "Give this one extra food pellets!": "Andke sellele ekstra söödagraanuleid!",
+  "I think he knows ball": "Vist see tüüp jagab asja"
  },
  "ja": {
   "SERVER BROWSER": "サーバーブラウザ",
@@ -837,7 +947,17 @@
   "Mute ": "ミュート：",
   "Unmute ": "ミュート解除：",
   "Kick this player?": "このプレイヤーをキックしますか？",
-  "Ban this player? They cannot rejoin.": "このプレイヤーをBANしますか？再参加できなくなります。"
+  "Ban this player? They cannot rejoin.": "このプレイヤーをBANしますか？再参加できなくなります。",
+  "Just go kill yourself": "さっさと死ね",
+  "Get better bozo": "もっと上手くなれ、間抜け",
+  "What a fucking loser": "とんだクソ雑魚だな",
+  "\"Just get good\"-Sun Tzu": "「上手くなれ」-孫子",
+  "Skill issue": "実力不足だな",
+  "Great.... but touch some grass": "見事.... でもたまには外に出ろ",
+  "Let me suck it plz": "しゃぶらせて、頼む",
+  "This one is the fucking GOAT": "こいつはマジで史上最強だ",
+  "Give this one extra food pellets!": "こいつには餌ペレットを多めにやれ！",
+  "I think he knows ball": "こいつ、分かってるな"
  },
  "ko": {
   "SERVER BROWSER": "서버 브라우저",
@@ -907,7 +1027,17 @@
   "Mute ": "음소거 ",
   "Unmute ": "음소거 해제 ",
   "Kick this player?": "이 플레이어를 추방할까요?",
-  "Ban this player? They cannot rejoin.": "이 플레이어를 차단할까요? 다시 참가할 수 없습니다."
+  "Ban this player? They cannot rejoin.": "이 플레이어를 차단할까요? 다시 참가할 수 없습니다.",
+  "Just go kill yourself": "그냥 죽어버려",
+  "Get better bozo": "실력 좀 키워라, 멍청아",
+  "What a fucking loser": "존나 한심한 루저네",
+  "\"Just get good\"-Sun Tzu": "\"실력을 키워\"-손자",
+  "Skill issue": "실력 부족",
+  "Great.... but touch some grass": "훌륭해.... 근데 밖에 좀 나가라",
+  "Let me suck it plz": "빨게 해줘 제발",
+  "This one is the fucking GOAT": "얘는 진짜 역대급이다",
+  "Give this one extra food pellets!": "얘한테는 사료 펠릿을 더 줘라!",
+  "I think he knows ball": "얘 좀 아는 놈이네"
  },
  "zhs": {
   "SERVER BROWSER": "服务器浏览器",
@@ -977,7 +1107,17 @@
   "Mute ": "静音 ",
   "Unmute ": "取消静音 ",
   "Kick this player?": "踢出这名玩家？",
-  "Ban this player? They cannot rejoin.": "封禁这名玩家？他将无法再次加入。"
+  "Ban this player? They cannot rejoin.": "封禁这名玩家？他将无法再次加入。",
+  "Just go kill yourself": "你还是去死吧",
+  "Get better bozo": "菜就多练，小丑",
+  "What a fucking loser": "妈的，真是个废物",
+  "\"Just get good\"-Sun Tzu": "\"变强点\"-孙子",
+  "Skill issue": "菜是原罪",
+  "Great.... but touch some grass": "厉害.... 但你该出门晒晒太阳了",
+  "Let me suck it plz": "让我给你口一个吧",
+  "This one is the fucking GOAT": "这位真他妈是史上最强",
+  "Give this one extra food pellets!": "给这位多加点饲料颗粒！",
+  "I think he knows ball": "这位是懂哥啊"
  },
  "zht": {
   "SERVER BROWSER": "伺服器瀏覽器",
@@ -1047,7 +1187,17 @@
   "Mute ": "靜音 ",
   "Unmute ": "取消靜音 ",
   "Kick this player?": "踢出這名玩家？",
-  "Ban this player? They cannot rejoin.": "封鎖這名玩家？他將無法再次加入。"
+  "Ban this player? They cannot rejoin.": "封鎖這名玩家？他將無法再次加入。",
+  "Just go kill yourself": "你還是去死吧",
+  "Get better bozo": "菜就多練，小丑",
+  "What a fucking loser": "媽的，真是個廢物",
+  "\"Just get good\"-Sun Tzu": "\"變強點\"-孫子",
+  "Skill issue": "菜是原罪",
+  "Great.... but touch some grass": "厲害.... 但你該出門曬曬太陽了",
+  "Let me suck it plz": "讓我幫你口一個吧",
+  "This one is the fucking GOAT": "這位真他媽是史上最強",
+  "Give this one extra food pellets!": "給這位多加點飼料顆粒！",
+  "I think he knows ball": "這位是懂哥啊"
  },
  "tr": {
   "SERVER BROWSER": "SUNUCU TARAYICISI",
@@ -1117,7 +1267,17 @@
   "Mute ": "Sustur ",
   "Unmute ": "Sesini aç ",
   "Kick this player?": "Bu oyuncu atılsın mı?",
-  "Ban this player? They cannot rejoin.": "Bu oyuncu yasaklansın mı? Tekrar katılamaz."
+  "Ban this player? They cannot rejoin.": "Bu oyuncu yasaklansın mı? Tekrar katılamaz.",
+  "Just go kill yourself": "Git kendini öldür",
+  "Get better bozo": "Geliş biraz, palyaço",
+  "What a fucking loser": "Lanet olası ezik",
+  "\"Just get good\"-Sun Tzu": "\"Gelişsene\"-Sun Tzu",
+  "Skill issue": "Yetenek sorunu",
+  "Great.... but touch some grass": "Harika.... ama biraz dışarı çık",
+  "Let me suck it plz": "Bırak da emeyim lütfen",
+  "This one is the fucking GOAT": "Bu resmen efsane",
+  "Give this one extra food pellets!": "Buna ekstra yem peleti verin!",
+  "I think he knows ball": "Bu adam işi biliyor galiba"
  },
  "lt": {
   "SERVER BROWSER": "SERVERIŲ NARŠYKLĖ",
@@ -1187,7 +1347,17 @@
   "Mute ": "Nutildyti ",
   "Unmute ": "Garsinti ",
   "Kick this player?": "Išmesti šį žaidėją?",
-  "Ban this player? They cannot rejoin.": "Užblokuoti šį žaidėją? Jis nebegalės prisijungti."
+  "Ban this player? They cannot rejoin.": "Užblokuoti šį žaidėją? Jis nebegalės prisijungti.",
+  "Just go kill yourself": "Tiesiog nusižudyk",
+  "Get better bozo": "Pasitobulink, klounai",
+  "What a fucking loser": "Koks prakeiktas nevykėlis",
+  "\"Just get good\"-Sun Tzu": "\"Tobulėk\"-Sun Tzu",
+  "Skill issue": "Įgūdžių problema",
+  "Great.... but touch some grass": "Puiku.... bet išeik į lauką",
+  "Let me suck it plz": "Leisk pačiulpti, prašau",
+  "This one is the fucking GOAT": "Šitas - prakeiktas legenda",
+  "Give this one extra food pellets!": "Duokite šitam ekstra pašaro granulių!",
+  "I think he knows ball": "Atrodo, šitas išmano"
  },
  "sr": {
   "SERVER BROWSER": "ПРЕТРАГА СОБА",
@@ -1257,7 +1427,17 @@
   "Mute ": "Утишај ",
   "Unmute ": "Појачај ",
   "Kick this player?": "Избацити овог играча?",
-  "Ban this player? They cannot rejoin.": "Забранити овог играча? Неће моћи да се врати."
+  "Ban this player? They cannot rejoin.": "Забранити овог играча? Неће моћи да се врати.",
+  "Just go kill yourself": "Само се убиј",
+  "Get better bozo": "Постани бољи, кловну",
+  "What a fucking loser": "Какав јебени губитник",
+  "\"Just get good\"-Sun Tzu": "\"Буди бољи\"-Сун Цу",
+  "Skill issue": "Проблем са вештином",
+  "Great.... but touch some grass": "Одлично.... али изађи мало напоље",
+  "Let me suck it plz": "Дај да га попушим, молим те",
+  "This one is the fucking GOAT": "Овај је јебени ГОАТ",
+  "Give this one extra food pellets!": "Дајте овоме више пелета хране!",
+  "I think he knows ball": "Овај се стварно разуме у ово"
  },
  "srl": {
   "SERVER BROWSER": "PRETRAGA SOBA",
@@ -1327,6 +1507,16 @@
   "Mute ": "Utišaj ",
   "Unmute ": "Pojačaj ",
   "Kick this player?": "Izbaciti ovog igrača?",
-  "Ban this player? They cannot rejoin.": "Zabraniti ovog igrača? Neće moći da se vrati."
+  "Ban this player? They cannot rejoin.": "Zabraniti ovog igrača? Neće moći da se vrati.",
+  "Just go kill yourself": "Samo se ubij",
+  "Get better bozo": "Postani bolji, klovnu",
+  "What a fucking loser": "Kakav jebeni gubitnik",
+  "\"Just get good\"-Sun Tzu": "\"Budi bolji\"-Sun Cu",
+  "Skill issue": "Problem sa veštinom",
+  "Great.... but touch some grass": "Odlično.... ali izađi malo napolje",
+  "Let me suck it plz": "Daj da ga popušim, molim te",
+  "This one is the fucking GOAT": "Ovaj je jebeni GOAT",
+  "Give this one extra food pellets!": "Dajte ovome više peleta hrane!",
+  "I think he knows ball": "Ovaj se stvarno razume u ovo"
  }
 }

@@ -69,6 +69,7 @@ var _lobby_tools = null             # the corner strip node (rebuilt per lobby)
 var _menu_btns := []                # [ [button, base_label], ... ] for re-localizing
 var _locale_hooked := false         # connected to Globals.locale_changed yet
 var _chat_hud = null                # the merged chat HUD (re-localized on lang change)
+var _gun_drop = null                # Firearm Factory drop/pickup-the-gun feature
 var _scoreboard = null              # the mutation scoreboard HUD (re-localized too)
 
 
@@ -104,6 +105,8 @@ func _mod_ready(loader) -> void:
 	get_tree().root.add_child.call_deferred(hud)
 	# integrated text chat (merged from Krunk's Chat mod) - top-left, press T
 	_boot_chat(loader)
+	# Firearm Factory: drop / pick up the fully built gun
+	_boot_gun_drop(loader)
 	# in-match mutation scoreboard (hold Tab)
 	_match = MatchScore.new()
 	_match.mod = self
@@ -139,6 +142,11 @@ func _mod_ready(loader) -> void:
 	serbian.name = "MPSB_Serbian"
 	serbian.sr_json_path = loader.dir_of(MOD_ID).path_join("sr.json")
 	add_child(serbian)
+	# extra end-of-round observer comments (localized via _t / mod_i18n.json)
+	var end_comments = EndComments.new()
+	end_comments.mod = self
+	end_comments.name = "MPSB_EndComments"
+	add_child(end_comments)
 	loader.note("MachineParty+ v1.5.0 ready")
 
 
@@ -169,6 +177,25 @@ func _boot_chat(loader) -> void:
 	_chat_hud = chat_hud
 	get_tree().root.add_child.call_deferred(chat_hud)
 	loader.note("chat ready (merged)")
+
+
+# Compile + spawn the Firearm Factory gun drop/pickup feature (sibling file, like
+# the chat scripts). Syncs over our Steam P2P control channel via _on_control_packet.
+func _boot_gun_drop(loader) -> void:
+	var dir: String = loader.dir_of(MOD_ID)
+	if dir.is_empty():
+		loader.note("gun_drop: could not resolve mod dir")
+		return
+	var script = loader.compile(dir.path_join("gun_drop.gd"))
+	if script == null:
+		loader.note("gun_drop: failed to compile script")
+		return
+	var node = script.new()
+	node.name = "MPSB_GunDrop"
+	node.mod = self
+	_gun_drop = node
+	get_tree().root.add_child.call_deferred(node)
+	loader.note("gun drop ready")
 
 
 func voice():
@@ -863,6 +890,11 @@ func _is_connected_peer(net_id: int) -> bool:
 # Called by VoiceChat when a control packet arrives from `sender` (Steam id).
 func _on_control_packet(sender: int, d: Dictionary) -> void:
 	var t := str(d.get("t", ""))
+	if t.begins_with("mg_"):
+		# Firearm Factory drop/pickup-the-gun sync
+		if _gun_drop != null and is_instance_valid(_gun_drop):
+			_gun_drop.handle_net(sender, d)
+		return
 	if t == "kick" or t == "ban":
 		# Only obey a kick/ban from the ACTUAL lobby owner, never a spoofed one.
 		if NetworkManager == null or NetworkManager.active_backend == null:
@@ -2763,3 +2795,64 @@ class Serbian:
 		if btn.has_signal("language_button_pressed") and handler.has_method("_on_language_button_pressed"):
 			if not btn.language_button_pressed.is_connected(handler._on_language_button_pressed):
 				btn.language_button_pressed.connect(handler._on_language_button_pressed)
+
+
+# =============================================================================
+#  Extra end-of-round observer comments. The intermission's session-end screen
+#  keeps a pool of "comment" LOC keys (negative_comments / positive_comments) and
+#  the HOST picks a random index over the pool, sent to everyone. We append more
+#  comments to both pools so each new one has the SAME chance as the originals.
+#  Every modded client appends the SAME comments in the SAME order, so the host's
+#  index maps to the same comment on every client - each shown in that client's
+#  own language (we append the already-localized string via _t(); the base game
+#  calls tr() on it, which leaves a non-key string unchanged).
+# =============================================================================
+
+class EndComments:
+	extends Node
+	var mod
+	const SESSION_END_SCRIPT := "res://minigames/intermission_new/components/intermission_session_end.gd"
+	# English source strings (also the mod_i18n.json keys). Fixed order = shared by
+	# every client so the host's random index lines up.
+	const NEGATIVE := [
+		"Just go kill yourself",
+		"Get better bozo",
+		"What a fucking loser",
+		'"Just get good"-Sun Tzu',
+		"Skill issue",
+	]
+	const POSITIVE := [
+		"Great.... but touch some grass",
+		"Let me suck it plz",
+		"This one is the fucking GOAT",
+		"Give this one extra food pellets!",
+		"I think he knows ball",
+	]
+
+	func _ready() -> void:
+		get_tree().node_added.connect(_on_node_added)
+		call_deferred("_scan", get_tree().root)
+
+	func _scan(node) -> void:
+		_on_node_added(node)
+		for c in node.get_children():
+			_scan(c)
+
+	func _on_node_added(node) -> void:
+		var s = node.get_script()
+		if s == null or s.resource_path != SESSION_END_SCRIPT:
+			return
+		_extend(node)
+
+	func _extend(node) -> void:
+		if node.has_meta("mpsb_end_extended"):
+			return
+		node.set_meta("mpsb_end_extended", true)
+		if "negative_comments" in node and node.negative_comments is Array:
+			for c in NEGATIVE:
+				node.negative_comments.append(mod._t(c) if mod else c)
+		if "positive_comments" in node and node.positive_comments is Array:
+			for c in POSITIVE:
+				node.positive_comments.append(mod._t(c) if mod else c)
+		if mod and mod._loader:
+			mod._loader.note("end comments: +%d fail, +%d pass" % [NEGATIVE.size(), POSITIVE.size()])
