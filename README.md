@@ -270,6 +270,16 @@ Translations live in `Jarunk-MachinePartyPlus/mod_i18n.json`, keyed by the Engli
 
 ---
 
+## Support
+
+This mod is free, and it always will be. If you'd like to help me keep making mods like this, you can support me on Ko-fi:
+
+### 👉 [ko-fi.com/j_axon](https://ko-fi.com/j_axon)
+
+These mods take a lot of time, and some money, to make. Supporting is completely optional and is never required to use anything here, but if you've enjoyed the mod, please consider helping me out. Any donation, however small, genuinely helps and means a lot. Thank you.
+
+---
+
 ## Credits
 
 - Created by **J_axon** and **Krunk**.
