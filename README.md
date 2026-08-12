@@ -55,6 +55,16 @@ The only difference for mod players is that the in-game **Invite** button does n
 
 ---
 
+## Local couch co-op (Machine Party v2)
+
+Machine Party v2 added a local, shared-screen couch mode. MachineParty+ is an **online** feature set, so it stays out of local play:
+
+- The **server browser** is a main-menu / networked-join feature and is not part of the local flow (local mode uses its own lobby), so it never appears during local play.
+- The **Make Lobby Public / Private** toggle and the lobby tool strip are **hidden in local** — a public/private control is meaningless with no network lobby.
+- Voice chat, text chat, player moderation (kick / ban) and the mutation scoreboard remain **fully intact for all networked host/join play**.
+
+---
+
 ## Controls and how everything works
 
 MachineParty+ adds its own buttons around the game. Because the game only has room for so many buttons at once, some of them **move depending on where you are** (main menu, in the lobby, or in a match). Here is exactly where everything lives.

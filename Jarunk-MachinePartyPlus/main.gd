@@ -500,6 +500,13 @@ func _open_voice_settings() -> void:
 # ------------------------------------------------------------------ lobby
 
 func _setup_lobby(lobby) -> void:
+	# In local couch co-op, MachineParty+'s lobby additions are hidden — the Make Lobby Public/Private
+	# toggle and lobby tools are meaningless offline. (The networked lobby scene never even loads in
+	# local, which uses local_lobby.gd, so this is also a safety guard against touching a null
+	# NetworkManager.active_backend there.)
+	var gm = get_node_or_null("/root/GameManager")
+	if gm != null and bool(gm.get("local_game")):
+		return
 	if not lobby.is_node_ready():
 		await lobby.ready
 	if not is_instance_valid(lobby):
